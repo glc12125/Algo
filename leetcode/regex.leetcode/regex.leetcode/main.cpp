@@ -13,64 +13,24 @@ using namespace std;
 
 class Solution {
 public:
-    bool isMatch(string s, string p, const char& prevS, const char& prevP) {
-        if (s.size() == 0 && p.size() == 0) {
-            return true;
-        } else if (s.size() == 0 && p.size() == 1) {
-            if (p.at(0) == '*') {
-                return true;
-            } else {
-                if (prevP == '*' && prevS == p.at(0)) {
-                    return isMatch(s, p.substr(1), prevS, p.at(0));
-                } else {
-                    return false;
-                }
-            }
-        } else if (s.size() == 0 && p.size() > 1) {
-            if (p.at(0) != '*') {
-                if (prevP == '*' && prevS == p.at(0)) {
-                    return isMatch(s, p.substr(1), prevS, p.at(0));
-                } else {
-                    return false;
-                }
-            } else {
-                return isMatch(s, p.substr(1), prevS, '*');
-            }
-        } else if (s.size() > 0 && p.size() == 0){
-            return false;
-        } else {
-        
-        if(p.at(0) == '*') {
-            if (prevP == '.') {
-                return isMatch(s.substr(1), p, s.at(0), prevP);
-            } else {
-                if (prevS != s.at(0)) {
-                    return isMatch(s, p.substr(1), prevS, '*');
-                } else if (prevS == s.at(0) && prevP == prevS){
-                    return isMatch(s.substr(1), p, s.at(0), prevP);
-                } else {
-                    return isMatch(s, p.substr(1), prevS, p.at(0));
-                }
-            }
-        } else if (p.at(0) == '.'){
-            return isMatch(s.substr(1), p.substr(1), s.at(0), p.at(0));
-        } else {
-            if (s.at(0) == p.at(0)) {
-                return isMatch(s.substr(1), p.substr(1), s.at(0), p.at(0));
-            } else {
-                if (p.size() > 1) {
-                    return isMatch(s.substr(1), p.substr(1), s.at(0), p.at(0));
-                } else {
-                    return false;
-                }
-            }
-        }
-        }
-        
-    }
     
     bool isMatch(string s, string p) {
-            return isMatch(s, p, '\0', '\0');
+        if (p.empty()) {
+            return s.empty();
+        }
+        // Assuming there is at least one char before *
+        if ('*' == p[1]) {
+            // x* matches empty string or at least one character: x* -> xx*
+            // *s is to ensure s is non-empty
+            return (isMatch(s, p.substr(2)) ||
+                    (!s.empty() &&
+                     (s[0] == p[0] || '.' == p[0]) &&
+                     isMatch(s.substr(1), p)));
+        }
+        else
+            return !s.empty() &&
+            (s[0] == p[0] || '.' == p[0]) &&
+            isMatch(s.substr(1), p.substr(1));
     }
 };
 
@@ -88,5 +48,9 @@ int main(int argc, const char * argv[]) {
     std::cout << "result of aab vs c*a*b* is: " << s.isMatch("aab", "c*a*b*") << std::endl;
     std::cout << "result of aaa vs a*a is: " << s.isMatch("aaa", "a*a") << std::endl;
     std::cout << "result of aaa vs a*aa is: " << s.isMatch("aaa", "a*aa") << std::endl;
+    std::cout << "result of abcd vs d* is: " << s.isMatch("abcd", "d*") << std::endl;
+    std::cout << "result of ab vs .*c is: " << s.isMatch("ab", ".*c") << std::endl;
+    std::cout << "result of a vs ab* is: " << s.isMatch("a", "ab*") << std::endl;
+    std::cout << "result of bbbba vs .*a*a is: " << s.isMatch("bbbba", ".*a*a") << std::endl;
     return 0;
 }
