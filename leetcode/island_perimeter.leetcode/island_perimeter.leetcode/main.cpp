@@ -47,6 +47,31 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    int islandPerimeter(vector<vector<int>>& grid) {
+        
+        int perimeter = 0;
+        for ( int i = 0; i < grid.size(); i++ ) {
+            for ( int j = 0; j < grid[i].size(); j++ ) {
+                if ( grid[i][j] == 1 ) {
+                    int num = 4;
+                    if ( (i > 0 && grid[i-1][j] > 0) )
+                        num--;
+                    if (j > 0 && grid[i][j-1] > 0)
+                        num--;
+                    if (i < grid.size()-1 && grid[i+1][j] > 0 )
+                        num--;
+                    if ( j < grid[i].size()-1 && grid[i][j+1] > 0 )
+                        num--;
+                    perimeter += num;
+                }
+            }
+        }
+        return perimeter;
+    }
+};
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
