@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "top_k_frequent.leetcode/main.cpp"
+            timestampString = "504644461.414445"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "topKFrequent(vector&lt;int&gt;&amp; nums, int k)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Solution1::topKFrequent(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int)"
+                  moduleName = "top_k_frequent.leetcode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lgu41/Dropbox/algorithm/leetcode/leetcode/top_k_frequent.leetcode/top_k_frequent.leetcode/main.cpp"
+                  timestampString = "504644601.257061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1029">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Solution1::topKFrequent(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int)"
+                  moduleName = "top_k_frequent.leetcode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lgu41/Dropbox/algorithm/leetcode/leetcode/top_k_frequent.leetcode/top_k_frequent.leetcode/main.cpp"
+                  timestampString = "504644601.258561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1645">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
