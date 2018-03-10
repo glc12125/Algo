@@ -58,8 +58,28 @@ private:
     }
 };
 
+class Solution2 {
+public:
+    int search(vector<int>& nums, int target) {
+        int count = nums.size();
+        if (count == 0) return -1;
+        int left = 0;
+        int right = count - 1;
+        
+        while (left < right) {
+            int mid = (left + right) / 2;
+            if( (nums.at(0) > target) ^ (nums.at(0) > nums.at(mid)) ^ (target > nums.at(mid)))
+                left = mid + 1;
+            else
+                right = mid;
+        }
+        
+        return (left == right && nums.at(left) == target) ? left : -1;
+    }
+};
+
 int main(int argc, const char * argv[]) {
-    Solution s;
+    Solution2 s;
     vector<int> sample = {4,5,6,7,8,1,2,3};
     std::cout << "search 8 in {3, 5, 1}}: " << s.search(sample, 8) << "\n";
     return 0;
