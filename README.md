@@ -14,6 +14,6 @@
 
 
 
-| Squence | Problem       | Level  | Language  | Tags | Video Tutorial|
+| Squence | Problem       | Level  | Language  | Tags | Source|
 |:-------:|:--------------|:------:|:---------:|:----:|:-------------:|
-|0|[Longest Univalue Path.cpp](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Univalue%20Path.cpp)|Easy|C++|[]||
+|0|[Longest Univalue Path.cpp](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Univalue%20Path.cpp)|Easy|C++|[]|LintCode|
