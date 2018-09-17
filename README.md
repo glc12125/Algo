@@ -1,12 +1,14 @@
 # C++ Algorithm Problems
 
-### 程序员的一天
+### Cracking the coding interview
 
 **README.md**: Questions done
 
-**ReviewPage.md**: question types and summary（不断完善中）
+**ReviewPage.md**: question types and summary（on-going）
 
 **KnowledgeHash2.md**: notes
+
+### Cracking the system design interview
 
 **SystemDesign.md**: system design notes
 
