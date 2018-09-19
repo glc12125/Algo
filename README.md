@@ -23,3 +23,4 @@
 |5|[Largest Triangle Area](https://github.com/glc12125/Algo/blob/master/lintcode/Largest%20Triangle%20Area.cpp)|Easy|C++|[]|Google|
 |6|[Palindrome Permutation](https://github.com/glc12125/Algo/blob/master/lintcode/Palindrome%20Permutation.cpp)|Easy|C++|[Hash Table]|Uber Google Bloomberg|
 |7|[Closest Binary Search Tree Value](https://github.com/glc12125/Algo/blob/master/lintcode/Closest%20Binary%20Search%20Tree%20Value.cpp)|Easy|C++|[Binary Search Tree]|Snapchat Microsoft Google|
+|8|[Maximum Average Subarray](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Average%20Subarray.cpp)|Easy|C++|[Array]|Google|
