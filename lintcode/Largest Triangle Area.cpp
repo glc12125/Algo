@@ -1,3 +1,4 @@
+// Use Shoelace Formula: https://en.wikipedia.org/wiki/Shoelace_formula
 class Solution {
 private:
     double calculateArea(vector<int> A, vector<int> B, vector<int> C) {
