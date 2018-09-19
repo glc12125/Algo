@@ -21,3 +21,4 @@
 |3|[Rotated Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Rotated%20Digits.cpp)|Easy|C++|[String]|Google|LintCode|
 |4|[First Unique Character in a String](https://github.com/glc12125/Algo/blob/master/lintcode/First%20Unique%20Character%20in%20a%20String.cpp)|Easy|C++|[String]|Google, Amazon, Microsoft, Bloomberg|LintCode|
 |5|[Largest Triangle Area](https://github.com/glc12125/Algo/blob/master/lintcode/Largest%20Triangle%20Area.cpp)|Easy|C++|[]|Google|
+|5|[Palindrome Permutation](https://github.com/glc12125/Algo/blob/master/lintcode/Palindrome%20Permutation.cpp)|Easy|C++|[Hash Table]|Uber Google Bloomberg|
