@@ -73,7 +73,7 @@ public:
 };
 
 
-// Get lower and upper bound and compare both difference
+// Use the feature of the BST: get lower and upper bound and compare both difference
 
 class Solution {
 private:
@@ -119,4 +119,39 @@ public:
         if(upper == nullptr) return lower->val;
         return fabs(target - lower->val) < fabs(target - upper->val) ? lower->val :upper->val;
     }
+};
+
+// Make use of the BST feature, go one side
+
+class Solution {
+public:
+    /**
+     * @param root: the given BST
+     * @param target: the given target
+     * @return: the value in the BST that is closest to the target
+     */
+    int closestValue(TreeNode * root, double target) {
+        // write your code here
+        if(root == NULL) return root->val;
+        TreeNode *  min_node; 
+        int result = 0;
+        serch(root, target,result);
+        return result;
+    }
+    void serch(TreeNode * root, double target, int& min_n){
+        if(root == NULL) return;
+        if(root->val == target) {
+            min_n = root->val;
+            return;
+        }
+        
+        if(abs(root->val-target)<abs(min_n-target)){
+            min_n = root->val;
+        }
+        if(target<root->val)
+            serch(root->left, target,min_n);
+        else 
+            serch(root->right, target,min_n);
+    }
+
 };
