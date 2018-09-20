@@ -1,0 +1,20 @@
+class Solution {
+public:
+    /**
+     * @param nums: a list of integer
+     * @param k: an integer
+     * @return: return an integer, denote the number of continuous subarrays whose sum equals to k
+     */
+    int subarraySumEqualsK(vector<int> &nums, int k) {
+        int size = nums.size();
+        int result = 0;
+        int sum = 0;
+        std::unordered_map<int, int> m = {{0,1}};
+        for(int i = 0; i < size; ++i) {
+            sum += nums[i];
+            if(m.count(sum-k) > 0) result += m[sum-k];
+            ++m[sum];
+        }
+        return result;
+    }
+};
