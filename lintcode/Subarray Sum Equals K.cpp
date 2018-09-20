@@ -2,7 +2,8 @@
 // the count of sums. After creating this hash table, check if there is any
 // thing like sum1 - sum2 = k, this means the sum of elements between the
 // ending point of sum1 and sum2 is k. And all of this can be done in a single
-// loop
+// loop. Note if sumX equals to k, then there is no need to check for sumX - k
+// Hence the hash table should have an initial entry of {0, 1}
 class Solution {
 public:
     /**
