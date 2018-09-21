@@ -26,3 +26,4 @@
 |8|[Maximum Average Subarray](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Average%20Subarray.cpp)|Easy|C++|[Array]|Google|LintCode|
 |9|[Sentence SImilarity](https://github.com/glc12125/Algo/blob/master/lintcode/Sentence%20SImilarity.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
 |10|[Subarray Sum Equals K](https://github.com/glc12125/Algo/blob/master/lintcode/Subarray%20Sum%20Equals%20K.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
+|11|[Input Stream](https://github.com/glc12125/Algo/blob/master/lintcode/Input%20Stream.cpp)|Easy|C++|[Data Stream]|Google|LintCode|
