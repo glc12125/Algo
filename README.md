@@ -27,3 +27,5 @@
 |9|[Sentence SImilarity](https://github.com/glc12125/Algo/blob/master/lintcode/Sentence%20SImilarity.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
 |10|[Subarray Sum Equals K](https://github.com/glc12125/Algo/blob/master/lintcode/Subarray%20Sum%20Equals%20K.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
 |11|[Input Stream](https://github.com/glc12125/Algo/blob/master/lintcode/Input%20Stream.cpp)|Easy|C++|[Data Stream]|Google|LintCode|
+|12|[Find Anagram Mappings](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Anagram%20Mappings.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
+|13|[Palindromic Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Palindromic%20Ranges.cpp)|Easy|C++|[]|Google|LintCode|
