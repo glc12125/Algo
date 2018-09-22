@@ -30,4 +30,5 @@
 |12|[Find Anagram Mappings](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Anagram%20Mappings.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
 |13|[Palindromic Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Palindromic%20Ranges.cpp)|Easy|C++|[]|Google|LintCode|
 |14|[Longest Palindrome](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Palindrome.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
-|15|[Guess Number Higher or Lower](https://github.com/glc12125/Algo/blob/master/lintcode/Guess%20Number%20Higher%20or%20Lower.cpp)|Easy|C++|[BInary Search]|Google|LintCode|
+|15|[Guess Number Higher or Lower](https://github.com/glc12125/Algo/blob/master/lintcode/Guess%20Number%20Higher%20or%20Lower.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
+|16|[Strobogrammatic Number](https://github.com/glc12125/Algo/blob/master/lintcode/Strobogrammatic%20Number.cpp)|Easy|C++|[Hash Table, Mathematics]|Google|LintCode|
