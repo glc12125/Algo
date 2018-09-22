@@ -36,3 +36,30 @@ public:
         }
     }
 };
+
+//Solution2, recursive
+
+class Solution {
+private:
+    void inOrder(TreeNode* node, int k, int& rank, int&result){
+        if(node == nullptr) return;
+        inOrder(node->left, k, rank, result);
+        if(rank++ == k) {
+            result = node->val;
+            return;
+        }
+        inOrder(node->right, k, rank, result);
+    }
+public:
+    /**
+     * @param root: the given BST
+     * @param k: the given k
+     * @return: the kth smallest element in BST
+     */
+    int kthSmallest(TreeNode * root, int k) {
+        int rank = 1;
+        int result = 0;
+        inOrder(root, k, rank, result);
+        return result;
+    }
+};
