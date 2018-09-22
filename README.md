@@ -33,3 +33,4 @@
 |15|[Guess Number Higher or Lower](https://github.com/glc12125/Algo/blob/master/lintcode/Guess%20Number%20Higher%20or%20Lower.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
 |16|[Strobogrammatic Number](https://github.com/glc12125/Algo/blob/master/lintcode/Strobogrammatic%20Number.cpp)|Easy|C++|[Hash Table, Mathematics]|Google|LintCode|
 |17|[Moving Average from Data Stream](https://github.com/glc12125/Algo/blob/master/lintcode/Moving%20Average%20from%20Data%20Stream.cpp)|Easy|C++|[Data Stream, Queue]|Google|LintCode|
+|18|[Valid Word Abbreviation](https://github.com/glc12125/Algo/blob/master/lintcode/Valid%20Word%20Abbreviation.cpp)|Easy|C++|[String]|Google|LintCode|
