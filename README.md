@@ -38,3 +38,4 @@
 |20|[Beautiful Arrangement](https://github.com/glc12125/Algo/blob/master/lintcode/Beautiful%20Arrangement.cpp)|Medium|C++|[Backtracking]|Google|LintCode|
 |21|[Kth Smallest Element in a BST](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Element%20in%20a%20BST.cpp)|Medium|C++|[Binary Search Tree]|Google, Uber, Bloomberg|LintCode|
 |22|[Longest Absolute File Path](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Absolute%20File%20Path.cpp)|Medium|C++|[]|Google|LintCode|
+|23|[Design Twitter](https://github.com/glc12125/Algo/blob/master/lintcode/Design%20Twitter.cpp)|Medium|C++|[System Desgin]|Twitter Amazon|LintCode|
