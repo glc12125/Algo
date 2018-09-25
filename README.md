@@ -42,3 +42,4 @@
 |24|[Bomb Enemy](https://github.com/glc12125/Algo/blob/master/lintcode/Bomb%20Enemy.cpp)|Medium|C++|[Dynamic Programming]|Google|LintCode|
 |25|[Generate Parentheses](https://github.com/glc12125/Algo/blob/master/lintcode/Generate%20Parentheses.cpp)|Medium|C++|[Backtracking, String, Recursion]|Google, Uber, Zenefits|LintCode|
 |26|[Pow(x, n)](https://github.com/glc12125/Algo/blob/master/lintcode/Pow(x,%20n).cpp)|Medium|C++|[Binary Search, Mathematics, Divide and Conquer]|Google, LinkedIn, Facebook, Bloomberg|LintCode|
+|27|[Serialize and Deserialize Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Serialize%20and%20Deserialize%20Binary%20Tree.cpp)|Medium|C++|[Binary Tree]|Google, LinkedIn, Facebook, Bloomberg, Microsoft, Uber, Yahoo, Amazon|LintCode|
