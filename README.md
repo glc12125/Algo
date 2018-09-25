@@ -41,3 +41,4 @@
 |23|[Design Twitter](https://github.com/glc12125/Algo/blob/master/lintcode/Design%20Twitter.cpp)|Medium|C++|[System Desgin]|Twitter Amazon|LintCode|
 |24|[Bomb Enemy](https://github.com/glc12125/Algo/blob/master/lintcode/Bomb%20Enemy.cpp)|Medium|C++|[Dynamic Programming]|Google|LintCode|
 |25|[Generate Parentheses](https://github.com/glc12125/Algo/blob/master/lintcode/Generate%20Parentheses.cpp)|Medium|C++|[Backtracking, String, Recursion]|Google, Uber, Zenefits|LintCode|
+|26|[Pow(x, n)](https://github.com/glc12125/Algo/blob/master/lintcode/Pow(x,%20n).cpp)|Medium|C++|[Binary Search, Mathematics, Divide and Conquer]|Google, LinkedIn, Facebook, Bloomberg|LintCode|
