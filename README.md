@@ -47,3 +47,4 @@
 |29|[Friendship Service](https://github.com/glc12125/Algo/blob/master/lintcode/Friendship%20Service.cpp)|Medium|C++|[OO Design]|Google|LintCode|
 |30|[My Calendar I](https://github.com/glc12125/Algo/blob/master/lintcode/My%20Calendar%20I.cpp)|Medium|C++|[Array]|Google|LintCode|
 |31|[My Calendar II](https://github.com/glc12125/Algo/blob/master/lintcode/My%20Calendar%20II.cpp)|Medium|C++|[Array, Binary Search Tree]|Google|LintCode|
+|32|[My Calendar III](https://github.com/glc12125/Algo/blob/master/lintcode/My%20Calendar%20III.cpp)|Hard|C++|[Segment Tree, Binary Search Tree]|Google|LintCode|
