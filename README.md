@@ -49,3 +49,4 @@
 |31|[My Calendar II](https://github.com/glc12125/Algo/blob/master/lintcode/My%20Calendar%20II.cpp)|Medium|C++|[Array, Binary Search Tree]|Google|LintCode|
 |32|[My Calendar III](https://github.com/glc12125/Algo/blob/master/lintcode/My%20Calendar%20III.cpp)|Hard|C++|[Segment Tree, Binary Search Tree]|Google|LintCode|
 |33|[Plus One Linked List](https://github.com/glc12125/Algo/blob/master/lintcode/Plus%20One%20Linked%20List.cpp)|Hard|C++|[Linked List]|Google|LintCode|
+|34|[Valid Palindrome](https://github.com/glc12125/Algo/blob/master/lintcode/Valid%20Palindrome.cpp)|Hard|C++|[String, Two Pointers]|Uber, Microsoft, Zenefits, Facebook|LintCode|
