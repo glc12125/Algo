@@ -53,3 +53,4 @@
 |35|[Longest Palindromic Substring](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Palindromic%20Substring.cpp)|Medium|C++|[String]|Microsoft, Bloomberg, Amazon|LintCode|
 |36|[Implement strStr()](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20strStr().cpp)|Medium|C++|[String]|Microsoft, Apple, Pcket Gems, Facebook|LintCode|
 |37|[Subsets](https://github.com/glc12125/Algo/blob/master/lintcode/Subsets.cpp)|Medium|C++|[Recursion]|Uber, Goupang, Facebook, Bloomberg, Amazon|LintCode|
+|38|[Subsets II](https://github.com/glc12125/Algo/blob/master/lintcode/Subsets%20II.cpp)|Medium|C++|[Backtracking, Recursion]|Facebook|LintCode|
