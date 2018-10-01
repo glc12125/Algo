@@ -56,3 +56,4 @@
 |38|[Subsets II](https://github.com/glc12125/Algo/blob/master/lintcode/Subsets%20II.cpp)|Medium|C++|[Backtracking, Recursion]|Facebook|LintCode|
 |39|[Longest Palindromic Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Palindromic%20Subsequence.cpp)|Medium|C++|[Dynamic Programming]|Uber, Amazon|LintCode|
 |40|[Consistent Hashing II](https://github.com/glc12125/Algo/blob/master/lintcode/Consistent%20Hashing%20II.cpp)|Medium|C++|[System Design]||LintCode|
+|41|[Consistent Hashing](https://github.com/glc12125/Algo/blob/master/lintcode/Consistent%20Hashing%20.cpp)|Medium|C++|[System Design]||LintCode|
