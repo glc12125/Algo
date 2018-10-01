@@ -58,3 +58,4 @@
 |40|[Consistent Hashing II](https://github.com/glc12125/Algo/blob/master/lintcode/Consistent%20Hashing%20II.cpp)|Medium|C++|[System Design]||LintCode|
 |41|[Consistent Hashing](https://github.com/glc12125/Algo/blob/master/lintcode/Consistent%20Hashing.cpp)|Medium|C++|[System Design]||LintCode|
 |42|[Memcache](https://github.com/glc12125/Algo/blob/master/lintcode/Memcache.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
+|43|[Mini Cassandra](https://github.com/glc12125/Algo/blob/master/lintcode/Mini%20Cassandra.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
