@@ -38,7 +38,7 @@
 |20|[Beautiful Arrangement](https://github.com/glc12125/Algo/blob/master/lintcode/Beautiful%20Arrangement.cpp)|Medium|C++|[Backtracking]|Google|LintCode|
 |21|[Kth Smallest Element in a BST](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Element%20in%20a%20BST.cpp)|Medium|C++|[Binary Search Tree]|Google, Uber, Bloomberg|LintCode|
 |22|[Longest Absolute File Path](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Absolute%20File%20Path.cpp)|Medium|C++|[]|Google|LintCode|
-|23|[Design Twitter](https://github.com/glc12125/Algo/blob/master/lintcode/Design%20Twitter.cpp)|Medium|C++|[System Desgin]|Twitter Amazon|LintCode|
+|23|[Design Twitter](https://github.com/glc12125/Algo/blob/master/lintcode/Design%20Twitter.cpp)|Medium|C++|[System Design]|Twitter Amazon|LintCode|
 |24|[Bomb Enemy](https://github.com/glc12125/Algo/blob/master/lintcode/Bomb%20Enemy.cpp)|Medium|C++|[Dynamic Programming]|Google|LintCode|
 |25|[Generate Parentheses](https://github.com/glc12125/Algo/blob/master/lintcode/Generate%20Parentheses.cpp)|Medium|C++|[Backtracking, String, Recursion]|Google, Uber, Zenefits|LintCode|
 |26|[Pow(x, n)](https://github.com/glc12125/Algo/blob/master/lintcode/Pow(x,%20n).cpp)|Medium|C++|[Binary Search, Mathematics, Divide and Conquer]|Google, LinkedIn, Facebook, Bloomberg|LintCode|
@@ -55,3 +55,4 @@
 |37|[Subsets](https://github.com/glc12125/Algo/blob/master/lintcode/Subsets.cpp)|Medium|C++|[Recursion]|Uber, Goupang, Facebook, Bloomberg, Amazon|LintCode|
 |38|[Subsets II](https://github.com/glc12125/Algo/blob/master/lintcode/Subsets%20II.cpp)|Medium|C++|[Backtracking, Recursion]|Facebook|LintCode|
 |39|[Longest Palindromic Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Palindromic%20Subsequence.cpp)|Medium|C++|[Dynamic Programming]|Uber, Amazon|LintCode|
+|40|[Consistent Hashing II](https://github.com/glc12125/Algo/blob/master/lintcode/Consistent%20Hashing%20II.cpp)|Medium|C++|[System Design]||LintCode|
