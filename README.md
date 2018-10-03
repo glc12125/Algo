@@ -69,3 +69,4 @@
 |51|[Search in a Big Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20in%20a%20Big%20Sorted%20Array.cpp)|Medium|C++|[Binary Search, Array]||LintCode|
 |52|[Find Minimum in Rotated Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)|Medium|C++|[Binary Search, Array]|Microsoft|LintCode|
 |52|[Fast Power](https://github.com/glc12125/Algo/blob/master/lintcode/Fast%20Power.cpp)|Medium|C++|[Divide and Conquer]||LintCode|
+|53|[First Bad Version](https://github.com/glc12125/Algo/blob/master/lintcode/First%20Bad%20Version.cpp)|Medium|C++|[Binary Search]|Facebook|LintCode|
