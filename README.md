@@ -62,3 +62,4 @@
 |44|[LRU Cache](https://github.com/glc12125/Algo/blob/master/lintcode/LRU%20Cache.cpp)|Medium|C++|[Hash Table, System Design]|Zenefits, Uber, Google, Facebook, Microsoft, Amazon, Bloomberg, Yahoo, Twitter, Snapchat, Palantir, Palantir Technologies|LintCode|
 |45|[Tiny Url](https://github.com/glc12125/Algo/blob/master/lintcode/Tiny%20Url.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
 |46|[Tiny Url II](https://github.com/glc12125/Algo/blob/master/lintcode/Tiny%20Url%20II.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
+|47|[Last Position of Target](https://github.com/glc12125/Algo/blob/master/lintcode/Last%20Position%20of%20Target.cpp)|Medium|C++|[Binary Search]||LintCode|
