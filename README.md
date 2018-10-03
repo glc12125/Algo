@@ -67,3 +67,4 @@
 |49|[Find K Closest Elements](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20K%20Closest%20Elements.cpp)|Medium|C++|[Binary Search, Two Pointers]|Google|LintCode|
 |50|[Find Peak Element](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Peak%20Element.cpp)|Medium|C++|[Binary Search, Array]|Google, Microsoft|LintCode|
 |51|[Search in a Big Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20in%20a%20Big%20Sorted%20Array.cpp)|Medium|C++|[Binary Search, Array]||LintCode|
+|52|[Find Minimum in Rotated Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp)|Medium|C++|[Binary Search, Array]|Microsoft|LintCode|
