@@ -66,3 +66,4 @@
 |48|[Maximum Number in Mountain Sequence](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Number%20in%20Mountain%20Sequence.cpp)|Medium|C++|[Binary Search]||LintCode|
 |49|[Find K Closest Elements](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20K%20Closest%20Elements.cpp)|Medium|C++|[Binary Search, Two Pointers]|Google|LintCode|
 |50|[Find Peak Element](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Peak%20Element.cpp)|Medium|C++|[Binary Search, Array]|Google, Microsoft|LintCode|
+|51|[Search in a Big Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20in%20a%20Big%20Sorted%20Array.cpp)|Medium|C++|[Binary Search, Array]||LintCode|
