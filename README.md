@@ -71,4 +71,5 @@
 |52|[Fast Power](https://github.com/glc12125/Algo/blob/master/lintcode/Fast%20Power.cpp)|Medium|C++|[Divide and Conquer]||LintCode|
 |53|[First Bad Version](https://github.com/glc12125/Algo/blob/master/lintcode/First%20Bad%20Version.cpp)|Medium|C++|[Binary Search]|Facebook|LintCode|
 |53|[Search in Rotated Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20in%20Rotated%20Sorted%20Array.cpp)|Medium|C++|[Binary Search, Array]|LinkedIn, Uber, Microsoft, Bloomberg, Facebook|LintCode|
-|54|[Total Occurrence of Target](https://github.com/glc12125/Algo/blob/master/lintcode/Total%20Occurrence%20of%20Target.cpp)|Medium|C++|[Binary Search]||LintCode|
+|54|[Total Occurrence of Target](https://github.com/glc12125/Algo/blob/master/lintcode/Total%20Occurrence%20of%20Target.cpp)|Easy|C++|[Binary Search]||LintCode|
+|55|[Closest Number in Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Closest%20Number%20in%20Sorted%20Array.cpp)|Easy|C++|[Binary Search]||LintCode|
