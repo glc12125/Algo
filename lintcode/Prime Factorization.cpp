@@ -13,7 +13,7 @@ public:
             }
         }
 
-        if(num) factors.push_back(num);
+        if(num != 1) factors.push_back(num);
         return factors;
     }
 };

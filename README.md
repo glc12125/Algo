@@ -74,3 +74,4 @@
 |54|[Total Occurrence of Target](https://github.com/glc12125/Algo/blob/master/lintcode/Total%20Occurrence%20of%20Target.cpp)|Easy|C++|[Binary Search]||LintCode|
 |55|[Closest Number in Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Closest%20Number%20in%20Sorted%20Array.cpp)|Easy|C++|[Binary Search]||LintCode|
 |56|[Prime Factorization](https://github.com/glc12125/Algo/blob/master/lintcode/Prime%20Factorization.cpp)|Easy|C++|[Mathematics]||LintCode|
+|57|[Drop Eggs](https://github.com/glc12125/Algo/blob/master/lintcode/Drop%20Eggs.cpp)|Easy|C++|[Mathematics, Binary Search]||LintCode|
