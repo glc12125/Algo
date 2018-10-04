@@ -22,3 +22,39 @@ public:
         return count;
     }
 };
+
+
+// Use binary search twice
+int totalOccurrence(vector<int> &A, int target) {
+    if (A.size() == 0) {
+        return 0;
+    }
+    int left_bound = greaterOrEqual(A, target);
+    if (left_bound == -1 || A[left_bound] != target) {
+        return 0;
+    }
+    int right_bound = greaterOrEqual(A, target + 1);
+    if (right_bound == -1) {
+        return A.size() - left_bound;
+    }
+    return right_bound - left_bound;
+}
+
+int greaterOrEqual(vector<int> &A, int target) {
+    int left = 0, right = A.size() - 1;
+    while (left + 1 < right) {
+        int mid = left + (right - left) / 2;
+        if (A[mid] >= target) {
+            right = mid;
+        } else {
+            left = mid;
+        }
+    }
+    if (A[left] >= target) {
+        return left;
+    }
+    if (A[right] >= target) {
+        return right;
+    }
+    return -1;
+}
