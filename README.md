@@ -76,3 +76,4 @@
 |56|[Prime Factorization](https://github.com/glc12125/Algo/blob/master/lintcode/Prime%20Factorization.cpp)|Easy|C++|[Mathematics]||LintCode|
 |57|[Drop Eggs](https://github.com/glc12125/Algo/blob/master/lintcode/Drop%20Eggs.cpp)|Easy|C++|[Mathematics, Binary Search]||LintCode|
 |58|[Search a 2D Matrix](https://github.com/glc12125/Algo/blob/master/Search%20a%202D%20Matrix.cpp)|Easy|C++|[Matrix, Binary Search]|Yahoo|LintCode|
+|59|[First Position of Target](https://github.com/glc12125/Algo/blob/master/First%20Position%20of%20Target.cpp)|Easy|C++|[Binary Search, Array]||LintCode|
