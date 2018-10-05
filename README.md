@@ -72,3 +72,4 @@
 |53|[First Bad Version](https://github.com/glc12125/Algo/blob/master/lintcode/First%20Bad%20Version.cpp)|Medium|C++|[Binary Search]|Facebook|LintCode|
 |54|[Search in Rotated Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20in%20Rotated%20Sorted%20Array.cpp)|Medium|C++|[Binary Search, Array]|LinkedIn, Uber, Microsoft, Bloomberg, Facebook|LintCode|
 |55|[Divide Two Integers](https://github.com/glc12125/Algo/blob/master/lintcode/Divide%20Two%20Integers.cpp)|Medium|C++|[Binary Search]||LintCode|
+|56|[Search for a Range](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20for%20a%20Range.cpp)|Medium|C++|[Binary Search, Sorted Array, Array]|LinkedIn|LintCode|
