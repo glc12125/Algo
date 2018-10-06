@@ -85,3 +85,4 @@
 |65|[Two Sum II - Input array is sorted](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20II%20-%20Input%20array%20is%20sorted.cpp)|Medium|C++|[Hash Table, Array, Two Pointers]|Amazon|LintCode|
 |66|[Partition Array](https://github.com/glc12125/Algo/blob/master/lintcode/Partition%20Array.cpp)|Medium|C++|[Sort, Array, Two Pointers]||LintCode|
 |67|[Sort Integers II](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Integers%20II.cpp)|Medium|C++|[Sort, Quick Sort, Merge Sort]||LintCode|
+|68|[Count email groups](https://github.com/glc12125/Algo/blob/master/lintcode/Count%20email%20groups.cpp)|Medium|C++|[String]|Google|LintCode|
