@@ -77,3 +77,6 @@
 |57|[Drop Eggs](https://github.com/glc12125/Algo/blob/master/lintcode/Drop%20Eggs.cpp)|Easy|C++|[Mathematics, Binary Search]||LintCode|
 |58|[Search a 2D Matrix](https://github.com/glc12125/Algo/blob/master/Search%20a%202D%20Matrix.cpp)|Easy|C++|[Matrix, Binary Search]|Yahoo|LintCode|
 |59|[First Position of Target](https://github.com/glc12125/Algo/blob/master/First%20Position%20of%20Target.cpp)|Easy|C++|[Binary Search, Array]||LintCode|
+|60|[Divide Two Integers](https://github.com/glc12125/Algo/blob/master/lintcode/Divide%20Two%20Integers.cpp)|Medium|C++|[Binary Search]||LintCode|
+|61|[Search for a Range](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20for%20a%20Range.cpp)|Medium|C++|[Binary Search, Sorted Array, Array]|LinkedIn|LintCode|
+|62|[Search a 2D Matrix II](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20a%202D%20Matrix%20II.cpp)|Medium|C++|[Sorted Matrix, Matrix]|Amazon, Google, Apple|LintCode|
