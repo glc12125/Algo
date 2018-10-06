@@ -82,3 +82,4 @@
 |62|[Search a 2D Matrix II](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20a%202D%20Matrix%20II.cpp)|Medium|C++|[Sorted Matrix, Matrix]|Amazon, Google, Apple|LintCode|
 |63|[Middle of Linked List](https://github.com/glc12125/Algo/blob/master/lintcode/Middle%20of%20Linked%20List.cpp)|Medium|C++|[Data Stream, Linked List]||LintCode|
 |64|[Two Sum III - Data structure design](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20III%20-%20Data%20structure%20design.cpp)|Medium|C++|[Hash Table]|LinkedIn|LintCode|
+|65|[Two Sum II - Input array is sorted](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20II%20-%20Input%20array%20is%20sorted.cpp)|Medium|C++|[Hash Table, Array, Two Pointers]|Amazon|LintCode|
