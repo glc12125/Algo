@@ -93,3 +93,4 @@
 |73|[Two Sum - Closest to target](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20-%20Closest%20to%20target.cpp)|Medium|C++|[Sort, Two Pointers]||LintCode|
 |74|[3Sum Closest](https://github.com/glc12125/Algo/blob/master/lintcode/3Sum%20Closest.cpp)|Medium|C++|[Sort, Array, Two Pointers]|Bloomberg|LintCode|
 |75|[4Sum](https://github.com/glc12125/Algo/blob/master/lintcode/4Sum.cpp)|Medium|C++|[Sort, Array, Two Pointers, Hash Table]||LintCode|
+|76|[Two Sum - Difference equals to target](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20-%20Difference%20equals%20to%20target.cpp)|Medium|C++|[Two Pointers, Hash Table]||LintCode|
