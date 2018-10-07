@@ -23,3 +23,25 @@ public:
         return left + 1;
     }
 };
+
+// Use hash table
+class Solution {
+private:
+    std::unordered_set<int> m_cache;
+public:
+    /**
+     * @param nums: an array of integers
+     * @return: the number of unique integers
+     */
+    int deduplication(vector<int> &nums) {
+        int len = nums.size();
+        if(len == 0) return 0;
+
+        for(auto i : nums) m_cache.insert(i);
+        int index = 0;
+        for(auto i : m_cache) {
+            nums[index++] = i;
+        }
+        return m_cache.size();
+    }
+};
