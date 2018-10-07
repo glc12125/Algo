@@ -33,3 +33,26 @@ public:
         return select(n-1, nums, 0, len -1);
     }
 };
+
+// Use map, even though not allowed in this question
+class Solution {
+public:
+    /**
+     * @param n: An integer
+     * @param nums: An array
+     * @return: the Kth largest element
+     */
+    int kthLargestElement(int n, vector<int> &nums) {
+        int len = nums.size();
+        if(len == 0 || n > len || n < 1) return -1;
+        std::map<int, int> m_orderedCache;
+        for(auto i : nums) ++m_orderedCache[i];
+        int smallestRank = len - n + 1;
+        for(const auto& i : m_orderedCache) {
+            if(smallestRank - i.second <= 0) return i.first;
+            else {
+                smallestRank -= i.second;
+            }
+        }
+    }
+};
