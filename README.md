@@ -95,3 +95,4 @@
 |75|[4Sum](https://github.com/glc12125/Algo/blob/master/lintcode/4Sum.cpp)|Medium|C++|[Sort, Array, Two Pointers, Hash Table]||LintCode|
 |76|[Two Sum - Difference equals to target](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20-%20Difference%20equals%20to%20target.cpp)|Medium|C++|[Two Pointers, Hash Table]||LintCode|
 |77|[Remove Duplicate Numbers in Array](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20Duplicate%20Numbers%20in%20Array.cpp)|Medium|C++|[Sort, Two Pointers, Hash Table]||LintCode|
+|78|[Sort Colors II](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Colors%20II.cpp)|Medium|C++|[Sort, Two Pointers, Hash Table]||LintCode|
