@@ -90,3 +90,4 @@
 |70|[Move Zeroes](https://github.com/glc12125/Algo/blob/master/lintcode/Move%20Zeroes.cpp)|Medium|C++|[Array, Two Pointers]|Facebook, Bloomberg|LintCode|
 |71|[Valid Palindrome II](https://github.com/glc12125/Algo/blob/master/lintcode/Valid%20Palindrome%20II.cpp)|Medium|C++|[String]|Facebook, NetEase|LintCode|
 |72|[Triangle Count](https://github.com/glc12125/Algo/blob/master/lintcode/Triangle%20Count.cpp)|Medium|C++|[Two Pointers]||LintCode|
+|73|[Two Sum - Closest to target](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20-%20Closest%20to%20target.cpp)|Medium|C++|[Sort, Two Pointers]||LintCode|
