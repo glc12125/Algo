@@ -98,3 +98,4 @@
 |78|[Sort Colors II](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Colors%20II.cpp)|Medium|C++|[Sort, Two Pointers, Hash Table]||LintCode|
 |79|[Kth Largest Element](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Largest%20Element.cpp)|Medium|C++|[Sort, Quick Sort]||LintCode|
 |80|[Salary Adjustment](https://github.com/glc12125/Algo/blob/master/lintcode/Salary%20Adjustment.cpp)|Medium|C++|[Sorted Array, Array, Binary Search]|Google|LintCode|
+|81|[String Replace](https://github.com/glc12125/Algo/blob/master/lintcode/String%20Replace.cpp)|Medium|C++|[Hash]|MIcrosoft|LintCode|
