@@ -1,3 +1,4 @@
+// Two binary search approach
 class Solution {
 public:
     /**
@@ -42,7 +43,7 @@ public:
     }
 };
 
-// CLeaner binary search-based solution but not necessarily faster
+// single binary search-based solution but not necessarily faster
 class Solution {
 private:
     int getTotal(const std::vector<int>& a, int cap) {
