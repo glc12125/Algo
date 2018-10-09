@@ -100,3 +100,4 @@
 |80|[Salary Adjustment](https://github.com/glc12125/Algo/blob/master/lintcode/Salary%20Adjustment.cpp)|Medium|C++|[Sorted Array, Array, Binary Search]|Google|LintCode|
 |81|[String Replace](https://github.com/glc12125/Algo/blob/master/lintcode/String%20Replace.cpp)|Hard|C++|[Hash]|MIcrosoft|LintCode|
 |82|[Classical Binary Search](https://github.com/glc12125/Algo/blob/master/lintcode/Classical%20Binary%20Search.cpp)|Easy|C++|[Binary Search]||LintCode|
+|83|[Sqrt(x)](https://github.com/glc12125/Algo/blob/master/lintcode/Sqrt(x).cpp)|Easy|C++|[Binary Search]|Apple, Facebook, Bloomberg|LintCode|
