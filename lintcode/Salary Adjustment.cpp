@@ -41,3 +41,40 @@ public:
             
     }
 };
+
+// CLeaner binary search-based solution but not necessarily faster
+class Solution {
+private:
+    int getTotal(const std::vector<int>& a, int cap) {
+        int total = 0;
+        for(auto i : a) {
+            total += std::max(i, cap);
+        }
+        return total;
+    }
+public:
+    /**
+     * @param a: the list of salary
+     * @param target: the target of the sum
+     * @return: the cap it should be
+     */
+    int getCap(vector<int> &a, int target) {
+        int size = a.size();
+        // Assume cannot be empty
+        std::sort(a.begin(), a.end());
+        
+        int left = a[0];
+        int right = a[size - 1];
+        int cap;
+        while(left + 1 < right) {
+            cap = left + (right - left) / 2;
+            int total = getTotal(a, cap);
+            if( total > target) right = cap;
+            else if(total < target) left = cap;
+            else return cap;
+        }
+        if(getTotal(a, left) == target) return left;
+        if(getTotal(a, right) == target) return right;
+        return -1;
+    }
+};
