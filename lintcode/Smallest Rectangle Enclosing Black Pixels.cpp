@@ -36,7 +36,7 @@ public:
     }
 };
 
-// Using binary search
+// Using binary search, time O(nlogn+mlogm)
 class Solution {
 private:
     typedef bool(*CheckFuncPtr)(vector<vector<char>>&, int);
