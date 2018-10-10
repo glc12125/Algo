@@ -104,3 +104,4 @@
 |84|[Smallest Rectangle Enclosing Black Pixels](https://github.com/glc12125/Algo/blob/master/lintcode/Smallest%20Rectangle%20Enclosing%20Black%20Pixels.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
 |85|[Window Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Window%20Sum.cpp)|Easy|C++|[]|Amazon|LintCode|
 |86|[Two Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum.cpp)|Easy|C++|[Sort, Hash Table, Array, Two Pointers]|Airbnb, Facebook, Microsoft, Amazon, Bloomberg, Uber, LinkedIn, Apple, Yelp, Yahoo, Adobe, Dropbox|LintCode|
+|87|[Two Sum - Less than or equal to target](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20-%20Less%20than%20or%20equal%20to%20target.cpp)|Medium|C++|[Sort, Two Pointers]||LintCode|
