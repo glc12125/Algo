@@ -102,3 +102,4 @@
 |82|[Classical Binary Search](https://github.com/glc12125/Algo/blob/master/lintcode/Classical%20Binary%20Search.cpp)|Easy|C++|[Binary Search]||LintCode|
 |83|[Sqrt(x)](https://github.com/glc12125/Algo/blob/master/lintcode/Sqrt(x).cpp)|Easy|C++|[Binary Search]|Apple, Facebook, Bloomberg|LintCode|
 |84|[Smallest Rectangle Enclosing Black Pixels](https://github.com/glc12125/Algo/blob/master/lintcode/Smallest%20Rectangle%20Enclosing%20Black%20Pixels.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
+|85|[Window Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Window%20Sum.cpp)|Easy|C++|[]|Amazon|LintCode|
