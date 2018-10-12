@@ -27,3 +27,26 @@ public:
         return count;
     }
 };
+
+// time O(n) space O(n)
+int twoSum6(vector<int> &nums, int target) {
+    int len = nums.size();
+    if(len < 2) return 0;
+    std::unordered_map<int, int> counts;
+    for(auto i : nums) {
+        ++counts[i];
+    }
+    int count = 0;
+    for(auto i : nums) {
+        if(counts.count(target - i) > 0) {
+            if(i == target - i) {
+                if(counts[i] > 1) ++count;
+            } else {
+                ++count;
+            }
+            counts.erase(i);
+            counts.erase(target-i);
+        }
+    }
+    return count;
+}
