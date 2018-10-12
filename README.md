@@ -110,3 +110,4 @@
 |90|[Sqrt(x) II](https://github.com/glc12125/Algo/blob/master/lintcode/Sqrt(x)%20II.cpp)|Hard|C++|[Mathematics, Binary Search]|Facebook|LintCode|
 |91|[Find Minimum in Rotated Sorted Array II](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.cpp)|Medium|C++|[Binary Search]||LintCode|
 |92|[Search in Rotated Sorted Array II](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20in%20Rotated%20Sorted%20Array%20II.cpp)|Medium|C++|[Sorted Array, Binary Search]||LintCode|
+|93|[Copy Books](https://github.com/glc12125/Algo/blob/master/lintcode/Copy%20Books.cpp)|Hard|C++|[Binary Search]||LintCode|
