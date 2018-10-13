@@ -113,3 +113,4 @@
 |93|[Copy Books](https://github.com/glc12125/Algo/blob/master/lintcode/Copy%20Books.cpp)|Hard|C++|[Binary Search]||LintCode|
 |94|[Two Sum - Unique pairs](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20-%20Unique%20pairs.cpp)|Medium|C++|[Two Pointers, Hash Table]||LintCode|
 |95|[Two Sum - Greater than target](https://github.com/glc12125/Algo/blob/master/lintcode/Two%20Sum%20-%20Greater%20than%20target.cpp)|Medium|C++|[Two Pointers,  Sort]||LintCode|
+|96|[Binary Tree Level Order Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Level%20Order%20Traversal.cpp)|Medium|C++|[BFS, Binary Tree, Queue, Binary Tree Traversal]|Apple, LinkedIn, Amazon, Facebook, Microsoft, Bloomberg, Uber|LintCode|
