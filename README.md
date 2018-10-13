@@ -121,3 +121,4 @@
 |101|[Topological Sorting](https://github.com/glc12125/Algo/blob/master/lintcode/Topological%20Sorting.cpp)|Medium|C++|[BFS, DFS, Topological Sort]||LintCode|
 |102|[Course Schedule](https://github.com/glc12125/Algo/blob/master/lintcode/Course%20Schedule.cpp)|Medium|C++|[BFS, Topological Sort]|Apple, Zenefits, Amazon, Uber, Yelp|LintCode|
 |103|[Course Schedule II](https://github.com/glc12125/Algo/blob/master/lintcode/Course%20Schedule%20II.cpp)|Medium|C++|[BFS, Topological Sort]|Zenefits, Amazon, Facebook|LintCode|
+|104|[Sequence Reconstruction](https://github.com/glc12125/Algo/blob/master/lintcode/Sequence%20Reconstruction.cpp)|Medium|C++|[BFS, Topological Sort]|Google, Airbnb|LintCode|
