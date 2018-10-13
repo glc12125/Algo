@@ -119,3 +119,4 @@
 |99|[Number of Islands](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Islands.cpp)|Medium|C++|[BFS]|Facebook, Amazon, Google, Microsoft, Zenefits|LintCode|
 |100|[Knight Shortest Path](https://github.com/glc12125/Algo/blob/master/lintcode/Knight%20Shortest%20Path.cpp)|Medium|C++|[BFS]|NetEase|LintCode|
 |101|[Topological Sorting](https://github.com/glc12125/Algo/blob/master/lintcode/Topological%20Sorting.cpp)|Medium|C++|[BFS, DFS, Topological Sort]||LintCode|
+|102|[Course Schedule](https://github.com/glc12125/Algo/blob/master/lintcode/Course%20Schedule.cpp)|Medium|C++|[BFS, Topological Sort]|Apple, Zenefits, Amazon, Uber, Yelp|LintCode|
