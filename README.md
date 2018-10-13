@@ -117,3 +117,4 @@
 |97|[Clone Graph](https://github.com/glc12125/Algo/blob/master/lintcode/Clone%20Graph.cpp)|Medium|C++|[BFS]|Facebook, Pocket Gems, Google, Uber|LintCode|
 |98|[Word Ladder](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Ladder.cpp)|Hard|C++|[BFS]|Facebook, Amazon, LinkedIn, Yelp, Snapchat|LintCode|
 |99|[Number of Islands](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Islands.cpp)|Medium|C++|[BFS]|Facebook, Amazon, Google, Microsoft, Zenefits|LintCode|
+|100|[Knight Shortest Path](https://github.com/glc12125/Algo/blob/master/lintcode/Knight%20Shortest%20Path.cpp)|Medium|C++|[BFS]|NetEase|LintCode|
