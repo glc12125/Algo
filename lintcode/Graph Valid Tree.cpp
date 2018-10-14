@@ -14,7 +14,6 @@ public:
             neighbours[edge[0]].insert(edge[1]);
             neighbours[edge[1]].insert(edge[0]);
         }
-        if(neighbours.size() != n) return false;
 
         std::unordered_set<int> visited;
         std::queue<int> q;
