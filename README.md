@@ -124,3 +124,4 @@
 |104|[Sequence Reconstruction](https://github.com/glc12125/Algo/blob/master/lintcode/Sequence%20Reconstruction.cpp)|Medium|C++|[BFS, Topological Sort]|Google, Airbnb|LintCode|
 |105|[Shortest Path in Undirected Graph](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Path%20in%20Undirected%20Graph.cpp)|Medium|C++|[BFS, Undirected Graph]||LintCode|
 |106|[Shortest Path in Undirected Graph](https://github.com/glc12125/Algo/blob/master/lintcode/Convert%20Binary%20Tree%20to%20Linked%20Lists%20by%20Depth.cpp)|Medium|C++|[BFS, Linked List, Binary Tree]||LintCode|
+|107|[Remove Substrings](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20Substrings.cpp)|Medium|C++|[BFS, String]|Amazon|LintCode|
