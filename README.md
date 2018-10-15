@@ -130,3 +130,4 @@
 |110|[Six Degrees](https://github.com/glc12125/Algo/blob/master/lintcode/Six%20Degrees.cpp)|Medium|C++|[BFS]|Microsoft|LintCode|
 |111|[Graph Valid Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Graph%20Valid%20Tree.cpp)|Medium|C++|[BFS, DFS, Union Find]|Google, Facebook, Zenefits|LintCode|
 |112|[Connected Component in Undirected Graph](https://github.com/glc12125/Algo/blob/master/lintcode/Connected%20Component%20in%20Undirected%20Graph.cpp)|Medium|C++|[BFS, Union Find]||LintCode|
+|113|[Wood Cut](https://github.com/glc12125/Algo/blob/master/lintcode/Wood%20Cut.cpp)|Medium|C++|[Binary Search]||LintCode|
