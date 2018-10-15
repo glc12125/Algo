@@ -130,4 +130,5 @@
 |110|[Six Degrees](https://github.com/glc12125/Algo/blob/master/lintcode/Six%20Degrees.cpp)|Medium|C++|[BFS]|Microsoft|LintCode|
 |111|[Graph Valid Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Graph%20Valid%20Tree.cpp)|Medium|C++|[BFS, DFS, Union Find]|Google, Facebook, Zenefits|LintCode|
 |112|[Connected Component in Undirected Graph](https://github.com/glc12125/Algo/blob/master/lintcode/Connected%20Component%20in%20Undirected%20Graph.cpp)|Medium|C++|[BFS, Union Find]||LintCode|
-|113|[Wood Cut](https://github.com/glc12125/Algo/blob/master/lintcode/Wood%20Cut.cpp)|Medium|C++|[Binary Search]||LintCode|
+|113|[Wood Cut](https://github.com/glc12125/Algo/blob/master/lintcode/Wood%20Cut.cpp)|Hard|C++|[Binary Search]||LintCode|
+|114|[Kth Smallest Numbers in Unsorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Numbers%20in%20Unsorted%20Array.cpp)|Medium|C++|[Binary Search]||LintCode|
