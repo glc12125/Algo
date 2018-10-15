@@ -135,3 +135,4 @@
 |115|[Sort Colors](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Colors.cpp)|Medium|C++|[Two Pointers, Three Pointers, Quick Selection]|Microsoft, Pocket Gems,Facebook|LintCode|
 |116|[Binary Tree Zigzag Level Order Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.cpp)|Medium|C++|[BFS]|Microsoft, LinkedIn, Bloomberg|LintCode|
 |117|[Binary Tree Level Order Traversal II](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Level%20Order%20Traversal%20II.cpp)|Medium|C++|[BFS]||LintCode|
+|118|[Number of Islands II](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Islands%20II.cpp)|Medium|C++|[Union Find]|Google|LintCode|
