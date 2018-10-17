@@ -141,3 +141,4 @@
 |121|[Connecting Graph III](https://github.com/glc12125/Algo/blob/master/lintcode/Connecting%20Graph%20III.cpp)|Medium|C++|[Union Find]||LintCode|
 |122|[Connecting Graph II](https://github.com/glc12125/Algo/blob/master/lintcode/Connecting%20Graph%20II.cpp)|Medium|C++|[Union Find]||LintCode|
 |123|[Minimum Spanning Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Spanning%20Tree.cpp)|Hard|C++|[Union Find]|Amazon|LintCode|
+|124|[Maximum Association Set](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Association%20Set.cpp)|Medium|C++|[Union Find]|Amazon|LintCode|
