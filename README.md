@@ -138,3 +138,4 @@
 |118|[Number of Islands II](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Islands%20II.cpp)|Medium|C++|[Union Find]|Google|LintCode|
 |119|[Find the Weak Connected Component in the Directed Grap](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20Weak%20Connected%20Component%20in%20the%20Directed%20Grap.cpp)|Medium|C++|[Union Find]|Google|LintCode|
 |120|[Surrounded Regions](https://github.com/glc12125/Algo/blob/master/lintcode/Surrounded%20Regions.cpp)|Medium|C++|[Union Find, BFS]||LintCode|
+|121|[Connecting Graph III](https://github.com/glc12125/Algo/blob/master/lintcode/Connecting%20Graph%20III.cpp)|Medium|C++|[Union Find]||LintCode|
