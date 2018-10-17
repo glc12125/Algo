@@ -140,3 +140,4 @@
 |120|[Surrounded Regions](https://github.com/glc12125/Algo/blob/master/lintcode/Surrounded%20Regions.cpp)|Medium|C++|[Union Find, BFS]||LintCode|
 |121|[Connecting Graph III](https://github.com/glc12125/Algo/blob/master/lintcode/Connecting%20Graph%20III.cpp)|Medium|C++|[Union Find]||LintCode|
 |122|[Connecting Graph II](https://github.com/glc12125/Algo/blob/master/lintcode/Connecting%20Graph%20II.cpp)|Medium|C++|[Union Find]||LintCode|
+|123|[Minimum Spanning Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Spanning%20Tree.cpp)|Hard|C++|[Union Find]|Amazon|LintCode|
