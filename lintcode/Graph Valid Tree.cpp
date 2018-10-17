@@ -43,3 +43,47 @@ public:
 };
 
 // Union Find and DFS to be implemented
+class Solution {
+private:
+    class UnionFind{
+    public:
+        std::vector<int> m_fathers;
+
+        UnionFind(int n) {
+            m_fathers.resize(n);
+            for(int i = 0; i < n; ++i) {
+                m_fathers[i] = i;
+            }
+        }
+
+        int unionFind(int i) {
+            if(m_fathers[i] == i) return i;
+            m_fathers[i] = unionFind(m_fathers[i]);
+            return m_fathers[i];
+        }
+
+        void unionMerge(int i, int j) {
+            auto iFather = unionFind(i);
+            auto jFather = unionFind(j);
+            if(iFather != jFather) {
+                m_fathers[iFather] = jFather;
+            }
+        }
+    };
+public:
+    /**
+     * @param n: An integer
+     * @param edges: a list of undirected edges
+     * @return: true if it's a valid tree, or false
+     */
+    bool validTree(int n, vector<vector<int>> &edges) {
+        UnionFind uf(n);
+
+        for(const auto& edge : edges) {
+            if(uf.unionFind(edge[0]) == uf.unionFind(edge[1])) return false;
+            uf.unionMerge(edge[0], edge[1]);
+        }
+
+        return edges.size() == n - 1;
+    }
+};
