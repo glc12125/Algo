@@ -66,7 +66,7 @@ public:
 
         for(const auto& point : Os) {
             int key = getKey(point);
-            if(unionFind(key) == m_rowSize * m_colSize) continue;
+            if(unionFind(key) == m_edgeValue) continue;
             for(int i = 0; i < 4; ++i) {
                 Point next(point.m_x + m_xMoves[i], point.m_y + m_yMoves[i]);
                 if(!isValid(next)) continue;
