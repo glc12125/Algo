@@ -1,3 +1,4 @@
+// Time O (V*E), space O(V*E)
 class Solution {
 public:
     /**
@@ -42,7 +43,7 @@ public:
     }
 };
 
-// Union Find and DFS to be implemented
+// Union Find, time O(E*logV), space O(V)
 class Solution {
 private:
     class UnionFind{
@@ -87,3 +88,5 @@ public:
         return edges.size() == n - 1;
     }
 };
+
+//DFS to be implemented
