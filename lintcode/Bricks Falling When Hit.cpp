@@ -25,14 +25,13 @@ private:
                 }
             }
         }
-        
+
         int unionFind(int son) {
             if(m_fathers[son] < 0 || m_fathers[son] == m_topFather) return son;
             m_fathers[son] = unionFind(m_fathers[son]);
             return m_fathers[son];
-            
         }
-        
+
         void unionMerge(int son1, int son2) {
             auto father1 = unionFind(son1);
             auto father2 = unionFind(son2);
@@ -48,18 +47,23 @@ private:
                 }
             }
         }
-        
+
         int dropNum(){
             return m_totalDropNum;
         }
     };
-    
+
     int m_xMoves[4] = {-1, 0, 1, 0};
     int m_yMoves[4] = {0, 1, 0, -1};
     int m_rowSize;
     int m_colSize;
+
     bool isValid(int i, int j) {
         return (-1 < i && i < m_rowSize && -1 < j && j < m_colSize);
+    }
+
+    inline int getKey(int i, int j) {
+        return i * m_colSize + j;
     }
 public:
     /**
@@ -72,7 +76,7 @@ public:
         if(m_rowSize == 0) return {};
         m_colSize = grid[0].size();
         if(m_colSize == 0) return {};
-        
+
         int hitsNum = hits.size();
         for(int i = 0; i < hitsNum; ++i) {
             const auto& hit = hits[i];
@@ -83,11 +87,11 @@ public:
         for(int i = 0; i < m_rowSize; ++i) {
             for(int j = 0; j < m_colSize; ++j) {
                 if(grid[i][j] == 1) {
-                    int son = i * m_colSize + j;
+                    int son = getKey(i, j);
                     for(int k = 0; k < 4; ++k) {
                         int nextI = i + m_xMoves[k];
                         int nextJ = j + m_yMoves[k];
-                        int nextSon = nextI * m_colSize + nextJ;
+                        int nextSon = getKey(nextI, nextJ);
                         if(!isValid(nextI, nextJ)) continue;
                         if(grid[nextI][nextJ] == 1) {
                             uf.unionMerge(son, nextSon);
@@ -107,10 +111,10 @@ public:
                 int beforeMerge = uf.dropNum();
                 int x = hit[0];
                 int y = hit[1];
-                int son = x * m_colSize + y;
+                int son = getKey(x, y);
                 if(uf.m_fathers.count(son) == 0) {
                     if(son < m_colSize) {
-                        uf.m_fathers[son] = m_colSize * m_rowSize;
+                        uf.m_fathers[son] = uf.m_topFather;
                     } else {
                         uf.m_fathers[son] = -1;
                         ++uf.m_totalDropNum;
@@ -119,7 +123,7 @@ public:
                 for(int k = 0; k < 4; ++k) {
                     int nextI = x + m_xMoves[k];
                     int nextJ = y + m_yMoves[k];
-                    int nextSon = nextI * m_colSize + nextJ;
+                    int nextSon = getKey(nextI, nextJ);
                     if(!isValid(nextI, nextJ)) continue;
                     if(grid[nextI][nextJ] == 1) {
                         uf.unionMerge(son, nextSon);
