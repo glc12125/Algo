@@ -144,3 +144,4 @@
 |124|[Maximum Association Set](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Association%20Set.cpp)|Medium|C++|[Union Find]|Amazon|LintCode|
 |125|[Accounts Merge](https://github.com/glc12125/Algo/blob/master/lintcode/Accounts%20Merge.cpp)|Medium|C++|[Union Find]|Facebook|LintCode|
 |126|[Set Union](https://github.com/glc12125/Algo/blob/master/lintcode/Set%20Union.cpp)|Medium|C++|[Union Find]|Facebook|LintCode|
+|127|[Bricks Falling When Hit](https://github.com/glc12125/Algo/blob/master/lintcode/Bricks%20Falling%20When%20Hit.cpp)|Hard|C++|[Union Find]|Google|LintCode|
