@@ -146,3 +146,4 @@
 |126|[Set Union](https://github.com/glc12125/Algo/blob/master/lintcode/Set%20Union.cpp)|Medium|C++|[Union Find]|Facebook|LintCode|
 |127|[Bricks Falling When Hit](https://github.com/glc12125/Algo/blob/master/lintcode/Bricks%20Falling%20When%20Hit.cpp)|Hard|C++|[Union Find]|Google|LintCode|
 |128|[Implement Trie (Prefix Tree)](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20Trie%20(Prefix%20Tree).cpp)|Medium|C++|[Trie(Prefix Tree)]|Facebook, Google, Uber, Microsoft, Bloomberg, Twitter|LintCode|
+|129|[Add and Search Word - Data structure design](https://github.com/glc12125/Algo/blob/master/lintcode/Add%20and%20Search%20Word%20-%20Data%20structure%20design.cpp)|Medium|C++|[Trie(Prefix Tree)]|Facebook|LintCode|
