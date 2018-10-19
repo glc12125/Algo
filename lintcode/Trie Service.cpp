@@ -7,6 +7,7 @@
  *     vector<int> top10;
  * };
  */
+// Time O(m), m is the maximum length of word
 class TrieService {
 private:
     TrieNode* root;
@@ -36,3 +37,4 @@ public:
     }
 };
 
+//

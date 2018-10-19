@@ -148,3 +148,4 @@
 |128|[Implement Trie (Prefix Tree)](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20Trie%20(Prefix%20Tree).cpp)|Medium|C++|[Trie(Prefix Tree)]|Facebook, Google, Uber, Microsoft, Bloomberg, Twitter|LintCode|
 |129|[Add and Search Word - Data structure design](https://github.com/glc12125/Algo/blob/master/lintcode/Add%20and%20Search%20Word%20-%20Data%20structure%20design.cpp)|Medium|C++|[Trie(Prefix Tree)]|Facebook|LintCode|
 |130|[Trie Service](https://github.com/glc12125/Algo/blob/master/lintcode/Trie%20Service.cpp)|Medium|C++|[Trie(Prefix Tree)]||LintCode|
+|131|[Map Sum Pairs](https://github.com/glc12125/Algo/blob/master/lintcode/Map%20Sum%20Pairs.cpp)|Medium|C++|[Trie(Prefix Tree)]|Akuna Capital|LintCode|
