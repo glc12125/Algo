@@ -152,3 +152,4 @@
 |132|[Word Search II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Search%20II.cpp)|Medium|C++|[Trie(Prefix Tree)]|Microsoft, Airbnb, Google|LintCode|
 |133|[Minimum Subtree](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Subtree.cpp)|Easy|C++|[Binary Tree, DFS]|Microsoft, Yelp|LintCode|
 |134|[Coin Change](https://github.com/glc12125/Algo/blob/master/lintcode/Coin%20Change.cpp)|Medium|C++|[Dynamic Programming]||LintCode|
+|135|[Flatten Binary Tree to Linked List](https://github.com/glc12125/Algo/blob/master/lintcode/Flatten%20Binary%20Tree%20to%20Linked%20List.cpp)|Easy|C++|[Binary Tree, DFS]|Microsoft|LintCode|
