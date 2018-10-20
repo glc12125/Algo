@@ -49,3 +49,27 @@ public:
         return result.m_isValid;
     }
 };
+
+// Traversal
+class Solution {
+private:
+    int m_lastVal = INT_MIN;
+    bool m_isFirst = true;
+public:
+    /**
+     * @param root: The root of binary tree.
+     * @return: True if the binary tree is BST, or false
+     */
+    bool isValidBST(TreeNode * root) {
+        if(root == nullptr) return true;
+
+        if(!isValidBST(root->left)) return false;
+
+        if(!m_isFirst && m_lastVal >= root->val) return false;
+
+        m_isFirst = false;
+        m_lastVal = root->val;
+        if(!isValidBST(root->right)) return false;
+        return true;
+    }
+};
