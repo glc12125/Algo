@@ -151,3 +151,4 @@
 |131|[Map Sum Pairs](https://github.com/glc12125/Algo/blob/master/lintcode/Map%20Sum%20Pairs.cpp)|Medium|C++|[Trie(Prefix Tree)]|Akuna Capital|LintCode|
 |132|[Word Search II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Search%20II.cpp)|Medium|C++|[Trie(Prefix Tree)]|Microsoft, Airbnb, Google|LintCode|
 |133|[Minimum Subtree](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Subtree.cpp)|Easy|C++|[Binary Tree, DFS]|Microsoft, Yelp|LintCode|
+|134|[Coin Change](https://github.com/glc12125/Algo/blob/master/lintcode/Coin%20Change.cpp)|Medium|C++|[Dynamic Programming]||LintCode|
