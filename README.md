@@ -155,3 +155,4 @@
 |135|[Flatten Binary Tree to Linked List](https://github.com/glc12125/Algo/blob/master/lintcode/Flatten%20Binary%20Tree%20to%20Linked%20List.cpp)|Easy|C++|[Binary Tree, DFS]|Microsoft|LintCode|
 |136|[Balanced Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Balanced%20Binary%20Tree.cpp)|Easy|C++|[Divide and Conquer]|Bloomberg|LintCode|
 |137|[Validate Binary Search Treee](https://github.com/glc12125/Algo/blob/master/lintcode/Validate%20Binary%20Search%20Tree.cpp)|Easy|C++|[Divide and Conquer, Binary Search Tree]|Bloomberg, Microsoft, Amazon, Facebook|LintCode|
+|138|[Lowest Common Ancestor III](https://github.com/glc12125/Algo/blob/master/lintcode/Lowest%20Common%20Ancestor%20III.cpp)|Medium|C++|[Divide and Conquer, Binary Tree]|LinkedIn, Facebook|LintCode|
