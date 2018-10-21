@@ -157,3 +157,7 @@
 |137|[Validate Binary Search Treee](https://github.com/glc12125/Algo/blob/master/lintcode/Validate%20Binary%20Search%20Tree.cpp)|Easy|C++|[Divide and Conquer, Binary Search Tree]|Bloomberg, Microsoft, Amazon, Facebook|LintCode|
 |138|[Lowest Common Ancestor III](https://github.com/glc12125/Algo/blob/master/lintcode/Lowest%20Common%20Ancestor%20III.cpp)|Medium|C++|[Divide and Conquer, Binary Tree]|LinkedIn, Facebook|LintCode|
 |139|[Closest Binary Search Tree Value II](https://github.com/glc12125/Algo/blob/master/lintcode/Closest%20Binary%20Search%20Tree%20Value%20II.cpp)|Medium|C++|[Binary Search Tree]|Google|LintCode|
+|140|[Binary Tree Preorder Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Preorder%20Traversal.cpp)|Easy|C++|[Binary Tree Traversal]||LintCode|
+|141|[Binary Tree Inorder Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Inorder%20Traversal.cpp)|Easy|C++|[Binary Tree Traversal]||LintCode|
+|142|[Binary Tree Postorder Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Postorder%20Traversal.cpp)|Easy|C++|[Binary Tree Traversal]||LintCode|
+|143|[Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp)|Medium|C++|[Binary Tree Traversal]|Microsoft|LintCode|
