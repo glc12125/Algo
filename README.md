@@ -162,3 +162,4 @@
 |142|[Binary Tree Postorder Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Postorder%20Traversal.cpp)|Easy|C++|[Binary Tree Traversal]||LintCode|
 |143|[Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp)|Medium|C++|[Binary Tree Traversal]|Microsoft|LintCode|
 |144|[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp)|Medium|C++|[Binary Tree Traversal]|Bloomberg|LintCode|
+|145|[Subtree with Maximum Average](https://github.com/glc12125/Algo/blob/master/lintcode/Subtree%20with%20Maximum%20Average.cpp)|Easy|C++|[Divide and Conquer]|Amazon|LintCode|
