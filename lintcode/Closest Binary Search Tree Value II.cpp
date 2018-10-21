@@ -11,6 +11,7 @@
  * }
  */
 
+// Use less than O(n) time
 class Solution {
 private:
     std::stack<TreeNode *> m_s;
