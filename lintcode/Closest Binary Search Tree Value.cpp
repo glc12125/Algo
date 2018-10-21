@@ -30,7 +30,7 @@ public:
             } else {
                 curr = s.top();
                 s.pop();
-                double diff = std::abs(target - curr->val); 
+                double diff = std::abs(target - curr->val);
                 if(minDiff > diff) {
                     minDiff = diff;
                     result = curr->val;
@@ -38,7 +38,7 @@ public:
                 curr = curr->right;
             }
         }
-        
+
         return result;
     }
 };
@@ -49,7 +49,7 @@ class Solution {
 private:
     void dfs(TreeNode * node, double target, double& minDiff, int& val) {
         if(node == nullptr) return;
-        
+
         dfs(node->left, target, minDiff, val);
         double diff = std::abs(target - node->val);
         if(diff < minDiff) {
@@ -81,28 +81,28 @@ private:
         if (node == NULL) {
             return node;
         }
-        
+
         if (target <= node->val) {
             return lowerBound(node->left, target);
         }
-        
+
         TreeNode* lower = lowerBound(node->right, target);
         return (lower == NULL) ? node : lower;
-        
+
     }
 
     TreeNode* upperBound(TreeNode* node, double target) {
         if (node == NULL) {
             return node;
         }
-        
+
         if (target >= node->val) {
             return upperBound(node->right, target);
         }
-        
+
         TreeNode* upper = upperBound(node->left, target);
         return (upper == NULL) ? node : upper;
-        
+
     }
 public:
     /**
@@ -111,10 +111,10 @@ public:
      * @return: the value in the BST that is closest to the target
      */
     int closestValue(TreeNode * root, double target) {
-        
+
         auto lower = lowerBound(root, target);
         auto upper = upperBound(root, target);
-        
+
         if(lower == nullptr) return upper->val;
         if(upper == nullptr) return lower->val;
         return fabs(target - lower->val) < fabs(target - upper->val) ? lower->val :upper->val;
@@ -133,7 +133,7 @@ public:
     int closestValue(TreeNode * root, double target) {
         // write your code here
         if(root == NULL) return root->val;
-        TreeNode *  min_node; 
+        TreeNode *  min_node;
         int result = 0;
         serch(root, target,result);
         return result;
@@ -144,13 +144,13 @@ public:
             min_n = root->val;
             return;
         }
-        
+
         if(abs(root->val-target)<abs(min_n-target)){
             min_n = root->val;
         }
         if(target<root->val)
             serch(root->left, target,min_n);
-        else 
+        else
             serch(root->right, target,min_n);
     }
 
