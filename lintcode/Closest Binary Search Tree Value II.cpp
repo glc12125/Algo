@@ -92,3 +92,66 @@ public:
         return result;
     }
 };
+
+// Use O(n) time and O(n) space
+/**
+ * Definition of TreeNode:
+ * class TreeNode {
+ * public:
+ *     int val;
+ *     TreeNode *left, *right;
+ *     TreeNode(int val) {
+ *         this->val = val;
+ *         this->left = this->right = NULL;
+ *     }
+ * }
+ */
+
+class Solution {
+private:
+    std::vector<int> m_inOrderSequence;
+
+public:
+    /**
+     * @param root: the given BST
+     * @param target: the given target
+     * @param k: the given k
+     * @return: k values in the BST that are closest to the target
+     */
+    vector<int> closestKValues(TreeNode * root, double target, int k) {
+        auto node = root;
+        std::stack<TreeNode*> s;
+        s.push(node);
+        while(!s.empty() || node != nullptr) {
+            if(node != nullptr) {
+                s.push(node->left);
+                node = node->left;
+            } else {
+                node = s.top();
+                s.pop();
+                if(node == nullptr) continue;
+                m_inOrderSequence.push_back(node->val);
+                s.push(node->right);
+                node = node->right;
+            }
+        }
+        std::cout << "sorted: \n";
+        for(auto i : m_inOrderSequence) std::cout << i << " ";
+        std::cout << "\n";
+        int upperIndex = 0;
+        for(; upperIndex < m_inOrderSequence.size(); ++upperIndex) {
+            if(m_inOrderSequence[upperIndex] > target) break;
+        }
+        std::vector<int> result;
+        int lowerIndex = upperIndex - 1;
+        for(int i = 0; i < k; ++i) {
+            if(upperIndex >= m_inOrderSequence.size() || (lowerIndex > -1 && target - m_inOrderSequence[lowerIndex] < m_inOrderSequence[upperIndex] - target)){
+                result.push_back(m_inOrderSequence[lowerIndex--]);
+            } else {
+                result.push_back(m_inOrderSequence[upperIndex++]);
+            }
+        }
+
+        return result;
+    }
+};
