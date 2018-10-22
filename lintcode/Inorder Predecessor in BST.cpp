@@ -65,3 +65,73 @@ public:
 
     }
 };
+
+// Iterative traversal
+class Solution {
+public:
+    /**
+     * @param root: the given BST
+     * @param p: the given node
+     * @return: the in-order predecessor of the given node in the BST
+     */
+    TreeNode * inorderPredecessor(TreeNode * root, TreeNode * p) {
+        if(root == nullptr || p == nullptr) return nullptr;
+
+        std::stack<TreeNode*> s;
+        auto node = root;
+        TreeNode * predecessor = nullptr;
+        while(node != nullptr || !s.empty()) {
+            while(node != nullptr) {
+                s.push(node);
+                node = node->left;
+            }
+
+            node = s.top();
+            s.pop();
+            if(node->val == p->val) {
+                return predecessor;
+            } else {
+                predecessor = node;
+            }
+            node = node->right;
+        }
+        return nullptr;
+    }
+};
+
+// Recursive traversal
+class Solution {
+private:
+    TreeNode * m_prev = nullptr;
+
+    void inOrder(TreeNode * root, TreeNode * p) {
+        if(root == nullptr) return;
+
+        if(root->val == p->val) {
+            if(root->left != nullptr) {
+                root = root->left;
+                while(root != nullptr) {
+                    m_prev = root;
+                    root = root->right;
+                }
+            }
+        } else if (root->val > p->val) {
+            inOrder(root->left, p);
+        } else {
+            m_prev = root;
+            inOrder(root->right, p);
+        }
+    }
+public:
+    /**
+     * @param root: the given BST
+     * @param p: the given node
+     * @return: the in-order predecessor of the given node in the BST
+     */
+    TreeNode * inorderPredecessor(TreeNode * root, TreeNode * p) {
+        if(root == nullptr || p == nullptr) return nullptr;
+
+        inOrder(root, p);
+        return m_prev;
+    }
+};
