@@ -11,68 +11,74 @@
  * }
  */
 
+// Divide and conquer
 class Solution {
 private:
-    int getMinDepth(TreeNode* root) {
-        if(root == nullptr) return INT_MAX;
+    int getMaxDepth(TreeNode * root) {
+        if(root == nullptr) return 0;
 
-        int leftMin = getMinDepth(root->left);
-        int rightMin = getMinDepth(root->right);
+        auto left = getMaxDepth(root->left);
+        auto right = getMaxDepth(root->right);
 
-        int min = std::min(leftMin, rightMin);
-        if(min == INT_MAX) return 1;
-        else return min + 1;
+        return std::max(left, right) + 1;
     }
 public:
     /**
-     * @param root: The root of binary tree
+     * @param root: The root of binary tree.
      * @return: An integer
      */
-    int minDepth(TreeNode * root) {
-        int depth = getMinDepth(root);
-        if(depth == INT_MAX) return 0;
-        else return depth;
+    int maxDepth(TreeNode * root) {
+        return getMaxDepth(root);
     }
 };
 
-// Iterative DFS
+// DFS
 class Solution {
 public:
     /**
-     * @param root: The root of binary tree
+     * @param root: The root of binary tree.
      * @return: An integer
      */
-    int minDepth(TreeNode * root) {
+    int maxDepth(TreeNode * root) {
         if(root == nullptr) return 0;
 
-        auto node = root;
-        int minDepth = INT_MAX;
+        return std::max(maxDepth(root->left), maxDepth(root->right)) + 1;
+    }
+};
+
+// Iterative
+class Solution {
+public:
+    /**
+     * @param root: The root of binary tree.
+     * @return: An integer
+     */
+    int maxDepth(TreeNode * root) {
+        if(root == nullptr) return 0;
+
+        int maxDepth = 0;
         int depth = 1;
+        auto node = root;
         std::stack<TreeNode*> s;
         std::stack<int> depthS;
         s.push(node);
-        depthS.push(depth);
-
+        depthS.push(1);
         while(!s.empty()) {
             node = s.top();
             s.pop();
             depth = depthS.top();
             depthS.pop();
-
-            if(node->left == nullptr && node->right == nullptr) {
-                minDepth = std::min(minDepth, depth);
-            }
+            maxDepth = std::max(maxDepth, depth);
 
             if(node->left != nullptr) {
                 s.push(node->left);
                 depthS.push(depth + 1);
             }
-
             if(node->right != nullptr) {
                 s.push(node->right);
                 depthS.push(depth + 1);
             }
         }
-        return minDepth;
+        return maxDepth;
     }
 };
