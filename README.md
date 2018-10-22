@@ -167,3 +167,5 @@
 |147|[Binary Tree Path Sum II](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Path%20Sum%20II.cpp)|Easy|C++|[Binary Tree, DFS]||LintCode|
 |148|[Minimum Depth of Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Depth%20of%20Binary%20Tree.cpp)|Easy|C++|[Binary Tree, DFS, Divide and Conquer]||LintCode|
 |149|[Maximum Depth of Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Depth%20of%20Binary%20Tree.cpp)|Easy|C++|[Binary Tree, DFS, Divide and Conquer]||LintCode|
+|150|[Inorder Predecessor in BST](https://github.com/glc12125/Algo/blob/master/lintcode/Inorder%20Predecessor%20in%20BST.cpp)|Medium|C++|[Binary Tree, DFS, Divide and Conquer]|Microsoft, Facebook|LintCode|
+|151|[Inorder Successor in BST](https://github.com/glc12125/Algo/blob/master/lintcode/Inorder%Successor%20in%20BST.cpp)|Medium|C++|[Binary Tree, DFS, Divide and Conquer]|Microsoft, Facebook|LintCode|
