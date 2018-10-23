@@ -170,3 +170,4 @@
 |150|[Inorder Predecessor in BST](https://github.com/glc12125/Algo/blob/master/lintcode/Inorder%20Predecessor%20in%20BST.cpp)|Medium|C++|[Binary Tree, DFS, Divide and Conquer]|Microsoft, Facebook|LintCode|
 |151|[Inorder Successor in BST](https://github.com/glc12125/Algo/blob/master/lintcode/Inorder%Successor%20in%20BST.cpp)|Medium|C++|[Binary Tree, DFS, Divide and Conquer]|Microsoft, Facebook, Pocket Gems|LintCode|
 |152|[Lowest Common Ancestor of a Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp)|Medium|C++|[Binary Tree, DFS, Divide and Conquer]|Microsoft, Facebook, LinkedIn, Amazon, Apple|LintCode|
+|153|[Binary Tree Path Sum III](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Path%20Sum%20III.cpp)|Hard|C++|[Binary Tree, DFS, Divide and Conquer]||LintCode|
