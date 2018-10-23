@@ -1,3 +1,4 @@
+// Dfs
 class Solution {
 private:
     void btFind(const std::vector<int>& nums, int startIndex,
@@ -24,6 +25,32 @@ public:
 
         std::vector<int> subset;
         btFind(nums, 0, subset, result);
+        return result;
+    }
+};
+
+// DFS, different choices at each time going deeper
+class Solution {
+private:
+    void dfs(vector<int>& nums, vector<int> subset, int index, std::vector<std::vector<int> >& result) {
+        if(index == nums.size()) {
+            result.push_back(subset);
+            return;
+        }
+        subset.push_back(nums[index]);
+        dfs(nums, subset, index + 1, result);
+        subset.pop_back();
+        dfs(nums, subset, index + 1, result);
+    }
+
+public:
+    vector<vector<int>> subsets(vector<int> &nums) {
+        std::vector<std::vector<int> > result;
+        int size = nums.size();
+        if(size == 0) return {{}};
+        std::sort(nums.begin(), nums.end());
+        std::vector<int> subset;
+        dfs(nums, subset, 0, result);
         return result;
     }
 };
