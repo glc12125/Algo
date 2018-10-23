@@ -78,3 +78,33 @@ public:
         return result;
     }
 };
+
+// BFS
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int> &nums) {
+        std::vector<std::vector<int> > result;
+        int size = nums.size();
+        if(size == 0) return {{}};
+
+        std::sort(nums.begin(), nums.end());
+
+        std::queue<std::vector<int> > q;
+        q.push({});
+
+        while(!q.empty()) {
+            auto subset = q.front();
+            q.pop();
+            result.push_back(subset);
+            for(int i = 0; i < size; ++i) {
+                if(subset.empty() || subset[subset.size() - 1] < nums[i]) {
+                    std::vector<int> temp(subset);
+                    temp.push_back(nums[i]);
+                    q.push(temp);
+                }
+            }
+        }
+
+        return result;
+    }
+};
