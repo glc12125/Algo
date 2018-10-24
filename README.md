@@ -179,3 +179,4 @@
 |159|[Word Break II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Break%20II.cpp)|Hard|C++|[DFS]|Uber, Dropbox, Google, Twitter, Snapchat|LintCode|
 |160|[Wildcard Matching](https://github.com/glc12125/Algo/blob/master/lintcode/Wildcard%20Matching.cpp)|Hard|C++|[DFS]|Two Sigma, Facebook, Google, Twitter, Snapchat|LintCode|
 |161|[Regular Expression Matching](https://github.com/glc12125/Algo/blob/master/lintcode/Regular%20Expression%20Matching.cpp)|Hard|C++|[DFS]|Uber, Facebook, Google, Twitter, Airbnb|LintCode|
+|162|[Factorization](https://github.com/glc12125/Algo/blob/master/lintcode/Factorization.cpp)|Medium|C++|[DFS]|Uber, LinkedIn|LintCode|
