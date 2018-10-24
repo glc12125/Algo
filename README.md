@@ -177,3 +177,4 @@
 |157|[Combination Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Combination%20Sum.cpp)|Medium|C++|[DFS]|Uber, Snapchat|LintCode|
 |158|[Combination Sum II](https://github.com/glc12125/Algo/blob/master/lintcode/Combination%20Sum%20II.cpp)|Medium|C++|[DFS]|Snapchat|LintCode|
 |159|[Word Break II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Break%20II.cpp)|Hard|C++|[DFS]|Uber, Dropbox, Google, Twitter, Snapchat|LintCode|
+|160|[Wildcard Matching](https://github.com/glc12125/Algo/blob/master/lintcode/Wildcard%20Matching.cpp)|Hard|C++|[DFS]|Two Sigma, Facebook, Google, Twitter, Snapchat|LintCode|
