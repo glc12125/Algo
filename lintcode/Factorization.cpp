@@ -23,7 +23,6 @@ public:
      */
     vector<vector<int>> getFactors(int n) {
         std::vector<std::vector<int> > results;
-        if(n < 4) return results;
         std::vector<int> answer;
         dfs(n, 2, answer, results);
         return results;
