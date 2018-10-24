@@ -135,3 +135,25 @@ public:
         return result;
     }
 };
+
+// Binary operations
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int> &nums) {
+        std::vector<std::vector<int> > result;
+        int size = nums.size();
+        if(size == 0) return {{}};
+        std::sort(nums.begin(), nums.end());
+
+        for(int i = 0; i < (1 << size); ++i) {
+            std::vector<int> subset;
+            for(int j = 0; j < size; ++j) {
+                if((i & (1 << j)) != 0) {
+                    subset.push_back(nums[j]);
+                }
+            }
+            result.push_back(subset);
+        }
+        return result;
+    }
+};
