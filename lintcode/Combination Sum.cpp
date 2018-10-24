@@ -6,7 +6,7 @@ private:
             results.push_back(answer);
             return;
         }
-        if(target < 0) return;
+        if(target < candidates[index]) return;
         for(int i = index; i < len; ++i) {
             answer.push_back(candidates[i]);
             dfs(candidates, i, target - candidates[i], answer, results);
