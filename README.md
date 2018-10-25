@@ -181,3 +181,4 @@
 |161|[Regular Expression Matching](https://github.com/glc12125/Algo/blob/master/lintcode/Regular%20Expression%20Matching.cpp)|Hard|C++|[DFS]|Uber, Facebook, Google, Twitter, Airbnb|LintCode|
 |162|[Factorization](https://github.com/glc12125/Algo/blob/master/lintcode/Factorization.cpp)|Medium|C++|[DFS]|Uber, LinkedIn|LintCode|
 |163|[Find the Missing Number II](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20Missing%20Number%20II.cpp)|Medium|C++|[DFS]||LintCode|
+|164|[Restore IP Addresses](https://github.com/glc12125/Algo/blob/master/lintcode/Restore%20IP%20Addresses.cpp)|Medium|C++|[DFS]||LintCode|
