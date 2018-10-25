@@ -182,3 +182,4 @@
 |162|[Factorization](https://github.com/glc12125/Algo/blob/master/lintcode/Factorization.cpp)|Medium|C++|[DFS]|Uber, LinkedIn|LintCode|
 |163|[Find the Missing Number II](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20Missing%20Number%20II.cpp)|Medium|C++|[DFS]||LintCode|
 |164|[Restore IP Addresses](https://github.com/glc12125/Algo/blob/master/lintcode/Restore%20IP%20Addresses.cpp)|Medium|C++|[DFS]||LintCode|
+|165|[Remove Invalid Parentheses](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20Invalid%20Parentheses.cpp)|Hard|C++|[DFS]|Facebook|LintCode|
