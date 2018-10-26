@@ -186,3 +186,4 @@
 |166|[Kth Smallest Number in Sorted Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Number%20in%20Sorted%20Matrix.cpp)|Medium|C++|[Pirority Queue, Matrix, Heap]|Amazon, Google|LintCode|
 |167|[Minimum Size Subarray Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Size%20Subarray%20Sum.cpp)|Medium|C++|[Two Pointers]|Facebook|LintCode|
 |168|[Longest Substring Without Repeating Characters](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Substring%20Without%20Repeating%20Characters.cpp)|Medium|C++|[Two Pointers, Hash Table]|Amazon, Bloomberg, Yelp, Adobe|LintCode|
+|170|[Longest Substring with At Most K Distinct Characters](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.cpp)|Medium|C++|[Two Pointers, Hash Table]|Goupang, AppDynamics, NetEase, Google|LintCode|
