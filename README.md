@@ -191,3 +191,4 @@
 |172|[String Permutation II](https://github.com/glc12125/Algo/blob/master/lintcode/String%20Permutation%20II.cpp)|Medium|C++|[Permutation, Recursion]||LintCode|
 |173|[N-Queens](https://github.com/glc12125/Algo/blob/master/lintcode/N-Queens.cpp)|Medium|C++|[Permutation, DFS]||LintCode|
 |174|[Next Permutation](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Permutation.cpp)|Medium|C++|[Permutation]|Google|LintCode|
+|175|[Permutation Index](https://github.com/glc12125/Algo/blob/master/lintcode/Permutation%20Index.cpp)|Medium|C++|[Permutation]||LintCode|
