@@ -190,3 +190,4 @@
 |171|[Kth Smallest Sum In Two Sorted Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Sum%20In%20Two%20Sorted%20Arrays.cpp)|Hard|C++|[Priority Queue]||LintCode|
 |172|[String Permutation II](https://github.com/glc12125/Algo/blob/master/lintcode/String%20Permutation%20II.cpp)|Medium|C++|[Permutation, Recursion]||LintCode|
 |173|[N-Queens](https://github.com/glc12125/Algo/blob/master/lintcode/N-Queens.cpp)|Medium|C++|[Permutation, DFS]||LintCode|
+|174|[Next Permutation](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Permutation.cpp)|Medium|C++|[Permutation]|Google|LintCode|
