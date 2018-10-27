@@ -1,8 +1,9 @@
 class Solution {
 private:
-    void dfs(int n, std::vector<int>& indexResult, std::vector<vector<string> >& results) {
+    void dfs(int n, std::vector<int>& indexResult, int& results) {
         if(indexResult.size() == n) {
-            results.push_back(drawFromIndex(n, indexResult));
+            ++results;
+            return;
         }
 
         for(int i = 0; i < n; ++i) {
@@ -21,22 +22,13 @@ private:
         return true;
     }
 
-    std::vector<std::string> drawFromIndex(int n, const std::vector<int>& indexes) {
-        std::vector<std::string> painting;
-        for(auto index : indexes) {
-            std::string line(n, '.');
-            line[index] = 'Q';
-            painting.push_back(line);
-        }
-        return painting;
-    }
 public:
-    /*
-     * @param n: The number of queens
-     * @return: All distinct solutions
+    /**
+     * @param n: The number of queens.
+     * @return: The total number of distinct solutions.
      */
-    vector<vector<string>> solveNQueens(int n) {
-        std::vector<std::vector<std::string> > results;
+    int totalNQueens(int n) {
+        int results = 0;
         std::vector<int> indexResult;
         dfs(n, indexResult, results);
         return results;

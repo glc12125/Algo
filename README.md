@@ -193,3 +193,5 @@
 |174|[Next Permutation](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Permutation.cpp)|Medium|C++|[Permutation]|Google|LintCode|
 |175|[Permutation Index](https://github.com/glc12125/Algo/blob/master/lintcode/Permutation%20Index.cpp)|Medium|C++|[Permutation]||LintCode|
 |176|[Letter Combinations of a Phone Number](https://github.com/glc12125/Algo/blob/master/lintcode/Letter%20Combinations%20of%20a%20Phone%20Number.cpp)|Medium|C++|[DFS]|Uber, Facebook, Amazon, Dropbox, Google|LintCode|
+|177|[N-Queens II](https://github.com/glc12125/Algo/blob/master/lintcode/N-Queens%20II.cpp)|Medium|C++|[DFS]|Zenefits|LintCode|
+|178|[Permutations](https://github.com/glc12125/Algo/blob/master/lintcode/Permutations.cpp)|Medium|C++|[DFS]|Microsoft, LinkedIn|LintCode|
