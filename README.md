@@ -196,3 +196,4 @@
 |177|[N-Queens II](https://github.com/glc12125/Algo/blob/master/lintcode/N-Queens%20II.cpp)|Medium|C++|[DFS]|Zenefits|LintCode|
 |178|[Permutations](https://github.com/glc12125/Algo/blob/master/lintcode/Permutations.cpp)|Medium|C++|[DFS]|Microsoft, LinkedIn|LintCode|
 |179|[Permutations II](https://github.com/glc12125/Algo/blob/master/lintcode/Permutations%20II.cpp)|Medium|C++|[DFS]|Microsoft, LinkedIn|LintCode|
+|180|[Word Pattern II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Pattern%20II.cpp)|Hard|C++|[DFS]|Uber, Dropbox|LintCode|
