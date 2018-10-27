@@ -195,3 +195,4 @@
 |176|[Letter Combinations of a Phone Number](https://github.com/glc12125/Algo/blob/master/lintcode/Letter%20Combinations%20of%20a%20Phone%20Number.cpp)|Medium|C++|[DFS]|Uber, Facebook, Amazon, Dropbox, Google|LintCode|
 |177|[N-Queens II](https://github.com/glc12125/Algo/blob/master/lintcode/N-Queens%20II.cpp)|Medium|C++|[DFS]|Zenefits|LintCode|
 |178|[Permutations](https://github.com/glc12125/Algo/blob/master/lintcode/Permutations.cpp)|Medium|C++|[DFS]|Microsoft, LinkedIn|LintCode|
+|179|[Permutations II](https://github.com/glc12125/Algo/blob/master/lintcode/Permutations%20II.cpp)|Medium|C++|[DFS]|Microsoft, LinkedIn|LintCode|
