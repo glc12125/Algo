@@ -209,3 +209,4 @@
 |189|[Top k Largest Numbers II](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20k%20Largest%20Numbers%20II.cpp)|Easy|C++|[Heap, Data Stream]||LintCode|
 |190|[Implement Stack](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20Stack.cpp)|Easy|C++|[Stack, Array]||LintCode|
 |191|[Hash Function](https://github.com/glc12125/Algo/blob/master/lintcode/Hash%20Function.cpp)|Easy|C++|[Hash Table]||LintCode|
+|192|[First Unique Number In Stream](https://github.com/glc12125/Algo/blob/master/lintcode/First%20Unique%20Number%20In%20Stream.cpp)|Medium|C++|[Hash Table, Data Stream]||LintCode|
