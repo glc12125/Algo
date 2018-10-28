@@ -207,3 +207,4 @@
 |188|[Merge K Sorted Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20K%20Sorted%20Lists.cpp)|Medium|C++|[Heap, Linked List, Priority Queue, Divide and Conquer]|Facebook, Google, Uber, Twitter, LinkedIn, Airbnb, Microsoft, Amazon, IXL|LintCode|
 |188|[Heapify](https://github.com/glc12125/Algo/blob/master/lintcode/Heapify.cpp)|Easy|C++|[Heap]||LintCode|
 |189|[Top k Largest Numbers II](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20k%20Largest%20Numbers%20II.cpp)|Easy|C++|[Heap, Data Stream]||LintCode|
+|190|[Implement Stack](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20Stack.cpp)|Easy|C++|[Stack, Array]||LintCode|
