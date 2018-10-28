@@ -201,3 +201,4 @@
 |182|[Implement Stack by Two Queues](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20Stack%20by%20Two%20Queues.cpp)|Easy|C++|[Queue, Stack]||LintCode|
 |183|[Insert Delete GetRandom O(1)](https://github.com/glc12125/Algo/blob/master/lintcode/Insert%20Delete%20GetRandom%20O(1).cpp)|Medium|C++|[Hash Table, Array]|Google, Twitter, Facebook, Amazon, Yelp, Uber, Pocket Gems|LintCode|
 |184|[K Closest Points](https://github.com/glc12125/Algo/blob/master/lintcode/K%20Closest%20Points.cpp)|Medium|C++|[Heap]|Amazon, LinkedIn|LintCode|
+|185|[Top k Largest Numbers](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20k%20Largest%20Numbers.cpp)|Medium|C++|[Heap]||LintCode|

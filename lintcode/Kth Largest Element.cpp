@@ -16,7 +16,7 @@ private:
                 --j;
             }
         }
-        
+
         if(n <= j) return select(n, nums, start, j);
         if(n >= i) return select(n, nums, i, end);
         return nums[n];
