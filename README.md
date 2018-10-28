@@ -205,3 +205,5 @@
 |186|[Implement Queue by Two Stacks](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20Queue%20by%20Two%20Stacks.cpp)|Medium|C++|[Queue, Stack]||LintCode|
 |187|[Ugly Number II](https://github.com/glc12125/Algo/blob/master/lintcode/Ugly%20Number%20II.cpp)|Medium|C++|[Heap]||LintCode|
 |188|[Merge K Sorted Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20K%20Sorted%20Lists.cpp)|Medium|C++|[Heap, Linked List, Priority Queue, Divide and Conquer]|Facebook, Google, Uber, Twitter, LinkedIn, Airbnb, Microsoft, Amazon, IXL|LintCode|
+|188|[Heapify](https://github.com/glc12125/Algo/blob/master/lintcode/Heapify.cpp)|Easy|C++|[Heap]||LintCode|
+|189|[Top k Largest Numbers II](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20k%20Largest%20Numbers%20II.cpp)|Easy|C++|[Heap, Data Stream]||LintCode|
