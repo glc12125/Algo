@@ -197,4 +197,5 @@
 |178|[Permutations](https://github.com/glc12125/Algo/blob/master/lintcode/Permutations.cpp)|Medium|C++|[DFS]|Microsoft, LinkedIn|LintCode|
 |179|[Permutations II](https://github.com/glc12125/Algo/blob/master/lintcode/Permutations%20II.cpp)|Medium|C++|[DFS]|Microsoft, LinkedIn|LintCode|
 |180|[Word Pattern II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Pattern%20II.cpp)|Hard|C++|[DFS]|Uber, Dropbox|LintCode|
-|180|[Word Ladder II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Ladder%20II.cpp)|Hard|C++|[DFS, BFS]|Yelp, Amazon|LintCode|
+|181|[Word Ladder II](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Ladder%20II.cpp)|Hard|C++|[DFS, BFS]|Yelp, Amazon|LintCode|
+|182|[Implement Stack by Two Queues](https://github.com/glc12125/Algo/blob/master/lintcode/Implement%20Stack%20by%20Two%20Queues.cpp)|Easy|C++|[Queue, Stack]||LintCode|
