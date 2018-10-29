@@ -212,3 +212,4 @@
 |192|[First Unique Number In Stream](https://github.com/glc12125/Algo/blob/master/lintcode/First%20Unique%20Number%20In%20Stream.cpp)|Medium|C++|[Hash Table, Data Stream]||LintCode|
 |193|[High Five](https://github.com/glc12125/Algo/blob/master/lintcode/High%20Five.cpp)|Medium|C++|[Heap]|Amazon|LintCode|
 |194|[Kth Largest Element II](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Largest%20Element%20II.cpp)|Medium|C++|[Heap, Quick Select]||LintCode|
+|195|[Flatten 2D Vector](https://github.com/glc12125/Algo/blob/master/lintcode/Flatten%202D%20Vector.cpp)|Medium|C++|[]|Twitter, Zenefits, Airbnb, Google|LintCode|
