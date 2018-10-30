@@ -219,3 +219,4 @@
 |199|[Longest Consecutive Sequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Consecutive%20Sequence.cpp)|Medium|C++|[Array]|Facebook, Google|LintCode|
 |200|[Segment Tree Build](https://github.com/glc12125/Algo/blob/master/lintcode/Segment%20Tree%20Build.cpp)|Medium|C++|[Array]|Segment Tree, Binary Tree|LintCode|
 |201|[Segment Tree Modify](https://github.com/glc12125/Algo/blob/master/lintcode/Segment%20Tree%20Modify.cpp)|Medium|C++|[Array]|Segment Tree, Binary Tree|LintCode|
+|201|[Segment Tree Query](https://github.com/glc12125/Algo/blob/master/lintcode/Segment%20Tree%Query.cpp)|Medium|C++|[Array]|Segment Tree, Binary Tree|LintCode|
