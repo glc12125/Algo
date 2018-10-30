@@ -13,6 +13,7 @@
  * }
  */
 
+// iterative
 class Solution {
 public:
     /**
@@ -44,5 +45,33 @@ public:
             curr->max = std::max(curr->left->max, curr->right->max);
             s.pop();
         }
+    }
+};
+
+//Recursive
+class Solution {
+public:
+    /**
+     * @param root: The root of segment tree.
+     * @param index: index.
+     * @param value: value
+     * @return: nothing
+     */
+    void modify(SegmentTreeNode * root, int index, int value) {
+        if(root == nullptr) return;
+        if(root->start == index && root->end == index) {
+            root->max = value;
+            return;
+        }
+
+        int mid = (root->start + root->end) / 2;
+        if(index <= mid && root->left != nullptr) {
+            modify(root->left, index, value);
+        }
+        if(index > mid && root->right != nullptr) {
+            modify(root->right, index, value);
+        }
+
+        root->max = std::max(root->left->max, root->right->max);
     }
 };
