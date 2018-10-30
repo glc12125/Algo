@@ -215,3 +215,4 @@
 |195|[Flatten 2D Vector](https://github.com/glc12125/Algo/blob/master/lintcode/Flatten%202D%20Vector.cpp)|Medium|C++|[]|Twitter, Zenefits, Airbnb, Google|LintCode|
 |196|[Load Balancer](https://github.com/glc12125/Algo/blob/master/lintcode/Load%20Balancer.cpp)|Medium|C++|[Hash Table, Array]|Google|LintCode|
 |197|[Merge K Sorted Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20K%20Sorted%20Arrays.cpp)|Medium|C++|[Heap, Priority Queue]||LintCode|
+|198|[Rehashing](https://github.com/glc12125/Algo/blob/master/lintcode/Rehashing.cpp)|Medium|C++|[Hash Table]||LintCode|
