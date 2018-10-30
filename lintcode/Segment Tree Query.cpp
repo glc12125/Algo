@@ -35,3 +35,27 @@ public:
 
     }
 };
+
+// Cleaner version
+class Solution {
+public:
+    /**
+     * @param root: The root of segment tree.
+     * @param start: start value.
+     * @param end: end value.
+     * @return: The maximum number in the interval [start, end]
+     */
+    int query(SegmentTreeNode * root, int start, int end) {
+        if(root->start >= start && root->end <= end) return root->max;
+
+        int mid = (root->start + root->end) / 2;
+        int result = INT_MIN;
+        if(start <= mid) {
+            result = std::max(result, query(root->left, start, end));
+        }
+        if(end >= mid + 1) {
+            result = std::max(result, query(root->right, start, end));
+        }
+        return result;
+    }
+};
