@@ -216,3 +216,4 @@
 |196|[Load Balancer](https://github.com/glc12125/Algo/blob/master/lintcode/Load%20Balancer.cpp)|Medium|C++|[Hash Table, Array]|Google|LintCode|
 |197|[Merge K Sorted Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20K%20Sorted%20Arrays.cpp)|Medium|C++|[Heap, Priority Queue]||LintCode|
 |198|[Rehashing](https://github.com/glc12125/Algo/blob/master/lintcode/Rehashing.cpp)|Medium|C++|[Hash Table]||LintCode|
+|199|[Longest Consecutive Sequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Consecutive%20Sequence.cpp)|Medium|C++|[Array]|Facebook, Google|LintCode|
