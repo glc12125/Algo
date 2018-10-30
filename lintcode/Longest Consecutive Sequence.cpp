@@ -5,8 +5,7 @@ public:
      * @return: An integer
      */
     int longestConsecutive(vector<int> &num) {
-        std::unordered_set<int> uniqueNums;
-        for(auto i : num) uniqueNums.insert(i);
+        std::unordered_set<int> uniqueNums(num.begin(), num.end());
 
         int longest = 1;
         for(auto i : num) {
