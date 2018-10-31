@@ -225,3 +225,4 @@
 |205|[Segment Tree Build II](https://github.com/glc12125/Algo/blob/master/lintcode/Segment%20Tree%20Build%20II.cpp)|Medium|C++|[Segment Tree, Binary Tree]||LintCode|
 |206|[Segment Tree Query II](https://github.com/glc12125/Algo/blob/master/lintcode/Segment%20Tree%20Query%20II.cpp)|Medium|C++|[Segment Tree, Binary Tree]||LintCode|
 |207|[Count of Smaller Number](https://github.com/glc12125/Algo/blob/master/lintcode/Count%20of%20Smaller%20Number.cpp)|Medium|C++|[Segment Tree, Binary Tree]||LintCode|
+|208|[Interval Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Interval%20Sum.cpp)|Medium|C++|[Segment Tree, Binary Search]||LintCode|
