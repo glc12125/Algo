@@ -1,3 +1,4 @@
+// Segment Tree, O(logmax + nlogn)
 class Solution {
 private:
     struct SegmentTreeNode {
@@ -86,7 +87,7 @@ public:
     }
 };
 
-// Sort and binary search
+// Sort and binary search, O((n+k)logn)
 class Solution {
 private:
     int bs(const std::vector<int>& A, int start, int end, int target) {
