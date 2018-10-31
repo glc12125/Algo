@@ -227,3 +227,4 @@
 |207|[Count of Smaller Number](https://github.com/glc12125/Algo/blob/master/lintcode/Count%20of%20Smaller%20Number.cpp)|Medium|C++|[Segment Tree, Binary Tree]||LintCode|
 |208|[Interval Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Interval%20Sum.cpp)|Medium|C++|[Segment Tree, Binary Search]||LintCode|
 |209|[Interval Minimum Number](https://github.com/glc12125/Algo/blob/master/lintcode/Interval%20Minimum%20Number.cpp)|Medium|C++|[Segment Tree, Binary Search]||LintCode|
+|210|[John's business](https://github.com/glc12125/Algo/blob/master/lintcode/John's%20business.cpp)|Medium|C++|[Segment Tree, Binary Search]||LintCode|
