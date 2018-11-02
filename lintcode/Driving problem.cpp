@@ -1,3 +1,4 @@
+//DFS time O(nlogn)
 class Solution {
 private:
     struct Obstacle {
@@ -55,5 +56,61 @@ public:
         
         std::sort(obstacles.begin(), obstacles.end(), ObstacleCompare());
         return dfs(obstacles, 0, W, 0, W) ? "yes" : "no";
+    }
+};
+
+
+// Union Find Time O(n^2logn)
+class Solution {
+private:
+    int m_fathers[1002] = {0};
+    
+    int find(int son) {
+        if(son == m_fathers[son]) return son;
+        m_fathers[son] = find(m_fathers[son]);
+        return m_fathers[son];
+    }
+    
+    void merge(int son1, int son2) {
+        int father1 = find(son1);
+        int father2 = find(son2);
+        if(father1 != father2) {
+            m_fathers[father2] = father1;
+        }
+    }
+    
+    double distance(double x1, double y1, double x2, double y2) {
+        double xDiff = x1 - x2;
+        double yDiff = y1 - y2;
+        return std::sqrt(xDiff * xDiff + yDiff * yDiff);
+    }
+    
+public:
+    /**
+     * @param L: the length
+     * @param W: the width
+     * @param p:  the obstacle coordinates
+     * @return: yes or no
+     */
+    string drivingProblem(int L, int W, vector<vector<double>> &p) {
+        int len = p.size();
+        
+        for(int i = 0; i < len + 2; ++i) {
+            m_fathers[i] = i;
+        }
+        
+        for(int i = 0; i < len; ++i) {
+            for(int j = i + 1; j < len; ++j) {
+                if(distance(p[i][0], p[i][1], p[j][0], p[j][1]) <= 6.0) merge(i, j);
+            }
+        }
+        
+        for(int i = 0; i < len; ++i) {
+            if(p[i][1] <= 5.0) merge(len, i);
+            if(W  - p[i][1] <= 5.0) merge(len + 1, i);
+        }
+    
+        if (find(len) == find(len + 1)) return "no";
+        return "yes";
     }
 };
