@@ -229,3 +229,4 @@
 |209|[Interval Minimum Number](https://github.com/glc12125/Algo/blob/master/lintcode/Interval%20Minimum%20Number.cpp)|Medium|C++|[Segment Tree, Binary Search]||LintCode|
 |210|[John's business](https://github.com/glc12125/Algo/blob/master/lintcode/John's%20business.cpp)|Medium|C++|[Segment Tree, Binary Search]||LintCode|
 |211|[Process Sequence](https://github.com/glc12125/Algo/blob/master/lintcode/Process%20Sequence.cpp)|Medium|C++|[Segment Tree, Hash Table]|Bloomberg|LintCode|
+|212|[Interesting String](https://github.com/glc12125/Algo/blob/master/lintcode/Interesting%20String.cpp)|Medium|C++|[Divide and Conquer, String]|Google|LintCode|
