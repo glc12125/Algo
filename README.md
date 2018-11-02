@@ -232,3 +232,4 @@
 |212|[Interesting String](https://github.com/glc12125/Algo/blob/master/lintcode/Interesting%20String.cpp)|Medium|C++|[Divide and Conquer, String]|Google|LintCode|
 |213|[Find the nearest store](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20nearest%20store.cpp)|Medium|C++|[Binary Search]|Google|LintCode|
 |214|[Word Segmentation](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Segmentation.cpp)|Medium|C++|[DFS, Divide and Conquer]|Google|LintCode|
+|215|[Driving problem](https://github.com/glc12125/Algo/blob/master/lintcode/Driving%20problem.cpp)|Medium|C++|[DFS, Matrix]|Google|LintCode|
