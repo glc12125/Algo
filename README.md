@@ -234,3 +234,4 @@
 |214|[Word Segmentation](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Segmentation.cpp)|Medium|C++|[DFS, Divide and Conquer]|Google|LintCode|
 |215|[Driving problem](https://github.com/glc12125/Algo/blob/master/lintcode/Driving%20problem.cpp)|Medium|C++|[DFS, Union Find]|Google|LintCode|
 |216|[Median of two Sorted Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Median%20of%20two%20Sorted%20Arrays.cpp)|Medium|C++|[Divide and Conquer, Heap, Sorted Array]|Google, Znefits, Uber, Microsoft, Apple, Yahoo, Adobe, Dropbox|LintCode|
+|217|[Paint House](https://github.com/glc12125/Algo/blob/master/lintcode/Paint%20House.cpp)|Medium|C++|[DP]|LinkedIn|LintCode|
