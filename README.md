@@ -236,3 +236,5 @@
 |216|[Median of two Sorted Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Median%20of%20two%20Sorted%20Arrays.cpp)|Medium|C++|[Divide and Conquer, Heap, Sorted Array]|Google, Znefits, Uber, Microsoft, Apple, Yahoo, Adobe, Dropbox|LintCode|
 |217|[Paint House](https://github.com/glc12125/Algo/blob/master/lintcode/Paint%20House.cpp)|Medium|C++|[DP]|LinkedIn|LintCode|
 |218|[Decode Ways](https://github.com/glc12125/Algo/blob/master/lintcode/Decode%20Ways.cpp)|Medium|C++|[DP]|Uber, Microsoft, Facebook|LintCode|
+|219|[Unique Paths II](https://github.com/glc12125/Algo/blob/master/lintcode/Unique%20Paths%20II.cpp)|Medium|C++|[DP]|Bloomberg|LintCode|
+|220|[Minimum Path Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Path%20Sum.cpp)|Medium|C++|[DP]||LintCode|

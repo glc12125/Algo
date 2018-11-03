@@ -1,4 +1,4 @@
-// Time complexity O(m*n), space O(m*n), iterative approach
+// Time complexity O(m*n), space O(m*n), iterative approach DP
 class Solution {
 
 public:
@@ -10,12 +10,12 @@ public:
         int rowSize = grid.size();
         if(rowSize == 0) return 0;
         int colSize = grid[0].size();
-        
+
         int up[rowSize][colSize] = {0};
         int left[rowSize][colSize] = {0};
         int right[rowSize][colSize] = {0};
         int down[rowSize][colSize] = {0};
-        
+
         for(int i = 0; i < rowSize; ++i) {
             for(int j = 0; j <colSize; ++j) {
                 if(grid[i][j] == 'W') {
@@ -27,7 +27,7 @@ public:
                 }
             }
         }
-        
+
         for(int i = rowSize - 1; i > -1; --i) {
             for(int j = colSize - 1; j > -1; --j) {
                 if(grid[i][j] == 'W') {
@@ -39,7 +39,7 @@ public:
                 }
             }
         }
-        
+
         int max = 0;
         for(int i = 0; i < rowSize; ++i) {
             for(int j = 0; j <colSize; ++j) {
@@ -49,7 +49,7 @@ public:
                 }
             }
         }
-        
+
         return max;
     }
 };
@@ -68,7 +68,7 @@ public:
         if(rowSize == 0) return 0;
         int colSize = grid[0].size();
         if(colSize == 0) return 0;
-        
+
         int cols[colSize] = {0};
         int rows = 0;
         int max = 0;
@@ -82,7 +82,7 @@ public:
                         ++k;
                     }
                 }
-                
+
                 if(i == 0 || grid[i-1][j] == 'W') {
                     cols[j] = 0;
                     int k = i;
@@ -91,13 +91,13 @@ public:
                         ++k;
                     }
                 }
-                
+
                 if(grid[i][j] == '0') {
                     max = std::max(max, rows + cols[j]);
                 }
             }
         }
-        
+
         return max;
     }
 };
