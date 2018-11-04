@@ -243,3 +243,4 @@
 |223|[Subarray Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Subarray%20Sum.cpp)|Easy|C++|[Hash Table, Sub Array, PrefixSum Array]||LintCode|
 |224|[Merge Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Sorted%20Array.cpp)|Easy|C++|[PrefixSum Array, Array]|Bloomberg, Microsoft, Facebook|LintCode|
 |225|[Maximum Subarray](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Subarray.cpp)|Easy|C++|[PrefixSum Array, Array]|Bloomberg, Microsoft, LinkedIn|LintCode|
+|226|[Maximum Submatrix](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Submatrix.cpp)|Medium|C++|[PrefixSum Array, Two Pointers]||LintCode|
