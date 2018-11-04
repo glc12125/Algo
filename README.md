@@ -246,3 +246,4 @@
 |226|[Maximum Submatrix](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Submatrix.cpp)|Medium|C++|[PrefixSum Array, Two Pointers]||LintCode|
 |227|[Median of K Sorted Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Median%20of%20K%20Sorted%20Arrays.cpp)|Medium|C++|[Priority Queue]||LintCode|
 |228|[Range Sum Query - Mutable](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Sum%20Query%20-%20Mutable.cpp)|Medium|C++|[Binary Indexed Tree, Segment Tree]|Facebook|LintCode|
+|229|[Sparse Matrix Multiplication](https://github.com/glc12125/Algo/blob/master/lintcode/Sparse%20Matrix%20Multiplication.cpp)|Medium|C++|[Hash Table]|Facebook, LinkedIn|LintCode|
