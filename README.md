@@ -244,3 +244,4 @@
 |224|[Merge Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Sorted%20Array.cpp)|Easy|C++|[PrefixSum Array, Array]|Bloomberg, Microsoft, Facebook|LintCode|
 |225|[Maximum Subarray](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Subarray.cpp)|Easy|C++|[PrefixSum Array, Array]|Bloomberg, Microsoft, LinkedIn|LintCode|
 |226|[Maximum Submatrix](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Submatrix.cpp)|Medium|C++|[PrefixSum Array, Two Pointers]||LintCode|
+|227|[Median of K Sorted Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Median%20of%20K%20Sorted%20Arrays.cpp)|Medium|C++|[Priority Queue]||LintCode|
