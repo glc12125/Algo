@@ -240,3 +240,5 @@
 |220|[Minimum Path Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Path%20Sum.cpp)|Medium|C++|[DP]||LintCode|
 |221|[Merge Two Sorted Interval Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Two%20Sorted%20Interval%20Lists.cpp)|Easy|C++|[Interval, Sorted Array]||LintCode|
 |222|[Intersection of Two Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Intersection%20of%20Two%20Arrays.cpp)|Easy|C++|[Two Pointers, Sorted, Hash Table, Binary Search]|Two Sigma|LintCode|
+|223|[Subarray Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Subarray%20Sum.cpp)|Easy|C++|[Hash Table, Sub Array]||LintCode|
+|224|[Merge Sorted Array](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Sorted%20Array.cpp)|Easy|C++|[Sorted Array, Array]|Bloomberg, Microsoft, Facebook|LintCode|
