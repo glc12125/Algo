@@ -255,3 +255,4 @@
 |235|[Intersection of Two Arrays II](https://github.com/glc12125/Algo/blob/master/lintcode/Intersection%20of%20Two%20Arrays%20II.cpp)|Medium|C++|[Hash Table, Binary Search, Two Pointers, Sort]||LintCode|
 |236|[Submatrix Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Submatrix%20Sum.cpp)|Medium|C++|[PrefixSum Array, Matrix]||LintCode|
 |237|[Subarray Sum Closest](https://github.com/glc12125/Algo/blob/master/lintcode/Subarray%20Sum%20Closest.cpp)|Medium|C++|[PrefixSum Array, Sort]||LintCode|
+|238|[Unique Paths](https://github.com/glc12125/Algo/blob/master/lintcode/Unique%20Paths.cpp)|Medium|C++|[DP]|Bloomberg|LintCode|
