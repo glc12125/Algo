@@ -252,3 +252,4 @@
 |232|[Merge Two Sorted Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Two%20Sorted%20Lists.cpp)|Easy|C++|[Linked List]|Microsoft, Apple, Amazon, LinkedIn|LintCode|
 |233|[Range Sum Query 2D - Mutable](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Sum%20Query%202D%20-%20Mutable.cpp)|Medium|C++|[Binary Indexed Tree]|Google|LintCode|
 |234|[Range Sum Query 2D - Immutable](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Sum%20Query%202D%20-%20Immutable.cpp)|Medium|C++|[PrefixSum Array, DP]||LintCode|
+|235|[Intersection of Two Arrays II](https://github.com/glc12125/Algo/blob/master/lintcode/Intersection%20of%20Two%20Arrays%20II.cpp)|Medium|C++|[Hash Table, Binary Search, Two Pointers, Sort]||LintCode|
