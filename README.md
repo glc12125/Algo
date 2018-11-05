@@ -249,3 +249,4 @@
 |229|[Sparse Matrix Multiplication](https://github.com/glc12125/Algo/blob/master/lintcode/Sparse%20Matrix%20Multiplication.cpp)|Medium|C++|[Hash Table]|Facebook, LinkedIn|LintCode|
 |230|[Merge K Sorted Interval Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20K%20Sorted%20Interval%20Lists.cpp)|Medium|C++|[Priority Queue, Heap, Divide and Conquer]|Airbnb|LintCode|
 |231|[Range Sum Query - Immutable](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Sum%20Query%20-%20Immutable.cpp)|Easy|C++|[PrefixSum Array, DP]|Palantir|LintCode|
+|232|[Merge Two Sorted Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Two%20Sorted%20Lists.cpp)|Easy|C++|[Linked List]|Microsoft, Apple, Amazon, LinkedIn|LintCode|
