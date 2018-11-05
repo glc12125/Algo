@@ -250,3 +250,4 @@
 |230|[Merge K Sorted Interval Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20K%20Sorted%20Interval%20Lists.cpp)|Medium|C++|[Priority Queue, Heap, Divide and Conquer]|Airbnb|LintCode|
 |231|[Range Sum Query - Immutable](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Sum%20Query%20-%20Immutable.cpp)|Easy|C++|[PrefixSum Array, DP]|Palantir|LintCode|
 |232|[Merge Two Sorted Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Two%20Sorted%20Lists.cpp)|Easy|C++|[Linked List]|Microsoft, Apple, Amazon, LinkedIn|LintCode|
+|233|[Range Sum Query 2D - Mutable](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Sum%20Query%202D%20-%20Mutable.cpp)|Medium|C++|[Binary Indexed Tree]|Google|LintCode|
