@@ -260,3 +260,4 @@
 |240|[Climbing Stairs](https://github.com/glc12125/Algo/blob/master/lintcode/Climbing%20Stairs.cpp)|Easy|C++|[DP]|Adobe, Apple|LintCode|
 |241|[Largest Divisible Subset](https://github.com/glc12125/Algo/blob/master/lintcode/Largest%20Divisible%20Subset.cpp)|Medium|C++|[DP]|Google|LintCode|
 |242|[Longest Increasing Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Increasing%20Subsequence.cpp)|Medium|C++|[DP, Binary Search]|Microsoft|LintCode|
+|243|[Perfect Squares](https://github.com/glc12125/Algo/blob/master/lintcode/Perfect%20Squares.cpp)|Medium|C++|[DP]|Google|LintCode|
