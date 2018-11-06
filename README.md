@@ -258,3 +258,5 @@
 |238|[Unique Paths](https://github.com/glc12125/Algo/blob/master/lintcode/Unique%20Paths.cpp)|Medium|C++|[DP]|Bloomberg|LintCode|
 |239|[Maximum Product Subarray](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Product%20Subarray.cpp)|Medium|C++|[DP]|LinkedIn|LintCode|
 |240|[Climbing Stairs](https://github.com/glc12125/Algo/blob/master/lintcode/Climbing%20Stairs.cpp)|Easy|C++|[DP]|Adobe, Apple|LintCode|
+|241|[Largest Divisible Subset](https://github.com/glc12125/Algo/blob/master/lintcode/Largest%20Divisible%20Subset.cpp)|Medium|C++|[DP]|Google|LintCode|
+|242|[Longest Increasing Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Increasing%20Subsequence.cpp)|Medium|C++|[DP, Binary Search]|Microsoft|LintCode|
