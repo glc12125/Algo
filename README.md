@@ -265,3 +265,4 @@
 |245|[Kth Largest in N Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Largest%20in%20N%20Arrays.cpp)|Easy|C++|[Heap]||LintCode|
 |246|[Minimum Window Substring](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Window%20Substring.cpp)|Medium|C++|[Hash Table]|Uber, Snapchat, LinkedIn, Facebook|LintCode|
 |247|[Word Search](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Search.cpp)|Medium|C++|[DFS]|Facebook, Microsoft, Bloomberg|LintCode|
+|248|[Trapping Rain Water](https://github.com/glc12125/Algo/blob/master/lintcode/Trapping%20Rain%20Water.cpp)|Medium|C++|[Two Pointers]|Apple, Amazon, Bloomberg, Google, Zenefits, Twitter, Airbnb|LintCode|
