@@ -268,3 +268,8 @@ Reason to lock, for example, 3306 not allowed at entering building? Because no o
      * For actively moving driver and user: we can store their location data dynamically by region. Once moved into/out of one regin, poll the information from one server into another server. Here, it's wise to use HashTable to store as <userID, everything about this user>. Calculation algorithm may also happen on this server, because both driver && passenger are on this server, defined by region. 
      * Now we've splitted data into servers by region. However, for same region, it might be too much work for one machine. We need to split data aross different machines for same region. Here, use another Hash lookup table to store <live tripID, server ID> to split data into even smaller sections to fit in different server. Now we can have more **regionServer**.
      * A improvement that can be done: for relative static information account,payment,rating, they are only used once or twice during a trip. It might be okay to store these information on a type of server that specifically handles account look up, let's call it **accountServer**. Again, there might be too much account info to store, we can build lookup tables to store <accountID, serverID>. Double again, do MapReduce to hash the keys so that we can split the look up table if the table is too big to store on one server.
+
+
+| Squence | Problem       | Level  | Language  | Tags | Company | Source |
+|:-------:|:--------------|:------:|:---------:|:----:|:-------:|:------:|
+|0|[Top K Frequent Words (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20K%20Frequent%20Words%20(Map%20Reduce).cpp)|Medium|C++|[Map Reduce, Big Data]||LintCode|
