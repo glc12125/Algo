@@ -262,3 +262,4 @@
 |242|[Longest Increasing Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Increasing%20Subsequence.cpp)|Medium|C++|[DP, Binary Search]|Microsoft|LintCode|
 |243|[Perfect Squares](https://github.com/glc12125/Algo/blob/master/lintcode/Perfect%20Squares.cpp)|Medium|C++|[DP]|Google|LintCode|
 |244|[Triangle](https://github.com/glc12125/Algo/blob/master/lintcode/Triangle.cpp)|Medium|C++|[DP]|Google|LintCode|
+|245|[Kth Largest in N Arrays](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Largest%20in%20N%20Arrays.cpp)|Easy|C++|[Heap]||LintCode|
