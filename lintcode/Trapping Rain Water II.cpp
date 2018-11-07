@@ -1,4 +1,4 @@
-// Time O(2Row + 2Col + Col * Row * log(Col + Row))
+// Time O(2Row + 2Col + Col * Row * log(Col + Row)) = O(Col*Row*log(Col+Row))
 class Solution {
 private:
     struct Cell{
