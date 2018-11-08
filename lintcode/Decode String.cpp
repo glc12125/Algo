@@ -48,3 +48,56 @@ public:
 
     }
 };
+
+// Non recursive using stack time O(n^2)
+class Solution {
+private:
+    bool isNumeric(char c) {
+        return '0' <= c && c <= '9';
+    }
+
+public:
+    /**
+     * @param s: an expression includes numbers, letters and brackets
+     * @return: a string
+     */
+    string expressionExpand(string &s) {
+        int len = s.size();
+        if(len == 0) return "";
+        stack<string> stack;
+        string result;
+        for(int k = 0; k < len; ++k) {
+            char c = s[k];
+            if(c != ']') {
+                stack.push(s.substr(k, 1));
+                continue;
+            }
+
+            string content;
+            while(!s.empty() && stack.top() != "[") {
+                content = stack.top() + content;
+                stack.pop();
+            }
+
+            stack.pop();
+
+            string digit;
+            while(!stack.empty() && isNumeric(stack.top()[0])) {
+                digit = stack.top() + digit;
+                stack.pop();
+            }
+            int repeat = stoi(digit);
+            string expand;
+            for(int i = 0; i < repeat; ++i) {
+                expand += content;
+            }
+            stack.push(expand);
+        }
+
+        while(!stack.empty()) {
+            result = stack.top() + result;
+            stack.pop();
+        }
+        return result;
+    }
+};
