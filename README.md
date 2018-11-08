@@ -270,3 +270,4 @@
 |250|[Find Median from Data Stream](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Median%20from%20Data%20Stream.cpp)|Hard|C++|[Heap]|Google|LintCode|
 |251|[Sliding Window Median](https://github.com/glc12125/Algo/blob/master/lintcode/Sliding%20Window%20Median.cpp)|Hard|C++|[Heap]|Google|LintCode|
 |252|[Decode String](https://github.com/glc12125/Algo/blob/master/lintcode/Decode%20String.cpp)|Medium|C++|[Divide and Conquer, Stack]|Google, Yelp, Yahoo, Coupang, Facebook|LintCode|
+|253|[Min Stack](https://github.com/glc12125/Algo/blob/master/lintcode/Min%20Stack.cpp)|Medium|C++|[Stack]|Google, Uber, Zenefits, Amazon, Bloomberg, Snapchat|LintCode|
