@@ -27,3 +27,29 @@ public:
         return l;
     }
 };
+
+// Time O(N)
+class Solution {
+public:
+    /**
+     * @param nums: an array containing n + 1 integers which is between 1 and n
+     * @return: the duplicate one
+     */
+    int findDuplicate(vector<int> &nums) {
+        int len = nums.size();
+
+        int slow = nums[0];
+        int fast = nums[nums[0]];
+        while(slow != fast) {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        }
+
+        fast = 0;
+        while(slow != fast) {
+            slow = nums[slow];
+            fast = nums[fast];
+        }
+        return fast;
+    }
+};
