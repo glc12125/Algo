@@ -276,3 +276,4 @@
 |256|[Max Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Tree.cpp)|Hard|C++|[Stack, Cartesian Tree]||LintCode|
 |257|[Sliding Window Maximum](https://github.com/glc12125/Algo/blob/master/lintcode/Sliding%20Window%20Maximum.cpp)|Hard|C++|[Two Pointers, Binary Tree, Deque]|Google, Zenefits, Amazon|LintCode|
 |258|[Meeting Rooms II](https://github.com/glc12125/Algo/blob/master/lintcode/Meeting%20Rooms%20II.cpp)|Medium|C++|[Sweep Line, Heap, Sort, Interval]|Google, Facebook, Snapchat|LintCode|
+|259|[Number of Airplanes in the Sky](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Airplanes%20in%20the%20Sky.cpp)|Medium|C++|[Sweep Line, Heap, Sort, Interval]|Amazon|LintCode|
