@@ -273,3 +273,4 @@
 |253|[Min Stack](https://github.com/glc12125/Algo/blob/master/lintcode/Min%20Stack.cpp)|Medium|C++|[Stack]|Google, Uber, Zenefits, Amazon, Bloomberg, Snapchat|LintCode|
 |254|[Maximal Rectangle](https://github.com/glc12125/Algo/blob/master/lintcode/Maximal%20Rectangle.cpp)|Hard|C++|[Stack]|Facebook|LintCode|
 |255|[Largest Rectangle in Histogram](https://github.com/glc12125/Algo/blob/master/lintcode/Largest%20Rectangle%20in%20Histogram.cpp)|Hard|C++|[Stack]||LintCode|
+|256|[Max Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Tree.cpp)|Hard|C++|[Stack, Cartesian Tree]||LintCode|
