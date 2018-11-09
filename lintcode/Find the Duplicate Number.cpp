@@ -1,3 +1,4 @@
+// Time O(NlogN)
 class Solution {
 private:
     int getSTE(const vector<int>& nums, int mid) {
