@@ -278,3 +278,4 @@
 |258|[Meeting Rooms II](https://github.com/glc12125/Algo/blob/master/lintcode/Meeting%20Rooms%20II.cpp)|Medium|C++|[Sweep Line, Heap, Sort, Interval]|Google, Facebook, Snapchat|LintCode|
 |259|[Number of Airplanes in the Sky](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Airplanes%20in%20the%20Sky.cpp)|Medium|C++|[Sweep Line, Heap, Sort, Interval]|Amazon|LintCode|
 |260|[Find the Duplicate Number](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20Duplicate%20Number.cpp)|Hard|C++|[Binary Search, Two Pointers]|Bloomberg|LintCode|
+|261|[The Skyline Problem](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Skyline%20Problem.cpp)|Super|C++|[Sweep Line, Heap]|Google, Facebook, Microsoft, Yelp, Twitter|LintCode|
