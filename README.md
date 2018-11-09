@@ -274,3 +274,4 @@
 |254|[Maximal Rectangle](https://github.com/glc12125/Algo/blob/master/lintcode/Maximal%20Rectangle.cpp)|Hard|C++|[Stack]|Facebook|LintCode|
 |255|[Largest Rectangle in Histogram](https://github.com/glc12125/Algo/blob/master/lintcode/Largest%20Rectangle%20in%20Histogram.cpp)|Hard|C++|[Stack]||LintCode|
 |256|[Max Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Tree.cpp)|Hard|C++|[Stack, Cartesian Tree]||LintCode|
+|257|[Sliding Window Maximum](https://github.com/glc12125/Algo/blob/master/lintcode/Sliding%20Window%20Maximum.cpp)|Hard|C++|[Two Pointers, Binary Tree]|Google, Zenefits, Amazon|LintCode|
