@@ -290,3 +290,4 @@
 |270|[Burst Balloons](https://github.com/glc12125/Algo/blob/master/lintcode/Burst%20Balloons.cpp)|Hard|C++|[DP, Memoisation Search]|Google, Snapchat|LintCode|
 |271|[Edit Distance](https://github.com/glc12125/Algo/blob/master/lintcode/Edit%20Distance.cpp)|Medium|C++|[DP]||LintCode|
 |272|[Longest Common Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Common%20Subsequence.cpp)|Medium|C++|[DP]||LintCode|
+|273|[Backpack](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack.cpp)|Medium|C++|[DP]||LintCode|
