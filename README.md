@@ -284,3 +284,4 @@
 |264|[Longest Continuous Increasing Subsequence II](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Continuous%20Increasing%20Subsequence%20II.cpp)|Hard|C++|[DP, Memoisation Search]||LintCode|
 |265|[House Robber](https://github.com/glc12125/Algo/blob/master/lintcode/House%20Robber.cpp)|Medium|C++|[DP]||LintCode|
 |266|[House Robber II](https://github.com/glc12125/Algo/blob/master/lintcode/House%20Robber%20II.cpp)|Medium|C++|[DP]|Microsoft|LintCode|
+|267|[Maximal Square II](https://github.com/glc12125/Algo/blob/master/lintcode/Maximal%20Square%20II.cpp)|Medium|C++|[DP]||LintCode|
