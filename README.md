@@ -293,3 +293,4 @@
 |273|[Backpack](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack.cpp)|Medium|C++|[DP]||LintCode|
 |274|[Backpack II](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack%20II.cpp)|Medium|C++|[DP]||LintCode|
 |275|[Scramble String](https://github.com/glc12125/Algo/blob/master/lintcode/Scramble%20String.cpp)|Hard|C++|[DP]||LintCode|
+|276|[K Edit Distance](https://github.com/glc12125/Algo/blob/master/lintcode/K%20Edit%20Distance.cpp)|Hard|C++|[DP, Trie]|Airbnb, Google|LintCode|
