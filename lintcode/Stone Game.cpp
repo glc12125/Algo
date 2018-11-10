@@ -9,7 +9,7 @@ private:
         else {
             dp[start][end] = INT_MAX;
             long long mergeCost = prefixSum[end+1] - prefixSum[start];
-            for(int k = start; k <= end; ++k) {
+            for(int k = start; k < end; ++k) {
                 dp[start][end] = std::min(dp[start][end], memoSearch(A, prefixSum, start, k, dp, visited) + memoSearch(A, prefixSum, k + 1, end, dp, visited));
             }
             dp[start][end] += mergeCost;
@@ -31,8 +31,8 @@ public:
             prefixSum[i] = prefixSum[i-1] + A[i-1];
         }
 
-        vector<vector<long long> > dp(len + 1, vector<long long>(len, 0));
-        vector<vector<bool> > visited(len + 1, vector<bool>(len, false));
+        vector<vector<long long> > dp(len, vector<long long>(len, 0));
+        vector<vector<bool> > visited(len, vector<bool>(len, false));
 
         return memoSearch(A, prefixSum, 0, len - 1, dp, visited);
     }
