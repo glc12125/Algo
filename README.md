@@ -283,3 +283,4 @@
 |263|[Coins in a Line](https://github.com/glc12125/Algo/blob/master/lintcode/Coins%20in%20a%20Line.cpp)|Medium|C++|[DP, Game Theory]||LintCode|
 |264|[Longest Continuous Increasing Subsequence II](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Continuous%20Increasing%20Subsequence%20II.cpp)|Hard|C++|[DP, Memoisation Search]||LintCode|
 |265|[House Robber](https://github.com/glc12125/Algo/blob/master/lintcode/House%20Robber.cpp)|Medium|C++|[DP]||LintCode|
+|266|[House Robber II](https://github.com/glc12125/Algo/blob/master/lintcode/House%20Robber%20II.cpp)|Medium|C++|[DP]|Microsoft|LintCode|
