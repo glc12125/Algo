@@ -281,3 +281,4 @@
 |261|[The Skyline Problem](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Skyline%20Problem.cpp)|Super|C++|[Sweep Line, Heap]|Google, Facebook, Microsoft, Yelp, Twitter|LintCode|
 |262|[Maximal Square](https://github.com/glc12125/Algo/blob/master/lintcode/Maximal%20Square.cpp)|Medium|C++|[DP]|Apple, Airbnb, Facebook|LintCode|
 |263|[Coins in a Line](https://github.com/glc12125/Algo/blob/master/lintcode/Coins%20in%20a%20Line.cpp)|Medium|C++|[DP, Game Theory]||LintCode|
+|264|[Longest Continuous Increasing Subsequence II](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Continuous%20Increasing%20Subsequence%20II.cpp)|Medium|C++|[DP, Memoisation Search]||LintCode|
