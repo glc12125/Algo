@@ -296,3 +296,4 @@
 |276|[K Edit Distance](https://github.com/glc12125/Algo/blob/master/lintcode/K%20Edit%20Distance.cpp)|Hard|C++|[DP, Trie]|Airbnb, Google|LintCode|
 |277|[Flatten Nested List Iterator](https://github.com/glc12125/Algo/blob/master/lintcode/Flatten%20Nested%20List%20Iterator.cpp)|Medium|C++|[Stack]|Snapchat, Google, Facebook, Twitter|LintCode|
 |278|[Least Subsequences](https://github.com/glc12125/Algo/blob/master/lintcode/Least%20Subsequences.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
+|279|[Strings That Satisfies The Condition](https://github.com/glc12125/Algo/blob/master/lintcode/Strings%20That%20Satisfies%20The%20Condition.cpp)|Easy|C++|[String]|Google|LintCode|
