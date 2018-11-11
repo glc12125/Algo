@@ -299,3 +299,4 @@
 |279|[Strings That Satisfies The Condition](https://github.com/glc12125/Algo/blob/master/lintcode/Strings%20That%20Satisfies%20The%20Condition.cpp)|Easy|C++|[String]|Google|LintCode|
 |280|[Secret Word](https://github.com/glc12125/Algo/blob/master/lintcode/Secret%20Word.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
 |281|[Pick Fruits](https://github.com/glc12125/Algo/blob/master/lintcode/Pick%20Fruits.cpp)|Medium|C++|[Hash Table, Two Pointers, DP]|Google|LintCode|
+|282|[Query String](https://github.com/glc12125/Algo/blob/master/lintcode/Query%20String.cpp)|Medium|C++|[String]|Google|LintCode|
