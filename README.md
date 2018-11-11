@@ -297,3 +297,5 @@
 |277|[Flatten Nested List Iterator](https://github.com/glc12125/Algo/blob/master/lintcode/Flatten%20Nested%20List%20Iterator.cpp)|Medium|C++|[Stack]|Snapchat, Google, Facebook, Twitter|LintCode|
 |278|[Least Subsequences](https://github.com/glc12125/Algo/blob/master/lintcode/Least%20Subsequences.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
 |279|[Strings That Satisfies The Condition](https://github.com/glc12125/Algo/blob/master/lintcode/Strings%20That%20Satisfies%20The%20Condition.cpp)|Easy|C++|[String]|Google|LintCode|
+|280|[Secret Word](https://github.com/glc12125/Algo/blob/master/lintcode/Secret%20Word.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
+|281|[Pick Fruits](https://github.com/glc12125/Algo/blob/master/lintcode/Pick%20Fruits.cpp)|Medium|C++|[Hash Table, Two Pointers, DP]|Google|LintCode|
