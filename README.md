@@ -300,3 +300,4 @@
 |280|[Secret Word](https://github.com/glc12125/Algo/blob/master/lintcode/Secret%20Word.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
 |281|[Pick Fruits](https://github.com/glc12125/Algo/blob/master/lintcode/Pick%20Fruits.cpp)|Medium|C++|[Hash Table, Two Pointers, DP]|Google|LintCode|
 |282|[Query String](https://github.com/glc12125/Algo/blob/master/lintcode/Query%20String.cpp)|Medium|C++|[String]|Google|LintCode|
+|283|[Counting Bits](https://github.com/glc12125/Algo/blob/master/lintcode/Counting%20Bits.cpp)|Medium|C++|[DP, Bit Manipulation]||LintCode|
