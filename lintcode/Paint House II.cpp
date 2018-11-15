@@ -13,24 +13,24 @@ public:
         vector<vector<int>> dp(2, vector<int>(colorNum, 0));
 
         for(int i = 1; i <= houseNum; ++i) {
-            int minVal = dp[(i-1)%2][0];
-            int minIndex = 0;
-            int secondMinVal = dp[(i-1)%2][0];
-            int secondMinIndex = 0;
+            int minIndex = -1;
+            int secondMinIndex = -1;
+
             for(int j = 0; j < colorNum; ++j) {
-                if(dp[(i-1)%2][j] < minVal) {
-                    secondMinVal = minVal;
+                if(minIndex == -1 || dp[(i-1)%2][j] < dp[(i-1)%2][minIndex]) {
                     secondMinIndex = minIndex;
-                    minVal = dp[(i-1)%2][j];
                     minIndex = j;
+                } else {
+                    if(secondMinIndex == -1 || dp[(i-1)%2][j] < dp[(i-1)%2][secondMinIndex])
+                    secondMinIndex = j;
                 }
             }
 
             for(int j = 0; j < colorNum; ++j) {
                 if(j != minIndex) {
-                    dp[i%2][j] = minVal + costs[i-1][j];
+                    dp[i%2][j] = dp[(i-1)%2][minIndex] + costs[i-1][j];
                 } else {
-                    dp[i%2][j] = secondMinVal + costs[i-1][j];
+                    dp[i%2][j] = dp[(i-1)%2][secondMinIndex] + costs[i-1][j];
                 }
             }/*
             for(int j = 0; j < colorNum; ++j) {
