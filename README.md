@@ -307,3 +307,4 @@
 |287|[Russian Doll Envelopes](https://github.com/glc12125/Algo/blob/master/lintcode/Russian%20Doll%20Envelopes.cpp)|Hard|C++|[DP, Binary Search]|Facebook, Google|LintCode|
 |288|[Backpack V](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack%20V.cpp)|Medium|C++|[DP]||LintCode|
 |289|[Combination Sum IV](https://github.com/glc12125/Algo/blob/master/lintcode/Combination%20Sum%20IV.cpp)|Medium|C++|[DP]|Snapchat, Facebook, Google|LintCode|
+|290|[Backpack III](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack%20III.cpp)|Hard|C++|[DP]||LintCode|
