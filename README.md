@@ -305,3 +305,4 @@
 |285|[Best Time to Buy and Sell Stock III](https://github.com/glc12125/Algo/blob/master/lintcode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.cpp)|Medium|C++|[DP]||LintCode|
 |286|[Best Time to Buy and Sell Stock IV](https://github.com/glc12125/Algo/blob/master/lintcode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.cpp)|Hard|C++|[DP]||LintCode|
 |287|[Russian Doll Envelopes](https://github.com/glc12125/Algo/blob/master/lintcode/Russian%20Doll%20Envelopes.cpp)|Hard|C++|[DP, Binary Search]|Facebook, Google|LintCode|
+|288|[Backpack V](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack%20V.cpp)|Medium|C++|[DP]||LintCode|
