@@ -33,3 +33,31 @@ public:
         return firstTotal(values, dp, visited, 0, len - 1) > sum / 2;
     }
 };
+
+// Time O(N^2), space O(N^2)
+class Solution {
+public:
+    /**
+     * @param values: a vector of integers
+     * @return: a boolean which equals to true if the first player will win
+     */
+    bool firstWillWin(vector<int> &values) {
+        int len = values.size();
+        if(len == 0) return false;
+
+        vector<vector<int>> dp(len, vector<int>(len));
+
+        for(int i = 0; i < len; ++i) {
+            dp[i][i] = values[i];
+        }
+
+        for(int l = 2; l <= len; ++l) {
+            for(int i = 0; i <= len - l; ++i) {
+                int j = i + l - 1;
+                dp[i][j] = std::max(values[i] - dp[i+1][j], values[j] - dp[i][j-1]);
+            }
+        }
+
+        return dp[0][len-1] > 0;
+    }
+};
