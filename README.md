@@ -304,3 +304,4 @@
 |284|[Paint House II](https://github.com/glc12125/Algo/blob/master/lintcode/Paint%20House%20II.cpp)|Hard|C++|[DP]|Facebook|LintCode|
 |285|[Best Time to Buy and Sell Stock III](https://github.com/glc12125/Algo/blob/master/lintcode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.cpp)|Medium|C++|[DP]||LintCode|
 |286|[Best Time to Buy and Sell Stock IV](https://github.com/glc12125/Algo/blob/master/lintcode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.cpp)|Hard|C++|[DP]||LintCode|
+|287|[Russian Doll Envelopes](https://github.com/glc12125/Algo/blob/master/lintcode/Russian%20Doll%20Envelopes.cpp)|Hard|C++|[DP, Binary Search]|Facebook, Google|LintCode|
