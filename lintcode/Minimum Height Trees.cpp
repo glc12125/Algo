@@ -19,6 +19,9 @@ public:
             if(adj[i].size() == 1) q.push(i);
         }
 
+        // because we start from all leaves, depending on whether ther is odd or even nodes on path
+        // there will be 2(even) or 1(odd) nodes left in the queue for the last step and they will
+        // be the roots as the MHT
         while (n > 2) {
             int size = q.size();
             n -= size;
@@ -26,9 +29,10 @@ public:
                 auto node = q.front();
                 q.pop();
                 const auto& neighbours = adj[node];
-                auto firstNeighbour = *(neighbours.begin());
-                adj[firstNeighbour].erase(node);
-                if(adj[firstNeighbour].size() == 1) q.push(firstNeighbour);
+                for(auto neighbour : neighbours) {
+                    adj[neighbour].erase(node);
+                    if(adj[neighbour].size() == 1) q.push(neighbour);
+                }
             }
         }
 
