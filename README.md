@@ -309,3 +309,4 @@
 |289|[Combination Sum IV](https://github.com/glc12125/Algo/blob/master/lintcode/Combination%20Sum%20IV.cpp)|Medium|C++|[DP]|Snapchat, Facebook, Google|LintCode|
 |290|[Backpack III](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack%20III.cpp)|Hard|C++|[DP]||LintCode|
 |291|[Backpack IV](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack%20IV.cpp)|Medium|C++|[DP]||LintCode|
+|292|[Ones and Zeroes](https://github.com/glc12125/Algo/blob/master/lintcode/Ones%20and%20Zeroes.cpp)|Medium|C++|[DP]|Google|LintCode|
