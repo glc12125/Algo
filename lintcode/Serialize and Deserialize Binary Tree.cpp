@@ -16,10 +16,10 @@ class Solution {
 private:
     void serializeHelper(TreeNode * node, std::string& result) {
         if(node == nullptr) {
-            result += "#,";
+            result += "null,";
             return;
         }
-        result += node->val;
+        result += std::to_string(node->val) + ',';
         serializeHelper(node->left, result);
         serializeHelper(node->right, result);
     }
@@ -44,9 +44,9 @@ public:
      */
     string serialize(TreeNode * root) {
         std::string result("{");
-        //serializeHelper(root, result);
+        serializeHelper(root, result);
 
-        std::queue<TreeNode* > q;
+        /*std::queue<TreeNode* > q;
         q.push(root);
 
         while(!q.empty()) {
@@ -59,9 +59,10 @@ public:
             } else {
                 result += "null,";
             }
-        }
+        }*/
 
         result[result.size() - 1] = '}';
+        std::cout << "result: " << result << "\n";
         return result;
     }
 
