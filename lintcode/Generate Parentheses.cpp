@@ -24,3 +24,42 @@ public:
         return result;
     }
 };
+
+// Iterative
+class Solution {
+private:
+    struct Element{
+        int m_left;
+        int m_right;
+        string m_curr;
+        Element() = default;
+        Element(int l, int r, const string& curr) : m_left(l), m_right(r), m_curr(curr) {}
+    };
+public:
+    /**
+     * @param n: n pairs
+     * @return: All combinations of well-formed parentheses
+     */
+    vector<string> generateParenthesis(int n) {
+        vector<string> result;
+        queue<Element> q;
+        q.push(Element(0, 0, ""));
+
+        while(!q.empty()) {
+            auto curr = q.front();
+            q.pop();
+            if(curr.m_left == n && curr.m_right == n) {
+                result.push_back(curr.m_curr);
+            } else {
+                if(curr.m_left < n) {
+                    q.push(Element(curr.m_left + 1, curr.m_right, curr.m_curr + "("));
+                }
+                if(curr.m_left > curr.m_right) {
+                    q.push(Element(curr.m_left, curr.m_right + 1, curr.m_curr + ")"));
+                }
+            }
+        }
+
+        return result;
+    }
+};
