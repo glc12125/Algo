@@ -1,3 +1,32 @@
+//Sweep line
+class MyCalendar {
+private:
+
+    map<int, int> m_bookings;
+public:
+    MyCalendar() {
+
+    }
+
+    bool book(int start, int end) {
+       int cnt = 0;
+       m_bookings[start]++;
+       m_bookings[end]--;
+       for (auto it = m_bookings.begin(),
+            endIt = m_bookings.end(); it != endIt; ++it) {
+            cnt += it->second;
+            if (cnt > 1) {
+                m_bookings[start]--;
+                m_bookings[end]++;
+                return false;
+            }
+
+       }
+       return true;
+    }
+};
+
+
 class MyCalendar {
 private:
 

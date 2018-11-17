@@ -1,11 +1,11 @@
 class MyCalendarTwo {
 private:
-    
+
     struct Booking {
         int start, end;
         Booking(int s, int e) : start(s), end(e) {}
     };
-    
+
     struct BookingCompare {
       bool operator() (const Booking& lhs, const Booking& rhs) const
       {
@@ -15,18 +15,18 @@ private:
 
     std::set<Booking, BookingCompare> m_overBooked;
     std::set<Booking, BookingCompare> m_booked;
-    
+
 
 public:
     MyCalendarTwo() {
     }
-    
+
     bool book(int start, int end) {
         for(auto& booking : m_overBooked) {
             if(booking.start >= end || booking.end <= start) continue;
             else return false;
         }
-        
+
         for(auto& booking : m_booked) {
             if(booking.start >= end || booking.end <= start) continue;
             else m_overBooked.insert(Booking(std::max(start, booking.start), std::min(end, booking.end)));
@@ -46,11 +46,11 @@ public:
 // Save half memory, time is still O(nlogn), make use the order of the calendar sequence:
 // Loop through the booking times in increasing order, increment the overlapping counter if
 // a start time is encountered, otherwise decrement the counter. Whenever the counter is greater
-// than 2 (the over booking threshold), mark as overbooked. 
+// than 2 (the over booking threshold), mark as overbooked.
 class MyCalendarTwo {
 public:
     MyCalendarTwo() {}
-    
+
     bool book(int start, int end) {
        int cnt = 0;
        m_books[start]++;
