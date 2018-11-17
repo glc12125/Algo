@@ -42,11 +42,11 @@ public:
      */
     vector<string> generateParenthesis(int n) {
         vector<string> result;
-        queue<Element> q;
+        stack<Element> q; // Actually, it does not matter if it is a stack or a queue, because order does not matter
         q.push(Element(0, 0, ""));
 
         while(!q.empty()) {
-            auto curr = q.front();
+            auto curr = q.top();
             q.pop();
             if(curr.m_left == n && curr.m_right == n) {
                 result.push_back(curr.m_curr);
