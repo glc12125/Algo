@@ -42,3 +42,45 @@ public:
         return mostProbably;
     }
 };
+
+// Time O(N^2)
+class Solution {
+public:
+    /**
+     * @param friends: people's friends
+     * @param user: the user's id
+     * @return: the person who most likely to know
+     */
+    int recommendFriends(vector<vector<int>> &friends, int user) {
+        unordered_set<int> userFriends;
+
+        for(auto friendId : friends[user]) {
+            userFriends.insert(friendId);
+        }
+        int len = friends.size();
+        int mx = -1;
+        int ans = -1;
+        for(int i = 0; i < len; i++) {
+            if(i == user || userFriends.count(i) > 0) {
+                continue;
+            }
+            int cnt = 0;
+            for(auto friendId : friends[i]) {
+                if(userFriends.count(friendId) > 0) {
+                    cnt++;
+                }
+            }
+            if(cnt == 0) {
+                continue;
+            }
+            if(cnt > mx) {
+                ans = i;
+                mx = cnt;
+            } else if(cnt == mx && ans > i) {
+                ans = i;
+            }
+        }
+
+        return ans;
+    }
+};
