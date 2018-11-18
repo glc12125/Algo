@@ -1,3 +1,72 @@
+// Time O(logN + K)
+class Solution {
+private:
+    int findFirstGTE(const vector<int> &A, int target) {
+        int l = 0;
+        int r = A.size() - 1;
+        while(l + 1 < r) {
+            int mid = l + (r - l) / 2;
+            if(A[mid] < target) l = mid;
+            else r = mid;
+        }
+
+        if(A[l] >= target) return l;
+        if(A[r] >= target) return r;
+
+        return A.size();
+    }
+public:
+    /**
+     * @param A: an integer array
+     * @param target: An integer
+     * @param k: An integer
+     * @return: an integer array
+     */
+    vector<int> kClosestNumbers(vector<int> &A, int target, int k) {
+
+        int len = A.size();
+        if(len == 0 || k == 0) return {};
+
+        int pos = findFirstGTE(A, target);
+        int lower = 0;
+        int higher = pos;
+        int loopCount = k;
+        vector<int> result;
+        if(pos == 0){
+            lower = -1;
+        } else if(pos == len) {
+            lower = len - 1;
+        } else {
+            if(A[pos] == target) {
+                result.push_back(target);
+                --loopCount;
+                lower = pos - 1;
+                higher = pos + 1;
+            } else {
+                lower = pos - 1;
+                higher = pos;
+            }
+        }
+
+        while(loopCount-- > 0) {
+            if(lower > -1 && higher < len) {
+                if(target - A[lower] <= A[higher] - target) {
+                    result.push_back(A[lower--]);
+                } else {
+                    result.push_back(A[higher++]);
+                }
+            } else {
+                if(lower < 0 && higher < len) {result.push_back(A[higher++]);}
+                else if(lower > -1 && higher >= len) {result.push_back(A[lower--]);}
+                else {break;}
+            }
+        }
+        return result;
+    }
+};
+
+
+// Time O(logN + K)
 class Solution {
 public:
     /**
