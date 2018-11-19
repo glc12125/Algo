@@ -312,3 +312,4 @@
 |292|[Ones and Zeroes](https://github.com/glc12125/Algo/blob/master/lintcode/Ones%20and%20Zeroes.cpp)|Medium|C++|[DP]|Google|LintCode|
 |293|[Distinct Subsequences](https://github.com/glc12125/Algo/blob/master/lintcode/Distinct%20Subsequences.cpp)|Medium|C++|[DP]||LintCode|
 |294|[Convex Polygon](https://github.com/glc12125/Algo/blob/master/lintcode/Convex%20Polygon.cpp)|Medium|C++|[Mathematics]|Google|LintCode|
+|295|[Surplus Value Backpack](https://github.com/glc12125/Algo/blob/master/lintcode/Surplus%20Value%20Backpack.cpp)|Hard|C++|[DP]|Netflix|LintCode|
