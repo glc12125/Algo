@@ -316,3 +316,4 @@
 |296|[Police Distance](https://github.com/glc12125/Algo/blob/master/lintcode/Police%20Distance.cpp)|Medium|C++|[BFS]|Google|LintCode|
 |297|[Directed Graph Loop](https://github.com/glc12125/Algo/blob/master/lintcode/Directed%20Graph%20Loop.cpp)|Medium|C++|[BFS]|Google|LintCode|
 |298|[Fraction to Recurring Decimal](https://github.com/glc12125/Algo/blob/master/lintcode/Fraction%20to%20Recurring%20Decimal.cpp)|Medium|C++|[Mathematics]|IXL, Google|LintCode|
+|299|[Summary Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Summary%20Ranges.cpp)|Medium|C++|[Two Pointers]|Google|LintCode|
