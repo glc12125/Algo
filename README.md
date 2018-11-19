@@ -319,3 +319,4 @@
 |299|[Summary Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Summary%20Ranges.cpp)|Medium|C++|[Two Pointers]|Google|LintCode|
 |300|[H-Index](https://github.com/glc12125/Algo/blob/master/lintcode/H-Index.cpp)|Medium|C++|[]|Google, Facebook, Bloomberg|LintCode|
 |301|[Maximum Product of Word Lengths](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Product%20of%20Word%20Lengths.cpp)|Medium|C++|[Bit Manipulation]|Google|LintCode|
+|302|[Count Numbers with Unique Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Count%20Numbers%20with%20Unique%20Digits.cpp)|Medium|C++|[DP, DFS, Mathematics]|Google|LintCode|
