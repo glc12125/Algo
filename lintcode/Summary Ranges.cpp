@@ -33,3 +33,34 @@ public:
         return result;
     }
 };
+
+// Without checking outside of the loop
+class Solution {
+public:
+    /**
+     * @param nums:  a sorted integer array without duplicates
+     * @return: the summary of its ranges
+     */
+    vector<string> summaryRanges(vector<int> &nums) {
+        int len = nums.size();
+        if(len == 0) return {};
+
+        int start = nums[0];
+        int end = nums[0];
+        vector<string> result;
+        for(int i = 1; i <= len; ++i) {
+            if(i == len || nums[i] != nums[i-1] + 1) {
+                if(start != end) {
+                    result.emplace_back(to_string(start) + "->" + to_string(end));
+                } else {
+                    result.emplace_back(to_string(start));
+                }
+                start = nums[i];
+                end = nums[i];
+            } else end = nums[i];
+        }
+
+
+        return result;
+    }
+};
