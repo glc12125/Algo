@@ -314,3 +314,4 @@
 |294|[Convex Polygon](https://github.com/glc12125/Algo/blob/master/lintcode/Convex%20Polygon.cpp)|Medium|C++|[Mathematics]|Google|LintCode|
 |295|[Surplus Value Backpack](https://github.com/glc12125/Algo/blob/master/lintcode/Surplus%20Value%20Backpack.cpp)|Hard|C++|[DP]|Netflix|LintCode|
 |296|[Police Distance](https://github.com/glc12125/Algo/blob/master/lintcode/Police%20Distance.cpp)|Medium|C++|[BFS]|Google|LintCode|
+|297|[Directed Graph Loop](https://github.com/glc12125/Algo/blob/master/lintcode/Directed%20Graph%20Loop.cpp)|Medium|C++|[BFS]|Google|LintCode|
