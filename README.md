@@ -324,3 +324,4 @@
 |304|[Integer Replacement](https://github.com/glc12125/Algo/blob/master/lintcode/Integer%20Replacement.cpp)|Medium|C++|[BFS, DFS, Bit Manipulation, Mathematics]|Baidu, Google|LintCode|
 |305|[Remove K Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20K%20Digits.cpp)|Medium|C++|[Stack]|Snapchat, Google|LintCode|
 |306|[Queue Reconstruction by Height](https://github.com/glc12125/Algo/blob/master/lintcode/Queue%20Reconstruction%20by%20Height.cpp)|Medium|C++|[]|Google|LintCode|
+|307|[Maximum XOR of Two Numbers in an Array](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array.cpp)|Medium|C++|[]|Google|LintCode|
