@@ -8,28 +8,15 @@ public:
         int len = nums.size();
         if(len == 0) return {};
         stack<int> s;
-        vector<int> result(len, INT_MIN);
-        for(int i = 0; i < len; ++i) {
-            int curr = nums[i];
+        vector<int> result(len, -1);
+        int doubleLen = len << 1;
+        for(int i = 0; i < doubleLen; ++i) {
+            int curr = nums[i%len];
             while(!s.empty() && curr > nums[s.top()]) {
                 result[s.top()] = curr;
                 s.pop();
             }
-            s.push(i);
-        }
-        if(!s.empty()) {
-            for(int i = 0; i < len; ++i) {
-                int curr = nums[i];
-                while(!s.empty() && curr > nums[s.top()]) {
-                    result[s.top()] = curr;
-                    s.pop();
-                }
-                if(result[i] == INT_MIN) s.push(i);
-            }
-        }
-        while(!s.empty()) {
-            result[s.top()] = -1;
-            s.pop();
+            if(i < len) s.push(i);
         }
         return result;
     }
