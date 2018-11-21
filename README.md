@@ -329,3 +329,4 @@
 |309|[Target Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Target%20Sum.cpp)|Medium|C++|[DFS, DP]|Google, Facebook|LintCode|
 |310|[Diagonal Traverse](https://github.com/glc12125/Algo/blob/master/lintcode/Diagonal%20Traverse.cpp)|Medium|C++|[BFS]|Google|LintCode|
 |311|[Next Greater Element II](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Greater%20Element%20II.cpp)|Medium|C++|[Stack]|Google|LintCode|
+|312|[Next Greater Element I](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Greater%20Element%20I.cpp)|Easy|C++|[Stack]||LintCode|
