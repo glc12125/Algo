@@ -327,3 +327,4 @@
 |307|[Maximum XOR of Two Numbers in an Array](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array.cpp)|Medium|C++|[]|Google|LintCode|
 |308|[Magical String](https://github.com/glc12125/Algo/blob/master/lintcode/Magical%20String.cpp)|Medium|C++|[]|Google|LintCode|
 |309|[Target Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Target%20Sum.cpp)|Medium|C++|[DFS, DP]|Google, Facebook|LintCode|
+|310|[Diagonal Traverse](https://github.com/glc12125/Algo/blob/master/lintcode/Diagonal%20Traverse.cpp)|Medium|C++|[BFS]|Google|LintCode|
