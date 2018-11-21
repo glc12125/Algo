@@ -322,4 +322,4 @@
 |302|[Count Numbers with Unique Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Count%20Numbers%20with%20Unique%20Digits.cpp)|Medium|C++|[DP, DFS, Mathematics]|Google|LintCode|
 |303|[UTF-8 Validation](https://github.com/glc12125/Algo/blob/master/lintcode/UTF-8%20Validation.cpp)|Medium|C++|[Bit Manipulation]|Google|LintCode|
 |304|[Integer Replacement](https://github.com/glc12125/Algo/blob/master/lintcode/Integer%20Replacement.cpp)|Medium|C++|[BFS, DFS, Bit Manipulation, Mathematics]|Baidu, Google|LintCode|
-|305|[Remove K Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20K%20Digits.cpp)|Medium|C++|[Stack]|Google|LintCode|
+|305|[Remove K Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20K%20Digits.cpp)|Medium|C++|[Stack]|Snapchat, Google|LintCode|
