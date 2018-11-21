@@ -328,3 +328,4 @@
 |308|[Magical String](https://github.com/glc12125/Algo/blob/master/lintcode/Magical%20String.cpp)|Medium|C++|[]|Google|LintCode|
 |309|[Target Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Target%20Sum.cpp)|Medium|C++|[DFS, DP]|Google, Facebook|LintCode|
 |310|[Diagonal Traverse](https://github.com/glc12125/Algo/blob/master/lintcode/Diagonal%20Traverse.cpp)|Medium|C++|[BFS]|Google|LintCode|
+|311|[Next Greater Element II](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Greater%20Element%20II.cpp)|Medium|C++|[Stack]|Google|LintCode|
