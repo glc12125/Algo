@@ -121,23 +121,23 @@ public:
      * @return: return a string
      */
     string addBoldTag(string &s, vector<string> &dict) {
-        int n=s.size();
-        int end=0; 
+        int n = s.size();
+        int end = 0;
         vector<bool> bold(n, false);
-        for(int i=0; i<n; ++i) {
-            for(const auto &w:dict) {
-                int len=w.size();
-                if(i+len-1<n&&s.substr(i, len)==w) {
-                    end=max(end, i+len);
+        for(int i = 0; i < n; ++i) {
+            for(const auto &w : dict) {
+                int len = w.size();
+                if(i + len - 1 < n && s.substr(i, len) == w) {
+                    end = max(end, i + len);
                 }
             }
-            bold[i]=i<end;
+            bold[i] = i < end;
         }
-        string res="";
-        for(int i=0; i<n; ++i) {
-            if(bold[i]&&(i==0||bold[i-1]==false)) res+="<b>";
-            res+=s[i];
-            if(bold[i]&&(i==n-1||bold[i+1]==false)) res+="</b>";
+        string res = "";
+        for(int i = 0; i < n; ++i) {
+            if(bold[i] && (i==0 || bold[i-1]==false)) res += "<b>";
+            res += s[i];
+            if(bold[i] && (i==n-1 || bold[i+1]==false)) res += "</b>";
         }
         return res;
     }
