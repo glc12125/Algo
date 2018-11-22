@@ -334,3 +334,5 @@
 |314|[Longest Word in Dictionary through Deleting](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Word%20in%20Dictionary%20through%20Deleting.cpp)|Medium|C++|[]|Google|LintCode|
 |315|[Delete Operation for Two Strings](https://github.com/glc12125/Algo/blob/master/lintcode/Delete%20Operation%20for%20Two%20Strings.cpp)|Medium|C++|[]|Google|LintCode|
 |316|[Add Bold Tag in String](https://github.com/glc12125/Algo/blob/master/lintcode/Add%20Bold%20Tag%20in%20String.cpp)|Medium|C++|[Trie]|Google|LintCode|
+|317|[Shopping Offers](https://github.com/glc12125/Algo/blob/master/lintcode/Shopping%20Offers.cpp)|Medium|C++|[DFS]|Google|LintCode|
+|318|[Word Break](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Break.cpp)|Medium|C++|[DFS, DP]|Google|LintCode|
