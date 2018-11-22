@@ -336,3 +336,4 @@
 |316|[Add Bold Tag in String](https://github.com/glc12125/Algo/blob/master/lintcode/Add%20Bold%20Tag%20in%20String.cpp)|Medium|C++|[Trie]|Google|LintCode|
 |317|[Shopping Offers](https://github.com/glc12125/Algo/blob/master/lintcode/Shopping%20Offers.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |318|[Word Break](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Break.cpp)|Medium|C++|[DFS, DP]|Google|LintCode|
+|319|[Spiral Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Spiral%20Matrix.cpp)|Medium|C++|[DFS, Matrix]|Google|LintCode|
