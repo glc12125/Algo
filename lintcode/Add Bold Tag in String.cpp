@@ -129,6 +129,7 @@ public:
                 int len = w.size();
                 if(i + len - 1 < n && s.substr(i, len) == w) {
                     end = max(end, i + len);
+                    break;
                 }
             }
             bold[i] = i < end;
