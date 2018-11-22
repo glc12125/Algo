@@ -331,3 +331,5 @@
 |311|[Next Greater Element II](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Greater%20Element%20II.cpp)|Medium|C++|[Stack]|Google|LintCode|
 |312|[Next Greater Element I](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Greater%20Element%20I.cpp)|Easy|C++|[Stack]||LintCode|
 |313|[Longest Uncommon Subsequence II](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Uncommon%20Subsequence%20II.cpp)|Medium|C++|[]|Google|LintCode|
+|314|[Longest Word in Dictionary through Deleting](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Word%20in%20Dictionary%20through%20Deleting.cpp)|Medium|C++|[]|Google|LintCode|
+|315|[Delete Operation for Two Strings](https://github.com/glc12125/Algo/blob/master/lintcode/Delete%20Operation%20for%20Two%20Strings.cpp)|Medium|C++|[]|Google|LintCode|
