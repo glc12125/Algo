@@ -339,3 +339,4 @@
 |319|[Spiral Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Spiral%20Matrix.cpp)|Medium|C++|[DFS, Matrix]|Google|LintCode|
 |319|[Wiggle Sort](https://github.com/glc12125/Algo/blob/master/lintcode/Wiggle%20Sort.cpp)|Medium|C++|[Sort]|Google|LintCode|
 |320|[Super Ugly Number](https://github.com/glc12125/Algo/blob/master/lintcode/Super%20Ugly%20Number.cpp)|Medium|C++|[Heap]|Google|LintCode|
+|321|[Reverse Pairs](https://github.com/glc12125/Algo/blob/master/lintcode/Reverse%20Pairs.cpp)|Medium|C++|[Sort, Binary Indexed Tree]|Google, NetEase|LintCode|
