@@ -341,6 +341,6 @@
 |320|[Super Ugly Number](https://github.com/glc12125/Algo/blob/master/lintcode/Super%20Ugly%20Number.cpp)|Medium|C++|[Heap]|Google|LintCode|
 |321|[Reverse Pairs](https://github.com/glc12125/Algo/blob/master/lintcode/Reverse%20Pairs.cpp)|Medium|C++|[Sort, Binary Indexed Tree]|Google, NetEase|LintCode|
 |322|[Zigzag Iterator](https://github.com/glc12125/Algo/blob/master/lintcode/Zigzag%20Iterator.cpp)|Medium|C++|[]|Google|LintCode|
-|323|[Binary Tree Longest Consecutive Sequence II](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Longest%20Consecutive%20Sequence%20II.cpp)|Medium|C++|[DFS]|Google|LintCode|
+|323|[Binary Tree Longest Consecutive Sequence II](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Longest%20Consecutive%20Sequence%20II.cpp)|Medium|C++|[Divide and Conquer]|Google|LintCode|
 |324|[Zigzag Iterator II](https://github.com/glc12125/Algo/blob/master/lintcode/Zigzag%20Iterator%20II.cpp)|Medium|C++|[]|Google|LintCode|
 |325|[Missing Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Missing%20Ranges.cpp)|Medium|C++|[]|Google|LintCode|
