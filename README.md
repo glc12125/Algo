@@ -337,3 +337,4 @@
 |317|[Shopping Offers](https://github.com/glc12125/Algo/blob/master/lintcode/Shopping%20Offers.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |318|[Word Break](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Break.cpp)|Medium|C++|[DFS, DP]|Google|LintCode|
 |319|[Spiral Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Spiral%20Matrix.cpp)|Medium|C++|[DFS, Matrix]|Google|LintCode|
+|319|[Wiggle Sort](https://github.com/glc12125/Algo/blob/master/lintcode/Wiggle%20Sort.cpp)|Medium|C++|[Sort]|Google|LintCode|
