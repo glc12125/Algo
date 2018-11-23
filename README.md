@@ -344,3 +344,4 @@
 |323|[Binary Tree Longest Consecutive Sequence II](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Longest%20Consecutive%20Sequence%20II.cpp)|Medium|C++|[Divide and Conquer]|Google|LintCode|
 |324|[Zigzag Iterator II](https://github.com/glc12125/Algo/blob/master/lintcode/Zigzag%20Iterator%20II.cpp)|Medium|C++|[]|Google|LintCode|
 |325|[Missing Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Missing%20Ranges.cpp)|Medium|C++|[]|Google|LintCode|
+|326|[Unique Word Abbreviation](https://github.com/glc12125/Algo/blob/master/lintcode/Unique%20Word%20Abbreviation.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
