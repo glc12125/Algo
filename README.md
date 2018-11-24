@@ -352,3 +352,4 @@
 |331|[Predict the Winner](https://github.com/glc12125/Algo/blob/master/lintcode/Predict%20the%20Winner.cpp)|Medium|C++|[DP]|Google|LintCode|
 |332|[Shortest Palindrome](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Palindrome.cpp)|Medium|C++|[String, Palindrome]|Google, Pocket Gems|LintCode|
 |333|[Can Convert](https://github.com/glc12125/Algo/blob/master/lintcode/Can%20Convert.cpp)|Easy|C++|[DP]|Google|LintCode|
+|334|[Split Array into Consecutive Subsequences](https://github.com/glc12125/Algo/blob/master/lintcode/Split%20Array%20into%20Consecutive%20Subsequences.cpp)|Medium|C++|[DP]|Google|LintCode|
