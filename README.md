@@ -346,3 +346,5 @@
 |325|[Missing Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Missing%20Ranges.cpp)|Medium|C++|[]|Google|LintCode|
 |326|[Unique Word Abbreviation](https://github.com/glc12125/Algo/blob/master/lintcode/Unique%20Word%20Abbreviation.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
 |327|[Binary Tree Vertical Order Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Vertical%20Order%20Traversal.cpp)|Medium|C++|[BFS, Hash Table]|Google|LintCode|
+|328|[Encode and Decode Strings](https://github.com/glc12125/Algo/blob/master/lintcode/Encode%20and%20Decode%20Strings.cpp)|Medium|C++|[]|Google|LintCode|
+|329|[Walls and Gates](https://github.com/glc12125/Algo/blob/master/lintcode/Walls%20and%20Gates.cpp)|Medium|C++|[BFS]|Google|LintCode|
