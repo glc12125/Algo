@@ -348,3 +348,4 @@
 |327|[Binary Tree Vertical Order Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Vertical%20Order%20Traversal.cpp)|Medium|C++|[BFS, Hash Table]|Google|LintCode|
 |328|[Encode and Decode Strings](https://github.com/glc12125/Algo/blob/master/lintcode/Encode%20and%20Decode%20Strings.cpp)|Medium|C++|[]|Google|LintCode|
 |329|[Walls and Gates](https://github.com/glc12125/Algo/blob/master/lintcode/Walls%20and%20Gates.cpp)|Medium|C++|[BFS]|Google, Facebook|LintCode|
+|330|[Guess Number Higher or Lower II](https://github.com/glc12125/Algo/blob/master/lintcode/Guess%20Number%20Higher%20or%20Lower%20II.cpp)|Medium|C++|[DP]|Google|LintCode|
