@@ -351,3 +351,4 @@
 |330|[Guess Number Higher or Lower II](https://github.com/glc12125/Algo/blob/master/lintcode/Guess%20Number%20Higher%20or%20Lower%20II.cpp)|Medium|C++|[DP]|Google|LintCode|
 |331|[Predict the Winner](https://github.com/glc12125/Algo/blob/master/lintcode/Predict%20the%20Winner.cpp)|Medium|C++|[DP]|Google|LintCode|
 |332|[Shortest Palindrome](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Palindrome.cpp)|Medium|C++|[String, Palindrome]|Google, Pocket Gems|LintCode|
+|333|[Can Convert](https://github.com/glc12125/Algo/blob/master/lintcode/Can%20Convert.cpp)|Easy|C++|[DP]|Google|LintCode|
