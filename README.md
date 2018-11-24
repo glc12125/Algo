@@ -345,3 +345,4 @@
 |324|[Zigzag Iterator II](https://github.com/glc12125/Algo/blob/master/lintcode/Zigzag%20Iterator%20II.cpp)|Medium|C++|[]|Google|LintCode|
 |325|[Missing Ranges](https://github.com/glc12125/Algo/blob/master/lintcode/Missing%20Ranges.cpp)|Medium|C++|[]|Google|LintCode|
 |326|[Unique Word Abbreviation](https://github.com/glc12125/Algo/blob/master/lintcode/Unique%20Word%20Abbreviation.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
+|327|[Binary Tree Vertical Order Traversal](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Vertical%20Order%20Traversal.cpp)|Medium|C++|[BFS, Hash Table]|Google|LintCode|
