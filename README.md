@@ -350,3 +350,4 @@
 |329|[Walls and Gates](https://github.com/glc12125/Algo/blob/master/lintcode/Walls%20and%20Gates.cpp)|Medium|C++|[BFS]|Google, Facebook|LintCode|
 |330|[Guess Number Higher or Lower II](https://github.com/glc12125/Algo/blob/master/lintcode/Guess%20Number%20Higher%20or%20Lower%20II.cpp)|Medium|C++|[DP]|Google|LintCode|
 |331|[Predict the Winner](https://github.com/glc12125/Algo/blob/master/lintcode/Predict%20the%20Winner.cpp)|Medium|C++|[DP]|Google|LintCode|
+|332|[Shortest Palindrome](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Palindrome.cpp)|Medium|C++|[String, Palindrome]|Google, Pocket Gems|LintCode|
