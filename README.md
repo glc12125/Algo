@@ -354,3 +354,5 @@
 |333|[Can Convert](https://github.com/glc12125/Algo/blob/master/lintcode/Can%20Convert.cpp)|Easy|C++|[DP]|Google|LintCode|
 |334|[Split Array into Consecutive Subsequences](https://github.com/glc12125/Algo/blob/master/lintcode/Split%20Array%20into%20Consecutive%20Subsequences.cpp)|Medium|C++|[DP]|Google|LintCode|
 |335|[Redundant Connection](https://github.com/glc12125/Algo/blob/master/lintcode/Redundant%20Connection.cpp)|Medium|C++|[Union Find]|Google|LintCode|
+|336|[Verify Preorder Serialization of a Binary Treen](https://github.com/glc12125/Algo/blob/master/lintcode/Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree.cpp)|Medium|C++|[Binary Tree]|Google|LintCode|
+|337|[Daily Temperatures](https://github.com/glc12125/Algo/blob/master/lintcode/Daily%20Temperatures.cpp)|Medium|C++|[Stack]|Google|LintCode|
