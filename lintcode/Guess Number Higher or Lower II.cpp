@@ -41,3 +41,29 @@ public:
         return dp[1][n];
     }
 };
+
+// Memoisation search
+class Solution {
+private:
+    int dfs(int start, int end, vector<vector<int>>& mem) {
+        if(start >= end) return 0;
+        if(mem[start][end] != INT_MAX) return mem[start][end];
+
+        int minCost = INT_MAX;
+        for(int i = start; i <= end; ++i) {
+            minCost = std::min(minCost, i + std::max(dfs(i+1, end, mem), dfs(start, i-1, mem)));
+        }
+        mem[start][end] = minCost;
+        return minCost;
+    }
+public:
+    /**
+     * @param n: An integer
+     * @return: how much money you need to have to guarantee a win
+     */
+    int getMoneyAmount(int n) {
+        vector<vector<int>> mem(n + 1, vector<int>(n + 1, INT_MAX));
+
+        return dfs(1, n, mem);
+    }
+};
