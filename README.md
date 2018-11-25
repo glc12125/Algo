@@ -123,7 +123,7 @@
 |103|[Course Schedule II](https://github.com/glc12125/Algo/blob/master/lintcode/Course%20Schedule%20II.cpp)|Medium|C++|[BFS, Topological Sort]|Zenefits, Amazon, Facebook|LintCode|
 |104|[Sequence Reconstruction](https://github.com/glc12125/Algo/blob/master/lintcode/Sequence%20Reconstruction.cpp)|Medium|C++|[BFS, Topological Sort]|Google, Airbnb|LintCode|
 |105|[Shortest Path in Undirected Graph](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Path%20in%20Undirected%20Graph.cpp)|Medium|C++|[BFS, Undirected Graph]||LintCode|
-|106|[Shortest Path in Undirected Graph](https://github.com/glc12125/Algo/blob/master/lintcode/Convert%20Binary%20Tree%20to%20Linked%20Lists%20by%20Depth.cpp)|Medium|C++|[BFS, Linked List, Binary Tree]||LintCode|
+|106|[Convert Binary Tree to Linked Lists by Depth](https://github.com/glc12125/Algo/blob/master/lintcode/Convert%20Binary%20Tree%20to%20Linked%20Lists%20by%20Depth.cpp)|Medium|C++|[BFS, Linked List, Binary Tree]||LintCode|
 |107|[Remove Substrings](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20Substrings.cpp)|Medium|C++|[BFS, String]|Amazon|LintCode|
 |108|[Search Graph Nodes](https://github.com/glc12125/Algo/blob/master/lintcode/Search%20Graph%20Nodes.cpp)|Medium|C++|[BFS]|Apple|LintCode|
 |109|[Zombie in Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Zombie%20in%20Matrix.cpp)|Medium|C++|[BFS]||LintCode|
@@ -359,3 +359,5 @@
 |338|[Shortest Completing Word](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Completing%20Word.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
 |339|[Pyramid Transition Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Pyramid%20Transition%20Matrix.cpp)|Medium|C++|[DFS]|Google, Airbnb|LintCode|
 |340|[Max Chunks To Make Sorted](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Chunks%20To%20Make%20Sorted.cpp)|Medium|C++|[Array]|Google|LintCode|
+|341|[Escape The Ghosts](https://github.com/glc12125/Algo/blob/master/lintcode/Escape%20The%20Ghosts.cpp)|Medium|C++|[]|Google|LintCode|
+|342|[Domino and Tromino Tiling](https://github.com/glc12125/Algo/blob/master/lintcode/Domino%20and%20Tromino%20Tiling.cpp)|Medium|C++|[DP]|Google|LintCode|
