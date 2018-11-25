@@ -358,3 +358,4 @@
 |337|[Daily Temperatures](https://github.com/glc12125/Algo/blob/master/lintcode/Daily%20Temperatures.cpp)|Medium|C++|[Stack]|Google|LintCode|
 |338|[Shortest Completing Word](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Completing%20Word.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
 |339|[Pyramid Transition Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Pyramid%20Transition%20Matrix.cpp)|Medium|C++|[DFS]|Google, Airbnb|LintCode|
+|340|[Max Chunks To Make Sorted](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Chunks%20To%20Make%20Sorted.cpp)|Medium|C++|[Array]|Google|LintCode|
