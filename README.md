@@ -361,3 +361,4 @@
 |340|[Max Chunks To Make Sorted](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Chunks%20To%20Make%20Sorted.cpp)|Medium|C++|[Array]|Google|LintCode|
 |341|[Escape The Ghosts](https://github.com/glc12125/Algo/blob/master/lintcode/Escape%20The%20Ghosts.cpp)|Medium|C++|[]|Google|LintCode|
 |342|[Domino and Tromino Tiling](https://github.com/glc12125/Algo/blob/master/lintcode/Domino%20and%20Tromino%20Tiling.cpp)|Medium|C++|[DP]|Google|LintCode|
+|343|[Number of Matching Subsequences](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Matching%20Subsequences.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
