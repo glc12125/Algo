@@ -69,3 +69,41 @@ public:
         return dfs(bottom, allowed, mem);
     }
 };
+
+// More effective memoisation search, which saves the tuple search result
+class Solution {
+private:
+    bool dfs(const string &pre, int start, string cur, unordered_map<string, unordered_set<char>> &mp) {
+        if(pre.size() == 1) return true;
+
+        if(start == pre.size()-1) {
+            // Dive to next line
+            return dfs(cur, 0, "", mp);
+        } else {
+            // Still on the same bottom
+            const auto& sub = pre.substr(start, 2);
+            if(mp.count(sub)) {
+                for(const auto &c : mp[sub]){
+                    if(dfs(pre, start + 1, cur + c, mp)) return true;
+                }
+            }
+        }
+        return false;
+    }
+public:
+    /**
+     * @param bottom: a string
+     * @param allowed: a list of strings
+     * @return: return a boolean
+     */
+    bool pyramidTransition(string &bottom, vector<string> &allowed) {
+        int len = bottom.size();
+        if(len < 2) return false;
+
+        unordered_map<string, unordered_set<char>> mp;
+        for(const auto &s:allowed) {
+            mp[s.substr(0,2)].insert(s.back());
+        }
+        return dfs(bottom, 0, "", mp);
+    }
+};
