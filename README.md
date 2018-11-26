@@ -363,3 +363,4 @@
 |342|[Domino and Tromino Tiling](https://github.com/glc12125/Algo/blob/master/lintcode/Domino%20and%20Tromino%20Tiling.cpp)|Medium|C++|[DP]|Google|LintCode|
 |343|[Number of Matching Subsequences](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Matching%20Subsequences.cpp)|Medium|C++|[Hash Table]|Google|LintCode|
 |344|[Best Time to Buy and Sell Stock with Cooldown](https://github.com/glc12125/Algo/blob/master/lintcode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.cpp)|Medium|C++|[DP]|Google|LintCode|
+|345|[Beautiful Arrangement II](https://github.com/glc12125/Algo/blob/master/lintcode/Beautiful%20Arrangement%20II.cpp)|Medium|C++|[Array]|Google|LintCode|
