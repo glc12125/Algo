@@ -365,3 +365,4 @@
 |344|[Best Time to Buy and Sell Stock with Cooldown](https://github.com/glc12125/Algo/blob/master/lintcode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.cpp)|Medium|C++|[DP]|Google|LintCode|
 |345|[Beautiful Arrangement II](https://github.com/glc12125/Algo/blob/master/lintcode/Beautiful%20Arrangement%20II.cpp)|Medium|C++|[Array]|Google|LintCode|
 |346|[01 Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/01%20Matrix.cpp)|Medium|C++|[BFS]|Google|LintCode|
+|347|[3Sum Smaller](https://github.com/glc12125/Algo/blob/master/lintcode/3Sum%20Smaller.cpp)|Medium|C++|[Two Pointers]|Google|LintCode|
