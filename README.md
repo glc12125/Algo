@@ -366,3 +366,4 @@
 |345|[Beautiful Arrangement II](https://github.com/glc12125/Algo/blob/master/lintcode/Beautiful%20Arrangement%20II.cpp)|Medium|C++|[Array]|Google|LintCode|
 |346|[01 Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/01%20Matrix.cpp)|Medium|C++|[BFS]|Google|LintCode|
 |347|[3Sum Smaller](https://github.com/glc12125/Algo/blob/master/lintcode/3Sum%20Smaller.cpp)|Medium|C++|[Two Pointers]|Google|LintCode|
+|348|[Flip Game II](https://github.com/glc12125/Algo/blob/master/lintcode/Flip%20Game%20II.cpp)|Medium|C++|[DFS]|Google|LintCode|
