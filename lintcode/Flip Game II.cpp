@@ -1,3 +1,4 @@
+// Time O(N^2)
 class Solution {
 private:
     bool dfs(string s, bool firstHand, unordered_map<string, bool>& mem) {

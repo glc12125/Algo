@@ -367,3 +367,4 @@
 |346|[01 Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/01%20Matrix.cpp)|Medium|C++|[BFS]|Google|LintCode|
 |347|[3Sum Smaller](https://github.com/glc12125/Algo/blob/master/lintcode/3Sum%20Smaller.cpp)|Medium|C++|[Two Pointers]|Google|LintCode|
 |348|[Flip Game II](https://github.com/glc12125/Algo/blob/master/lintcode/Flip%20Game%20II.cpp)|Medium|C++|[DFS]|Google|LintCode|
+|349|[Android Unlock Patterns](https://github.com/glc12125/Algo/blob/master/lintcode/Android%20Unlock%20Patterns.cpp)|Medium|C++|[DFS]|Google|LintCode|
