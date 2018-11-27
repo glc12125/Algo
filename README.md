@@ -369,3 +369,4 @@
 |348|[Flip Game II](https://github.com/glc12125/Algo/blob/master/lintcode/Flip%20Game%20II.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |349|[Android Unlock Patterns](https://github.com/glc12125/Algo/blob/master/lintcode/Android%20Unlock%20Patterns.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |350|[Line Reflection](https://github.com/glc12125/Algo/blob/master/lintcode/Line%20Reflection.cpp)|Medium|C++|[Hash Table, Mathematics]|Google|LintCode|
+|351|[Sort Transformed Array](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Transformed%20Array.cpp)|Medium|C++|[Two Pointers, Mathematics]|Google|LintCode|
