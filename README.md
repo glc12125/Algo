@@ -372,3 +372,5 @@
 |351|[Sort Transformed Array](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Transformed%20Array.cpp)|Medium|C++|[Two Pointers, Mathematics]|Google|LintCode|
 |352|[Range Addition](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Addition.cpp)|Medium|C++|[Sweep Line]|Google|LintCode|
 |353|[Sentence Screen Fitting](https://github.com/glc12125/Algo/blob/master/lintcode/Sentence%20Screen%20Fitting.cpp)|Medium|C++|[DP]|Google|LintCode|
+|354|[Find Permutation](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Permutation.cpp)|Medium|C++|[]|Google|LintCode|
+|355|[Max Consecutive Ones II](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Consecutive%20Ones%20II.cpp)|Medium|C++|[DP]|Google|LintCode|

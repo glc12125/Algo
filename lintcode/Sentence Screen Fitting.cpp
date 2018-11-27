@@ -35,3 +35,35 @@ public:
         return count;
     }
 };
+
+//
+class Solution {
+public:
+    /**
+     * @param sentence: a list of string
+     * @param rows: an integer
+     * @param cols: an integer
+     * @return: return an integer, denote times the given sentence can be fitted on the screen
+     */
+    int wordsTyping(vector<string> &sentence, int rows, int cols) {
+        string completeSentence;
+        for(const auto& s : sentence) {
+            completeSentence += s + ' ';
+        }
+
+        int start = 0;
+        int len = completeSentence.size();
+        for (int i = 0; i < rows; i++) {
+            start += cols;
+            if (completeSentence.at(start % len) == ' ') {
+                start++;
+            } else {
+                while (start > 0 && completeSentence.at((start-1) % len) != ' ') {
+                    --start;
+                }
+            }
+        }
+
+        return start / len;
+    }
+};
