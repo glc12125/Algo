@@ -370,3 +370,4 @@
 |349|[Android Unlock Patterns](https://github.com/glc12125/Algo/blob/master/lintcode/Android%20Unlock%20Patterns.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |350|[Line Reflection](https://github.com/glc12125/Algo/blob/master/lintcode/Line%20Reflection.cpp)|Medium|C++|[Hash Table, Mathematics]|Google|LintCode|
 |351|[Sort Transformed Array](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Transformed%20Array.cpp)|Medium|C++|[Two Pointers, Mathematics]|Google|LintCode|
+|352|[Range Addition](https://github.com/glc12125/Algo/blob/master/lintcode/Range%20Addition.cpp)|Medium|C++|[Sweep Line]|Google|LintCode|
