@@ -376,3 +376,4 @@
 |355|[Max Consecutive Ones II](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Consecutive%20Ones%20II.cpp)|Medium|C++|[DP]|Google|LintCode|
 |356|[Output Contest Matches](https://github.com/glc12125/Algo/blob/master/lintcode/Output%20Contest%20Matches.cpp)|Medium|C++|[]|Google|LintCode|
 |357|[Boundary of Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Boundary%20of%20Binary%20Tree.cpp)|Medium|C++|[Binary Tree]|Google|LintCode|
+|358|[Longest Line of Consecutive One in Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Line%20of%20Consecutive%20One%20in%20Matrix.cpp)|Medium|C++|[DP]|Google|LintCode|
