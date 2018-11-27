@@ -368,3 +368,4 @@
 |347|[3Sum Smaller](https://github.com/glc12125/Algo/blob/master/lintcode/3Sum%20Smaller.cpp)|Medium|C++|[Two Pointers]|Google|LintCode|
 |348|[Flip Game II](https://github.com/glc12125/Algo/blob/master/lintcode/Flip%20Game%20II.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |349|[Android Unlock Patterns](https://github.com/glc12125/Algo/blob/master/lintcode/Android%20Unlock%20Patterns.cpp)|Medium|C++|[DFS]|Google|LintCode|
+|350|[Line Reflection](https://github.com/glc12125/Algo/blob/master/lintcode/Line%20Reflection.cpp)|Medium|C++|[Hash Table, Mathematics]|Google|LintCode|
