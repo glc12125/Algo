@@ -374,3 +374,5 @@
 |353|[Sentence Screen Fitting](https://github.com/glc12125/Algo/blob/master/lintcode/Sentence%20Screen%20Fitting.cpp)|Medium|C++|[DP]|Google|LintCode|
 |354|[Find Permutation](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Permutation.cpp)|Medium|C++|[]|Google|LintCode|
 |355|[Max Consecutive Ones II](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Consecutive%20Ones%20II.cpp)|Medium|C++|[DP]|Google|LintCode|
+|356|[Output Contest Matches](https://github.com/glc12125/Algo/blob/master/lintcode/Output%20Contest%20Matches.cpp)|Medium|C++|[]|Google|LintCode|
+|357|[Boundary of Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Boundary%20of%20Binary%20Tree.cpp)|Medium|C++|[Binary Tree]|Google|LintCode|
