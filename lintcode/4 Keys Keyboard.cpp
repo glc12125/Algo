@@ -1,3 +1,4 @@
+// Time O(N^2), space O(N)
 class Solution {
 public:
     /**
