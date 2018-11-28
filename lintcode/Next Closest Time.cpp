@@ -45,9 +45,44 @@ public:
             }
         }
 
-        //下一个时间便是答案
+        //Next permutation
         index = (index + 1) % allTimes.size();
 
         return allTimes[index];
+    }
+};
+
+//Iterative approach, number system conversion.
+class Solution {
+public:
+    /**
+     * @param time: the given time
+     * @return: the next closest time
+     */
+    string nextClosestTime(string &time) {
+        int value = stoi(time.substr(0, 2)) * 60 + stoi(time.substr(3));
+
+        vector<int> v = {600, 60, 10, 1};
+        string res ="0000";
+
+        for (int i = 1; i <= 1440; i++){
+
+            int next = (value + i) % 1440;
+            int d;
+
+            for (d = 0; d < 4; d++){
+
+                res[d] = '0' + next / v[d];
+                next = next % v[d];
+
+                if (time.find(res[d]) == string::npos)
+                    break;
+            }
+
+            if (d == 4)
+                break;
+        }
+
+        return res.substr(0,2) +":" + res.substr(2);
     }
 };

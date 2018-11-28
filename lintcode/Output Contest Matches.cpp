@@ -5,7 +5,7 @@ public:
      * @return: a string
      */
     string findContestMatch(int n) {
-        vector<string> nums(n + 1);
+        vector<string> nums(n);
         for(int i = 1; i <= n; ++i) {
             nums[i-1] = to_string(i);
         }
