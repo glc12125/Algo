@@ -28,6 +28,31 @@ public:
 };
 
 
+//
+class Solution {
+private:
+    void helper(const string& word, int pos, vector<string> &res) {
+        int len = word.size();
+        for (int i = pos; i < len; ++i) {
+            for (int j = 1; i + j <= len; ++j) {
+                string t = word.substr(0, i);
+                t += to_string(j) + word.substr(i + j);
+                res.push_back(t);
+                helper(t, i + 1 + to_string(j).size(), res);
+            }
+        }
+    }
+
+public:
+    vector<string> generateAbbreviations(string &word) {
+        // Write your code here
+        vector<string> res{word};
+        helper(word, 0, res);
+        return res;
+    }
+};
+
+
 class Solution {
 private:
     struct Digit {
