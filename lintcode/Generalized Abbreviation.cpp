@@ -95,7 +95,7 @@ private:
 
     void dfs(string word, unordered_set<string>& visited) {
         if(visited.count(word)) return;
-        std::cout << "word: " << word << "\n";
+
         visited.insert(word);
         int len = word.size();
         if(isWordDigit(word)) return;
