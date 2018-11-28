@@ -382,3 +382,4 @@
 |361|[Single Number IV](https://github.com/glc12125/Algo/blob/master/lintcode/Single%20Number%20IV.cpp)|Medium|C++|[]|Google|LintCode|
 |362|[The Maze](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Maze.cpp)|Medium|C++|[BFS, DFS]|Google|LintCode|
 |363|[The Maze II](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Maze%20II.cpp)|Medium|C++|[BFS, DFS]|Google|LintCode|
+|364|[Expressive Words](https://github.com/glc12125/Algo/blob/master/lintcode/Expressive%20Words.cpp)|Medium|C++|[]|Google|LintCode|
