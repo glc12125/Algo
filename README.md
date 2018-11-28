@@ -380,3 +380,4 @@
 |359|[4 Keys Keyboard](https://github.com/glc12125/Algo/blob/master/lintcode/4%20Keys%20Keyboard.cpp)|Medium|C++|[DP]|Google|LintCode|
 |360|[Next Closest Time](https://github.com/glc12125/Algo/blob/master/lintcode/Next%20Closest%20Time.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |361|[Single Number IV](https://github.com/glc12125/Algo/blob/master/lintcode/Single%20Number%20IV.cpp)|Medium|C++|[]|Google|LintCode|
+|362|[The Maze](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Maze.cpp)|Medium|C++|[BFS]|Google|LintCode|
