@@ -1,3 +1,4 @@
+//BFS
 class Solution {
 private:
     struct Pos{
@@ -75,5 +76,98 @@ public:
         }
 
         return false;
+    }
+};
+
+//DFS
+class Solution {
+private:
+    struct Pos{
+        int m_x;
+        int m_y;
+        Pos() = default;
+        Pos(int x, int y) : m_x(x), m_y(y) {}
+    };
+
+    vector<Pos> getNextMoves(const vector<vector<int>>& maze, const Pos& curr) {
+        int rowSize = maze.size();
+        int colSize = maze[0].size();
+
+        int x = curr.m_x;
+        int y = curr.m_y;
+
+        vector<Pos> nextMoves;
+        if(x > 0) {
+            while(x > 0 && maze[x-1][y] == 0) {--x;}
+            nextMoves.emplace_back(Pos(x, y));
+        }
+        x = curr.m_x;
+        if(x < (rowSize - 1)) {
+            while(x < (rowSize - 1) && maze[x+1][y] == 0) {++x;}
+            nextMoves.emplace_back(Pos(x, y));
+        }
+
+        x = curr.m_x;
+        if(y > 0) {
+            while(y > 0 && maze[x][y-1] == 0) {--y;}
+            nextMoves.emplace_back(Pos(x, y));
+        }
+
+        y = curr.m_y;
+        if(y < (colSize-1)) {
+            while(y < (colSize - 1) && maze[x][y+1] == 0) {++y;}
+            nextMoves.emplace_back(Pos(x, y));
+        }
+
+        return nextMoves;
+    }
+
+    int getKey(int x, int y, int colSize) {
+        return x * colSize + y;
+    }
+
+    bool dfs(const vector<vector<int>>& maze, const Pos& curr, const vector<int>& destination, unordered_set<int>& visited){
+        if(curr.m_x == destination[0] && curr.m_y == destination[1]){
+            return true;
+        }
+        int rowSize = maze.size();
+        int colSize = maze[0].size();
+
+        int x = curr.m_x;
+        int y = curr.m_y;
+        int key = getKey(x, y, colSize);
+        if(!isValid(x, y, rowSize, colSize) || maze[x][y] == 1 || visited.count(key)){
+            return false;
+        }
+
+        visited.insert(key);
+        const auto& nextMoves = getNextMoves(maze, curr);
+        for(const auto& nextMove : nextMoves) {
+            if(dfs(maze, nextMove, destination, visited)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    bool isValid(int x, int y, int rowSize, int colSize){
+        return x >= 0 && x < rowSize && y >= 0 && y < colSize;
+    }
+
+public:
+    /**
+     * @param maze: the maze
+     * @param start: the start
+     * @param destination: the destination
+     * @return: whether the ball could stop at the destination
+     */
+    bool hasPath(vector<vector<int>> &maze, vector<int> &start, vector<int> &destination) {
+        int rowSize = maze.size();
+        if(rowSize == 0) return false;
+        int colSize = maze[0].size();
+        if(colSize == 0) return false;
+
+        unordered_set<int> visited;
+        return dfs(maze, Pos(start[0], start[1]), destination, visited);
     }
 };
