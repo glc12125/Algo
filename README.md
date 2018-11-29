@@ -424,4 +424,5 @@
 |403|[Detect Capital](https://github.com/glc12125/Algo/blob/master/lintcode/Detect%20Capital.cpp)|Easy|C++|[]|Google|LintCode|
 |404|[Longest Uncommon Subsequence I](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Uncommon%20Subsequence%20I.cpp)|Easy|C++|[]|Google|LintCode|
 |405|[Diameter of Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Diameter%20of%20Binary%20Tree.cpp)|Easy|C++|[DFS, Divide and Conquer]|Google|LintCode|
-|406|[Student Attendance Record I](https://github.com/glc12125/Algo/blob/master/lintcode/Student%20Attendance%20Record%20I.cpp)|Easy|C++|[]|Google|LintCode|
+|406|[Studeent Attendance Record I](https://github.com/glc12125/Algo/blob/master/lintcode/Student%20Attendance%20Record%20I.cpp)|Easy|C++|[]|Google|LintCode|
+|407|[Shortest Unsorted Continuous Subarray](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Unsorted%20Continuous%20Subarray.cpp)|Easy|C++|[]|Google|LintCode|
