@@ -402,3 +402,4 @@
 |381|[CheckWords](https://github.com/glc12125/Algo/blob/master/lintcode/CheckWords.cpp)|Medium|C++|[DFS]|Google|LintCode|
 |382|[Max Remove Order](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Remove%20Order.cpp)|Medium|C++|[Union Find]|Google|LintCode|
 |383|[Transition String](https://github.com/glc12125/Algo/blob/master/lintcode/Transition%20String.cpp)|Medium|C++|[]|Google|LintCode|
+|384|[The Game Of Take Numbers](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Game%20Of%20Take%20Numbers.cpp)|Medium|C++|[DP, DFS]|Google|LintCode|
