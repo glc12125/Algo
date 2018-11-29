@@ -391,3 +391,4 @@
 |370|[Tree Longest Path With Same Value](https://github.com/glc12125/Algo/blob/master/lintcode/Tree%20Longest%20Path%20With%20Same%20Value.cpp)|Medium|C++|[Divide and Conquer]|Google|LintCode|
 |371|[Binary Watch](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Watch.cpp)|Medium|C++|[]|Google|LintCode|
 |372|[Top K GPA](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20K%20GPA.cpp)|Medium|C++|[Two Pointers]|Google|LintCode|
+|373|[Flipped the Pixel](https://github.com/glc12125/Algo/blob/master/lintcode/Flipped%20the%20Pixel.cpp)|Medium|C++|[]|Google|LintCode|
