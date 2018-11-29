@@ -415,3 +415,4 @@
 |394|[Nth Digit](https://github.com/glc12125/Algo/blob/master/lintcode/Nth%20Digit.cpp)|Easy|C++|[]|Google|LintCode|
 |395|[Insert Interval](https://github.com/glc12125/Algo/blob/master/lintcode/Insert%20Interval.cpp)|Easy|C++|[Interval]|Google|LintCode|
 |396|[Number of Boomerangs](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Boomerangs.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
+|397|[Find All Numbers Disappeared in an Array](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp)|Easy|C++|[]|Google|LintCode|
