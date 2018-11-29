@@ -395,3 +395,4 @@
 |374|[LastTime Norepeat](https://github.com/glc12125/Algo/blob/master/lintcode/LastTime%20Norepeat.cpp)|Medium|C++|[]|Google|LintCode|
 |375|[Last Closest Time](https://github.com/glc12125/Algo/blob/master/lintcode/Last%20Closest%20Time.cpp)|Medium|C++|[]|Google|LintCode|
 |376|[01 Matrix Walking Problem](https://github.com/glc12125/Algo/blob/master/lintcode/01%20Matrix%20Walking%20Problem.cpp)|Medium|C++|[BFS]|Google|LintCode|
+|377|[Candy II](https://github.com/glc12125/Algo/blob/master/lintcode/Candy%20II.cpp)|Medium|C++|[]|Google|LintCode|
