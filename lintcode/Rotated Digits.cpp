@@ -21,7 +21,7 @@ public:
             }
             if(count > 0) ++result;
         }
-        
+
         return result;
     }
 };
@@ -59,7 +59,7 @@ public:
         for(int i = 1; i < N+1; ++i) {
             if(checkNum(i)) ++result;
         }
-        
+
         return result;
     }
 };
