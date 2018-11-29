@@ -410,3 +410,4 @@
 |389|[Same Number](https://github.com/glc12125/Algo/blob/master/lintcode/Same%20Number.cpp)|Easy|C++|[]|Google|LintCode|
 |390|[Power of Two](https://github.com/glc12125/Algo/blob/master/lintcode/Power%20of%20Two.cpp)|Easy|C++|[]|Google|LintCode|
 |391|[Power of Three](https://github.com/glc12125/Algo/blob/master/lintcode/Power%20of%20Three.cpp)|Easy|C++|[]|Google|LintCode|
+|392|[Reverse Vowels of a String](https://github.com/glc12125/Algo/blob/master/lintcode/Reverse%20Vowels%20of%20a%20String.cpp)|Easy|C++|[]|Google|LintCode|
