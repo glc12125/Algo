@@ -414,3 +414,4 @@
 |393|[Find the Difference](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20Difference.cpp)|Easy|C++|[]|Google|LintCode|
 |394|[Nth Digit](https://github.com/glc12125/Algo/blob/master/lintcode/Nth%20Digit.cpp)|Easy|C++|[]|Google|LintCode|
 |395|[Insert Interval](https://github.com/glc12125/Algo/blob/master/lintcode/Insert%20Interval.cpp)|Easy|C++|[Interval]|Google|LintCode|
+|396|[Number of Boomerangs](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Boomerangs.cpp)|Easy|C++|[Hash Table]|Google|LintCode|
