@@ -405,7 +405,7 @@
 |384|[The Game Of Take Numbers](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Game%20Of%20Take%20Numbers.cpp)|Medium|C++|[DP, DFS]|Google|LintCode|
 |385|[Paint Fence](https://github.com/glc12125/Algo/blob/master/lintcode/Paint%20Fence.cpp)|Easy|C++|[DP]|Google|LintCode|
 |386|[Twitch Words](https://github.com/glc12125/Algo/blob/master/lintcode/Twitch%20Words.cpp)|Easy|C++|[]|Google|LintCode|
-|387|[Merge Intervals](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Intervals.cpp)|Easy|C++|[]|Google|LintCode|
+|387|[Merge Intervals](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Intervals.cpp)|Easy|C++|[Interval]|Google|LintCode|
 |388|[Plus One](https://github.com/glc12125/Algo/blob/master/lintcode/Plus%20One.cpp)|Easy|C++|[]|Google|LintCode|
 |389|[Same Number](https://github.com/glc12125/Algo/blob/master/lintcode/Same%20Number.cpp)|Easy|C++|[]|Google|LintCode|
 |390|[Power of Two](https://github.com/glc12125/Algo/blob/master/lintcode/Power%20of%20Two.cpp)|Easy|C++|[]|Google|LintCode|
@@ -413,3 +413,4 @@
 |392|[Reverse Vowels of a String](https://github.com/glc12125/Algo/blob/master/lintcode/Reverse%20Vowels%20of%20a%20String.cpp)|Easy|C++|[]|Google|LintCode|
 |393|[Find the Difference](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20Difference.cpp)|Easy|C++|[]|Google|LintCode|
 |394|[Nth Digit](https://github.com/glc12125/Algo/blob/master/lintcode/Nth%20Digit.cpp)|Easy|C++|[]|Google|LintCode|
+|395|[Insert Interval](https://github.com/glc12125/Algo/blob/master/lintcode/Insert%20Interval.cpp)|Easy|C++|[Interval]|Google|LintCode|
