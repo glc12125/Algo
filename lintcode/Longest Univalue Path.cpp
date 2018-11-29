@@ -17,17 +17,17 @@ private:
         if(node == nullptr) return 0;
         int left = node->left ? dfs(node->left, total) : 0;
         int right = node->right? dfs(node->right, total) : 0;
-        
+
         int totalL = node->left && node->val == node->left->val ? 1 + left : 0;
         int totalR = node->right && node->val == node->right->val ? 1 + right : 0;
-        
+
         total = std::max(total, totalL + totalR);
-        
+
         return std::max(totalL, totalR);
     }
 public:
     /**
-     * @param root: 
+     * @param root:
      * @return: the length of the longest path where each node in the path has the same value
      */
     int longestUnivaluePath(TreeNode * root) {
