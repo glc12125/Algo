@@ -405,3 +405,4 @@
 |384|[The Game Of Take Numbers](https://github.com/glc12125/Algo/blob/master/lintcode/The%20Game%20Of%20Take%20Numbers.cpp)|Medium|C++|[DP, DFS]|Google|LintCode|
 |385|[Paint Fence](https://github.com/glc12125/Algo/blob/master/lintcode/Paint%20Fence.cpp)|Easy|C++|[DP]|Google|LintCode|
 |386|[Twitch Words](https://github.com/glc12125/Algo/blob/master/lintcode/Twitch%20Words.cpp)|Easy|C++|[]|Google|LintCode|
+|387|[Merge Intervals](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Intervals.cpp)|Easy|C++|[]|Google|LintCode|
