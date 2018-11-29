@@ -412,3 +412,4 @@
 |391|[Power of Three](https://github.com/glc12125/Algo/blob/master/lintcode/Power%20of%20Three.cpp)|Easy|C++|[]|Google|LintCode|
 |392|[Reverse Vowels of a String](https://github.com/glc12125/Algo/blob/master/lintcode/Reverse%20Vowels%20of%20a%20String.cpp)|Easy|C++|[]|Google|LintCode|
 |393|[Find the Difference](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20the%20Difference.cpp)|Easy|C++|[]|Google|LintCode|
+|394|[Nth Digit](https://github.com/glc12125/Algo/blob/master/lintcode/Nth%20Digit.cpp)|Easy|C++|[]|Google|LintCode|
