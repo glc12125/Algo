@@ -418,3 +418,4 @@
 |397|[Find All Numbers Disappeared in an Array](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp)|Easy|C++|[]|Google|LintCode|
 |398|[Repeated Substring Pattern](https://github.com/glc12125/Algo/blob/master/lintcode/Repeated%20Substring%20Pattern.cpp)|Easy|C++|[]|Google|LintCode|
 |399|[Island Perimeter](https://github.com/glc12125/Algo/blob/master/lintcode/Island%20Perimeter.cpp)|Easy|C++|[]|Google|LintCode|
+|400|[Heaters](https://github.com/glc12125/Algo/blob/master/lintcode/Heaters.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
