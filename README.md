@@ -407,3 +407,4 @@
 |386|[Twitch Words](https://github.com/glc12125/Algo/blob/master/lintcode/Twitch%20Words.cpp)|Easy|C++|[]|Google|LintCode|
 |387|[Merge Intervals](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Intervals.cpp)|Easy|C++|[]|Google|LintCode|
 |388|[Plus One](https://github.com/glc12125/Algo/blob/master/lintcode/Plus%20One.cpp)|Easy|C++|[]|Google|LintCode|
+|389|[Same Number](https://github.com/glc12125/Algo/blob/master/lintcode/Same%20Number.cpp)|Easy|C++|[]|Google|LintCode|
