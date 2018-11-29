@@ -419,3 +419,4 @@
 |398|[Repeated Substring Pattern](https://github.com/glc12125/Algo/blob/master/lintcode/Repeated%20Substring%20Pattern.cpp)|Easy|C++|[]|Google|LintCode|
 |399|[Island Perimeter](https://github.com/glc12125/Algo/blob/master/lintcode/Island%20Perimeter.cpp)|Easy|C++|[]|Google|LintCode|
 |400|[Heaters](https://github.com/glc12125/Algo/blob/master/lintcode/Heaters.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
+|401|[License Key Formatting](https://github.com/glc12125/Algo/blob/master/lintcode/License%20Key%20Formatting.cpp)|Easy|C++|[]|Google|LintCode|
