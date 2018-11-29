@@ -420,3 +420,4 @@
 |399|[Island Perimeter](https://github.com/glc12125/Algo/blob/master/lintcode/Island%20Perimeter.cpp)|Easy|C++|[]|Google|LintCode|
 |400|[Heaters](https://github.com/glc12125/Algo/blob/master/lintcode/Heaters.cpp)|Easy|C++|[Binary Search]|Google|LintCode|
 |401|[License Key Formatting](https://github.com/glc12125/Algo/blob/master/lintcode/License%20Key%20Formatting.cpp)|Easy|C++|[]|Google|LintCode|
+|402|[Relative Ranks](https://github.com/glc12125/Algo/blob/master/lintcode/Relative%20Ranks.cpp)|Easy|C++|[]|Google|LintCode|
