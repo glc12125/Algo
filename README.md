@@ -406,3 +406,4 @@
 |385|[Paint Fence](https://github.com/glc12125/Algo/blob/master/lintcode/Paint%20Fence.cpp)|Easy|C++|[DP]|Google|LintCode|
 |386|[Twitch Words](https://github.com/glc12125/Algo/blob/master/lintcode/Twitch%20Words.cpp)|Easy|C++|[]|Google|LintCode|
 |387|[Merge Intervals](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Intervals.cpp)|Easy|C++|[]|Google|LintCode|
+|388|[Plus One](https://github.com/glc12125/Algo/blob/master/lintcode/Plus%20One.cpp)|Easy|C++|[]|Google|LintCode|
