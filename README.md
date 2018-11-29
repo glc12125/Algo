@@ -397,3 +397,4 @@
 |376|[01 Matrix Walking Problem](https://github.com/glc12125/Algo/blob/master/lintcode/01%20Matrix%20Walking%20Problem.cpp)|Medium|C++|[BFS]|Google|LintCode|
 |377|[Candy II](https://github.com/glc12125/Algo/blob/master/lintcode/Candy%20II.cpp)|Medium|C++|[]|Google|LintCode|
 |378|[Card Game](https://github.com/glc12125/Algo/blob/master/lintcode/Card%20Game.cpp)|Medium|C++|[DP]|Google|LintCode|
+|379|[Unique Path IV](https://github.com/glc12125/Algo/blob/master/lintcode/CUnique%20Path%20IV.cpp)|Medium|C++|[DP]|Google|LintCode|
