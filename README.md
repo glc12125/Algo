@@ -389,3 +389,4 @@
 |368|[Last Digit By Factorial Divide](https://github.com/glc12125/Algo/blob/master/lintcode/Last%20Digit%20By%20Factorial%20Divide.cpp)|Medium|C++|[Mathematics]|Google|LintCode|
 |369|[Minimum Partition](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Partition.cpp)|Medium|C++|[DP]|Google|LintCode|
 |370|[Tree Longest Path With Same Value](https://github.com/glc12125/Algo/blob/master/lintcode/Tree%20Longest%20Path%20With%20Same%20Value.cpp)|Medium|C++|[Divide and Conquer]|Google|LintCode|
+|371|[Binary Watch](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Watch.cpp)|Medium|C++|[]|Google|LintCode|
