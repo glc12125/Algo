@@ -408,3 +408,4 @@
 |387|[Merge Intervals](https://github.com/glc12125/Algo/blob/master/lintcode/Merge%20Intervals.cpp)|Easy|C++|[]|Google|LintCode|
 |388|[Plus One](https://github.com/glc12125/Algo/blob/master/lintcode/Plus%20One.cpp)|Easy|C++|[]|Google|LintCode|
 |389|[Same Number](https://github.com/glc12125/Algo/blob/master/lintcode/Same%20Number.cpp)|Easy|C++|[]|Google|LintCode|
+|390|[Power of Two](https://github.com/glc12125/Algo/blob/master/lintcode/Power%20of%20Two.cpp)|Easy|C++|[]|Google|LintCode|
