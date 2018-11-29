@@ -422,3 +422,4 @@
 |401|[License Key Formatting](https://github.com/glc12125/Algo/blob/master/lintcode/License%20Key%20Formatting.cpp)|Easy|C++|[]|Google|LintCode|
 |402|[Relative Ranks](https://github.com/glc12125/Algo/blob/master/lintcode/Relative%20Ranks.cpp)|Easy|C++|[]|Google|LintCode|
 |403|[Detect Capital](https://github.com/glc12125/Algo/blob/master/lintcode/Detect%20Capital.cpp)|Easy|C++|[]|Google|LintCode|
+|404|[Longest Uncommon Subsequence I](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Uncommon%20Subsequence%20I.cpp)|Easy|C++|[]|Google|LintCode|
