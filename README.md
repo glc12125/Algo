@@ -400,3 +400,4 @@
 |379|[Unique Path IV](https://github.com/glc12125/Algo/blob/master/lintcode/Unique%20Path%20IV.cpp)|Medium|C++|[DP]|Google|LintCode|
 |380|[Insert into a Cyclic Sorted List](https://github.com/glc12125/Algo/blob/master/lintcode/Insert%20into%20a%20Cyclic%20Sorted%20List.cpp)|Medium|C++|[Linked List]|Google|LintCode|
 |381|[CheckWords](https://github.com/glc12125/Algo/blob/master/lintcode/CheckWords.cpp)|Medium|C++|[DFS]|Google|LintCode|
+|382|[Max Remove Order](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Remove%20Order.cpp)|Medium|C++|[Union Find]|Google|LintCode|
