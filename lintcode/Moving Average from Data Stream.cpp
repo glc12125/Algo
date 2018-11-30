@@ -14,7 +14,7 @@ public:
 
     /*
      * @param val: An integer
-     * @return:  
+     * @return:
      */
     double next(int val) {
         m_q.push(val);
@@ -26,7 +26,7 @@ public:
             m_q.pop();
         }
         m_sum -= popped;
-        return currSize > m_size ? m_sum / m_size : m_sum / currSize; 
+        return currSize > m_size ? m_sum / m_size : m_sum / currSize;
     }
 };
 
@@ -60,7 +60,7 @@ public:
 
     /*
      * @param val: An integer
-     * @return:  
+     * @return:
      */
     double next(int val) {
         m_sum += val;
@@ -71,7 +71,7 @@ public:
         m_q[getIndex(m_count)] = val;
         m_sum -= popped;
         ++m_count;
-        return m_count > m_size ? m_sum / m_size : m_sum / m_count; 
+        return m_count > m_size ? m_sum / m_size : m_sum / m_count;
     }
 };
 
