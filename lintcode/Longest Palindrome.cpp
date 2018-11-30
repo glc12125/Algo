@@ -6,9 +6,9 @@ public:
      */
     int longestPalindrome(string &s) {
         int table[128] = {0};
-        
+
         for(auto c : s) ++table[c];
-        
+
         int totalNum = 0;
         bool hasOdd = false;
         for(auto i : table) {
@@ -18,7 +18,7 @@ public:
                 totalNum += (i - 1);
             }
         }
-        
+
         return hasOdd ? totalNum + 1: totalNum;
     }
 };
