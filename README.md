@@ -430,3 +430,4 @@
 |409|[Non-decreasing Array](https://github.com/glc12125/Algo/blob/master/lintcode/Non-decreasing%20Array.cpp)|Easy|C++|[]|Google|LintCode|
 |410|[Repeated String Match](https://github.com/glc12125/Algo/blob/master/lintcode/Repeated%20String%20Match.cpp)|Easy|C++|[]|Google|LintCode|
 |411|[Remove Duplicate Letters](https://github.com/glc12125/Algo/blob/master/lintcode/Remove%20Duplicate%20Letters.cpp)|Easy|C++|[]|Google|LintCode|
+|412|[Find Mode in Binary Search Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Mode%20in%20Binary%20Search%20Tree.cpp)|Easy|C++|[Binary Search Tree]|Google|LintCode|
