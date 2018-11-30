@@ -12,7 +12,7 @@ private:
         } while (num != 0);
         return val == rev;
     }
-    
+
     bool isPalindrome2(const std::string& s) {
         int start = 0;
         int end = s.size() - 1;
@@ -33,7 +33,7 @@ public:
         for(int i = L; i < R + 1; ++i) {
             flags[i-L] = isPalindrome(std::to_string(i)) ? 1 : 0;
         }
-        
+
         int totalNum = 0;
         for(int i = 0; i < rangeLen; ++i) {
             int count = 0;
@@ -42,7 +42,7 @@ public:
                 if (count % 2 == 0) ++totalNum;
             }
         }
-        
+
         return totalNum;
     }
 };
