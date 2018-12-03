@@ -59,7 +59,7 @@
 |41|[Consistent Hashing](https://github.com/glc12125/Algo/blob/master/lintcode/Consistent%20Hashing.cpp)|Medium|C++|[System Design]||LintCode|
 |42|[Memcache](https://github.com/glc12125/Algo/blob/master/lintcode/Memcache.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
 |43|[Mini Cassandra](https://github.com/glc12125/Algo/blob/master/lintcode/Mini%20Cassandra.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
-|44|[LRU Cache](https://github.com/glc12125/Algo/blob/master/lintcode/LRU%20Cache.cpp)|Medium|C++|[Hash Table, System Design]|Zenefits, Uber, Google, Facebook, Microsoft, Amazon, Bloomberg, Yahoo, Twitter, Snapchat, Palantir, Palantir Technologies|LintCode|
+|44|[LRU Cache](https://github.com/glc12125/Algo/blob/master/lintcode/LRU%20Cache.cpp)|Medium|C++|[Hash Table, Linked List, System Design]|Zenefits, Uber, Google, Facebook, Microsoft, Amazon, Bloomberg, Yahoo, Twitter, Snapchat, Palantir, Palantir Technologies|LintCode|
 |45|[Tiny Url](https://github.com/glc12125/Algo/blob/master/lintcode/Tiny%20Url.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
 |46|[Tiny Url II](https://github.com/glc12125/Algo/blob/master/lintcode/Tiny%20Url%20II.cpp)|Medium|C++|[Hash Table, System Design]||LintCode|
 |47|[Last Position of Target](https://github.com/glc12125/Algo/blob/master/lintcode/Last%20Position%20of%20Target.cpp)|Medium|C++|[Binary Search]||LintCode|
@@ -433,3 +433,4 @@
 |412|[Find Mode in Binary Search Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Find%20Mode%20in%20Binary%20Search%20Tree.cpp)|Easy|C++|[Binary Search Tree]|Google|LintCode|
 |413|[Count of Range Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Count%20of%20Range%20Sum.cpp)|Hard|C++|[Sort, Two Pointers]|Google|LintCode|
 |414|[Maximum Vacation Days](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Vacation%20Days.cpp)|Hard|C++|[DP]|Google|LintCode|
+|415|[LFU Cache](https://github.com/glc12125/Algo/blob/master/lintcode/LFU%20Cache.cpp)|Hard|C++|[Hash Table, Linked List]|Google|LintCode|
