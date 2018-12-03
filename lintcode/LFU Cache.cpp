@@ -82,6 +82,7 @@ public:
             node->m_value = value;
             FreIter fItr = m_freqMap.find(node->m_freq++);
             fItr->second.removeNode(node);
+            // This avoids the removeNode to crash
             if(fItr->second.m_head == NULL) {
                 m_freqMap.erase(fItr);
             }
@@ -89,8 +90,6 @@ public:
             if (m_freqMap.find(m_lowestFreq) == m_freqMap.end()) {
                 m_lowestFreq = node->m_freq;
             }
-            node->m_prev = NULL;
-            node->m_next = NULL;
             list.addHead(node);
 
         }
@@ -107,6 +106,7 @@ public:
             LFUNode* node = itr->second;
             FreIter fItr = m_freqMap.find(node->m_freq++);
             fItr->second.removeNode(node);
+            // This avoids the removeNode to crash
             if (fItr->second.m_head == NULL) {
                 m_freqMap.erase(fItr);
             }
