@@ -89,3 +89,62 @@ public:
         return maxLeaves;
     }
 };
+
+// Memoisation search
+class Solution {
+private:
+    void dfs(const vector<vector<int>> &flights, const vector<vector<int>> &days, int week, int city, int& maxLeaves, vector<vector<int>> & mem) {
+
+        if(mem[city][week] != -1) return;
+
+        int N = days.size();
+        int K = days[0].size();
+        int curVacation = days[city][week];
+        int nextVacation = 0;
+
+        // Calculate mem[city][week+1] to stay in the same city
+        if(week < K - 1) {
+            dfs(flights, days, week + 1, city, maxLeaves, mem);
+            nextVacation = mem[city][week+1];
+        }
+
+        // Calculate mem[nextCity][week+1] to stay in another city
+        if(week < K - 1) {
+            for(int nextCity = 0; nextCity < N; ++nextCity) {
+                if(flights[city][nextCity] == 1) {
+                    dfs(flights, days, week + 1, nextCity, maxLeaves, mem);
+                    nextVacation =std::max(nextVacation, mem[nextCity][week + 1]);
+                }
+            }
+        }
+
+        curVacation += nextVacation;
+        maxLeaves = std::max(maxLeaves, curVacation);
+        mem[city][week] = curVacation;
+    }
+public:
+    /**
+     * @param flights: the airline status from the city i to the city j
+     * @param days: days[i][j] represents the maximum days you could take vacation in the city i in the week j
+     * @return: the maximum vacation days you could take during K weeks
+     */
+    int maxVacationDays(vector<vector<int>> &flights, vector<vector<int>> &days) {
+        int N = days.size();
+        if(N == 0) return 0;
+        int K = days[0].size();
+        if(K == 0) return 0;
+
+        vector<vector<int>> mem(N, vector<int>(K, -1));
+
+        int maxLeaves = 0;
+        dfs(flights, days, 0, 0, maxLeaves, mem);
+
+        for(int i = 0; i < N; ++i) {
+            if(flights[0][i] == 1) {
+                dfs(flights, days, 0, i, maxLeaves, mem);
+            }
+        }
+
+        return maxLeaves;
+    }
+};
