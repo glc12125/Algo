@@ -1,3 +1,4 @@
+// Time O(NlogN), space O(N)
 class Solution {
 private:
     void mergeSort(std::vector<int>& prefixSum, std::vector<int>& temp, int start, int end, int lower, int upper, int& count) {
