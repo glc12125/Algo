@@ -41,11 +41,12 @@ public:
 
 // From start to end
 /*
-dp[city][week] 第week周在城市city的最大值。
+dp[city][week] the max vacation days in city on week。
 
-初始化：dp[city][0] = days[city][0] if flights[0][city] == 1 。开始城市可以非0但需要有flight到达
+initialization: dp[city][0] = days[city][0] if flights[0][city] == 1 。starting city can be non-zero,
+but must have a flight from 0
 
-dp[city][week] = days[city][week] + 上一周的最大值。如果上一周值为负则说明在week周没有能到city的路径，需要跳过。
+dp[city][week] = days[city][week] + maxVacation_of_last_week
 */
 class Solution {
 public:
