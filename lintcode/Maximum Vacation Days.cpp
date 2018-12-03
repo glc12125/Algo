@@ -1,3 +1,5 @@
+// It's easier to start from last week to first week, because we dont need to record if previous week
+// for certain city can be reached
 class Solution {
 private:
     int getMaxLeaves(const vector<vector<int>>& dp, int week, int city, const vector<vector<int>> &flights) {
@@ -34,5 +36,56 @@ public:
         }
 
         return getMaxLeaves(dp, 0, 0, flights);
+    }
+};
+
+// From start to end
+class Solution {
+public:
+    /**
+     * @param flights: the airline status from the city i to the city j
+     * @param days: days[i][j] represents the maximum days you could take vacation in the city i in the week j
+     * @return: the maximum vacation days you could take during K weeks
+     */
+    int maxVacationDays(vector<vector<int>> &flights, vector<vector<int>> &days) {
+        int N = days.size();
+        if(N == 0) return 0;
+        int K = days[0].size();
+        if(K == 0) return 0;
+
+        vector<vector<int>> dp(N, vector<int>(K, 0));
+        vector<vector<bool>> canTravel(N, vector<bool>(K, false));
+
+        dp[0][0] = days[0][0];
+        canTravel[0][0] = true;
+        for(int n = 1; n < N; ++n) {
+            if(flights[0][n] == 1){
+                dp[n][0] = days[n][0];
+                canTravel[n][0] = true;
+            }
+        }
+
+        for(int week = 1; week < K; ++week) {
+            for(int city = 0; city < N; ++city) {
+                // If stay in the same city in consequtive weeks, we don't need to check flight,
+                // just check if previous city on previous week is travellable
+                if(canTravel[city][week-1]) {
+                    dp[city][week] =  days[city][week] + dp[city][week-1];
+                    canTravel[city][week] = true;
+                }
+                for(int prevCity = 0; prevCity < N; ++prevCity) {
+                    if(flights[prevCity][city] == 1 && canTravel[prevCity][week-1]) {
+                        canTravel[city][week] = true;
+                        dp[city][week] = std::max(dp[city][week], days[city][week] + dp[prevCity][week-1]);
+                    }
+                }
+            }
+        }
+
+        int maxLeaves = 0;
+        for(int i = 0; i < N; ++i) {
+            maxLeaves = std::max(maxLeaves, dp[i][K-1]);
+        }
+        return maxLeaves;
     }
 };
