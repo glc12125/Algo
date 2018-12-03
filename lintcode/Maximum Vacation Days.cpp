@@ -40,6 +40,13 @@ public:
 };
 
 // From start to end
+/*
+dp[city][week] 第week周在城市city的最大值。
+
+初始化：dp[city][0] = days[city][0] if flights[0][city] == 1 。开始城市可以非0但需要有flight到达
+
+dp[city][week] = days[city][week] + 上一周的最大值。如果上一周值为负则说明在week周没有能到city的路径，需要跳过。
+*/
 class Solution {
 public:
     /**
