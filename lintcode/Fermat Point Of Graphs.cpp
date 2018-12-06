@@ -1,3 +1,8 @@
+/*
+Tree dynamic programming
+dp[i] represents the aggregated distance from i to all the substree nodes with i as the root，dp[i] = sum(dp[j] + np[j] * d(i, j))
+np[i] represents the subtree node number with i as the root，np[i] = sum(np[j]) + 1。
+*/
 class Solution {
     void dfs1(int x, int f, vector<vector<pair<int, int>>> &g, vector<int> &np, vector<long long> &dp) {
         np[x] = 1;
