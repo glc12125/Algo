@@ -437,3 +437,4 @@
 |416|[Optimal Account Balancing](https://github.com/glc12125/Algo/blob/master/lintcode/Optimal%20Account%20Balancing.cpp)|Super|C++|[Hash Table, DP]|Google|LintCode|
 |417|[Fermat Point Of Graphs](https://github.com/glc12125/Algo/blob/master/lintcode/Fermat%20Point%20Of%20Graphs.cpp)|Hard|C++|[DP]|Google|LintCode|
 |418|[Minimum Cycle Section](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Cycle%20Section.cpp)|Hard|C++|[KMP]|Google|LintCode|
+|419|[Count of Smaller Numbers After Self](https://github.com/glc12125/Algo/blob/master/lintcode/Count%20of%20Smaller%20Numbers%20After%20Self.cpp)|Hard|C++|[Segment Tree, Binary Indexed Tree]|Google|LintCode|
