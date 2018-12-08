@@ -6,16 +6,21 @@ public:
      */
     int minimumCycleSection(vector<int> &array) {
         if( array.size() <= 1) return array.size();
-        int next[array.size()+1]={0};
-        next[0] = -1;
-        int i = 0,j = -1;
+        int next[array.size()]={0};
+        int i = 1;
+        int len = 0;
         while( i < array.size()){
-            if( j < 0 || array[i] == array[j]){
-                next[++i] = ++j;
+            if(array[i] == array[len]){
+                next[i++] = ++len;
             }else{
-                j = next[j];
+                if(len != 0) {
+                    len = next[len-1];
+                } else {
+                    next[i++] = 0;
+                }
             }
         }
-        return i - next[i];
+
+        return i - next[i-1];
     }
 };
