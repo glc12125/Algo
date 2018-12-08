@@ -436,3 +436,4 @@
 |415|[LFU Cache](https://github.com/glc12125/Algo/blob/master/lintcode/LFU%20Cache.cpp)|Hard|C++|[Hash Table, Linked List]|Google|LintCode|
 |416|[Optimal Account Balancing](https://github.com/glc12125/Algo/blob/master/lintcode/Optimal%20Account%20Balancing.cpp)|Super|C++|[Hash Table, DP]|Google|LintCode|
 |417|[Fermat Point Of Graphs](https://github.com/glc12125/Algo/blob/master/lintcode/Fermat%20Point%20Of%20Graphs.cpp)|Hard|C++|[DP]|Google|LintCode|
+|418|[Minimum Cycle Section](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Cycle%20Section.cpp)|Hard|C++|[KMP]|Google|LintCode|
