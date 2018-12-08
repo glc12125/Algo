@@ -1,3 +1,4 @@
+// Segment Tree solution, time O(NlogN)
 class Solution {
 private:
     struct SegmentTreeNode {
@@ -100,6 +101,80 @@ public:
                 continue;
             }
             result[i] = querySum(0, nums[i] - minNum - 1, m_root);
+        }
+        return result;
+    }
+};
+
+
+// Binary indexed tree solution time O(NlogN)
+class Solution {
+private:
+    vector<int> m_biTree;
+    int m_size;
+
+    int lowBit(int x) {
+        return x & (-x);
+    }
+
+    void descretization(vector<int>& nums) {
+        vector<int> sortedNums(nums);
+        sort(sortedNums.begin(), sortedNums.end());
+        int len = nums.size();
+        for(int i = 0; i < len; ++i) {
+            nums[i] = binarySearch(sortedNums, nums[i]) + 1;
+        }
+    }
+
+    int binarySearch(const vector<int>& sortedNums, int target) {
+        int start = 0;
+        int end = sortedNums.size() - 1;
+        while(start + 1 < end) {
+            int mid = (start + end) / 2;
+            if(sortedNums[mid] < target) {
+                start = mid;
+            } else {
+                end = mid;
+            }
+        }
+
+        if(sortedNums[start] == target) return start;
+        if(sortedNums[end] == target) return end;
+        return sortedNums.size();
+    }
+
+    void add(int pos, int val) {
+        ++pos;
+        for(int i = pos; i < m_size + 1; i += lowBit(i)) {
+            m_biTree[i] += val;
+        }
+    }
+
+    int sum(int pos) {
+        int sum = 0;
+        ++pos;
+        for(int i = pos; i > 0; i -= lowBit(i)) {
+            sum += m_biTree[i];
+        }
+        return sum;
+    }
+public:
+    /**
+     * @param nums: a list of integers
+     * @return: return a list of integers
+     */
+    vector<int> countSmaller(vector<int> &nums) {
+        int len = nums.size();
+        if(len == 0) return {};
+
+        m_size = len;
+        m_biTree.resize(len + 1);
+        descretization(nums);
+
+        vector<int> result(len, 0);
+        for(int i = len - 1; i >= 0; --i) {
+            add(nums[i], 1);
+            result[i] = sum(nums[i]-1);
         }
         return result;
     }
