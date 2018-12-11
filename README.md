@@ -441,3 +441,4 @@
 |420|[Longest Increasing Path in a Matrix](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Increasing%20Path%20in%20a%20Matrix.cpp)|Hard|C++|[DFS]|Google|LintCode|
 |421|[Patching Array](https://github.com/glc12125/Algo/blob/master/lintcode/Patching%20Array.cpp)|Hard|C++|[Greedy]|Google|LintCode|
 |422|[Number of Atoms](https://github.com/glc12125/Algo/blob/master/lintcode/Number%20of%20Atoms.cpp)|Hard|C++|[DFS, Stack]|Google|LintCode|
+|423|[Max Sum of Rectangle No Larger Than K](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K.cpp)|Hard|C++|[DP(PrefixSum), Binary Search, Stack]|Google|LintCode|
