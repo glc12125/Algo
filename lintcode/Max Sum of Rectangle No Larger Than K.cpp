@@ -108,3 +108,40 @@ public:
         return maxSum;
     }
 };
+
+//time O(N*N*(M + MlogM))
+class Solution {
+public:
+    /**
+     * @param matrix: a 2D matrix
+     * @param k: an integer
+     * @return: the max sum of a rectangle in the matrix such that its sum is no larger than k
+     */
+    int maxSumSubmatrix(vector<vector<int>> &matrix, int k) {
+        int rowSize = matrix.size();
+        if(rowSize == 0) return 0;
+        int colSize = matrix[0].size();
+        if(colSize == 0) return 0;
+
+        int res = INT_MIN;
+        for (int l = 0; l < colSize; ++l) {
+            vector<int> sum(rowSize, 0);
+            for (int r = l; r < colSize; ++r) {
+                for (int k = 0; k < rowSize; ++k) {
+                    sum[k] += matrix[k][r];
+                }
+                int curSum = 0, curMax = INT_MIN;
+                set<int> s;
+                s.insert(0);
+                for (auto a : sum) {
+                    curSum += a;
+                    auto it = s.lower_bound(curSum - k);
+                    if (it != s.end()) curMax = max(curMax, curSum - *it);
+                    s.insert(curSum);
+                }
+                res = max(res, curMax);
+            }
+        }
+        return res;
+    }
+};
