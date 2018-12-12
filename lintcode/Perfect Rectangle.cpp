@@ -1,3 +1,4 @@
+// Time O(Col*KlogK), K is the number of intervals per row, space O(Row*K)
 class Solution {
 private:
     struct Interval {
@@ -64,5 +65,38 @@ public:
             }
         }
         return true;
+    }
+};
+
+// Time O(N^2), space O(1)
+class Solution {
+public:
+    /**
+     * @param rectangles: N axis-aligned rectangles
+     * @return: if they all together form an exact cover of a rectangular region
+     */
+    bool isRectangleCover(vector<vector<int>> &rectangles) {
+        int rmin, rmax, cmin, cmax;
+        rmin = cmin = INT_MAX;
+        rmax = cmax = INT_MIN;
+
+        int area = 0;
+        for (int i=0; i<int(rectangles.size()); i++) {
+            auto & r = rectangles[i];
+            for (int j=0; j<i; j++) {
+                if (overlap(r, rectangles[j])) return false;
+            }
+            rmin = min(rmin, r[0]);
+            cmin = min(cmin, r[1]);
+            rmax = max(rmax, r[2]);
+            cmax = max(cmax, r[3]);
+            area += (r[2] - r[0]) * (r[3] - r[1]);
+        }
+        return area == (cmax - cmin) * (rmax - rmin);
+    }
+
+private:
+    bool overlap(vector<int> const & a, vector<int> const & b) {
+        return !(a[0] >= b[2] || b[0] >= a[2] || a[1] >= b[3] || b[1] >= a[3]);
     }
 };
