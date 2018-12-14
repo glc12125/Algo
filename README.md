@@ -444,3 +444,4 @@
 |423|[Max Sum of Rectangle No Larger Than K](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K.cpp)|Hard|C++|[DP(PrefixSum), Binary Search, Stack]|Google|LintCode|
 |424|[Perfect Rectangle](https://github.com/glc12125/Algo/blob/master/lintcode/Perfect%20Rectangle.cpp)|Hard|C++|[Sweep Line, Mathematics]|Google|LintCode|
 |425|[Smallest Good Base](https://github.com/glc12125/Algo/blob/master/lintcode/Smallest%20Good%20Base.cpp)|Hard|C++|[Base Conversion, Mathematics]|Google|LintCode|
+|426|[Trie Serialization](https://github.com/glc12125/Algo/blob/master/lintcode/Trie%20Serialization.cpp)|Hard|C++|[DFS, Stack, Trie(Prefix Tree)]|Google|LintCode|
