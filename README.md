@@ -445,3 +445,5 @@
 |424|[Perfect Rectangle](https://github.com/glc12125/Algo/blob/master/lintcode/Perfect%20Rectangle.cpp)|Hard|C++|[Sweep Line, Mathematics]|Google|LintCode|
 |425|[Smallest Good Base](https://github.com/glc12125/Algo/blob/master/lintcode/Smallest%20Good%20Base.cpp)|Hard|C++|[Base Conversion, Mathematics]|Google|LintCode|
 |426|[Trie Serialization](https://github.com/glc12125/Algo/blob/master/lintcode/Trie%20Serialization.cpp)|Hard|C++|[DFS, Stack, Trie(Prefix Tree)]|Google|LintCode|
+|427|[Word Count (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Count%20(Map%20Reduce).cpp)|Easy|C++|[]|Google|LintCode|
+|428|[Inverted Index (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Inverted%20Index%20(Map%20Reduce).cpp|Medium|C++|[]|Google|LintCode|
