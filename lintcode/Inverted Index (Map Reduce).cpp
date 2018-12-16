@@ -47,12 +47,15 @@ public:
         // Please directly use func 'output' to output
         // the results into output buffer.
         // void output(string &key, vector<int> &value);
-        unordered_set<int> documentIds;
+        vector<int> documentIds;
+        int prevId = -1;
         while(!input->done()) {
-            documentIds.insert(input->value());
+            if(prevId != input->value()) {
+                documentIds.push_back(input->value());
+            }
+            prevId = input->value();
             input->next();
         }
-        vector<int> ids(documentIds.begin(), documentIds.end());
-        output(key, ids);
+        output(key, documentIds);
     }
 };
