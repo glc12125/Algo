@@ -450,3 +450,4 @@
 |429|[Anagram (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Anagram%20(Map%20Reduce.cpp)|Medium|C++|[Map Reduce]|Apple|LintCode|
 |430|[Rate Limiter](https://github.com/glc12125/Algo/blob/master/lintcode/Rate%20Limiter.cpp)|Hard|C++|[Hash Table]||LintCode|
 |431|[Web Logger](https://github.com/glc12125/Algo/blob/master/lintcode/Web%20Logger.cpp)|Medium|C++|[Deque]||LintCode|
+|432|[Student Attendance Record II](https://github.com/glc12125/Algo/blob/master/lintcode/Student%20Attendance%20Record%20II.cpp)|Hard|C++|[DP]|Google|LintCode|
