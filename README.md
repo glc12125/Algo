@@ -451,3 +451,4 @@
 |430|[Rate Limiter](https://github.com/glc12125/Algo/blob/master/lintcode/Rate%20Limiter.cpp)|Hard|C++|[Hash Table]||LintCode|
 |431|[Web Logger](https://github.com/glc12125/Algo/blob/master/lintcode/Web%20Logger.cpp)|Medium|C++|[Deque]||LintCode|
 |432|[Student Attendance Record II](https://github.com/glc12125/Algo/blob/master/lintcode/Student%20Attendance%20Record%20II.cpp)|Hard|C++|[DP]|Google|LintCode|
+|433|[Kth Smallest Number in Multiplication Table](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Number%20in%20Multiplication%20Table.cpp)|Hard|C++|[Binary Search]|Google|LintCode|
