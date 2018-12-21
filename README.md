@@ -454,3 +454,4 @@
 |433|[Kth Smallest Number in Multiplication Table](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Number%20in%20Multiplication%20Table.cpp)|Hard|C++|[Binary Search]|Google|LintCode|
 |434|[GFS Client](https://github.com/glc12125/Algo/blob/master/lintcode/GFS%20Client.cpp)|Medium|C++|[System Design, Hash Table]||LintCode|
 |435|[Heart Beat](https://github.com/glc12125/Algo/blob/master/lintcode/Heart%20Beat.cpp)|Medium|C++|[System Design, Hash Table]||LintCode|
+|436|[Inverted Index](https://github.com/glc12125/Algo/blob/master/lintcode/Inverted%20Index.cpp)|Easy|C++|[System Design, Hash Table]||LintCode|
