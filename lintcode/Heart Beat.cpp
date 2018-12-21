@@ -1,7 +1,7 @@
 class HeartBeat {
 private:
     int m_k;
-    unordered_map<string, set<int>> m_ipPings;
+    unordered_map<string, int> m_ipPings;
 
 public:
     HeartBeat() {
@@ -16,7 +16,7 @@ public:
     void initialize(vector<string> &slaves_ip_list, int k) {
         m_k = k;
         for(const auto& ip : slaves_ip_list) {
-            m_ipPings[ip];
+            m_ipPings[ip] = 2 * m_k;
         }
     }
 
@@ -27,7 +27,7 @@ public:
      */
     void ping(int timestamp, string &slave_ip) {
         if(m_ipPings.count(slave_ip)) {
-            m_ipPings[slave_ip].insert(timestamp);
+            m_ipPings[slave_ip] = timestamp + 2 * m_k;
         }
     }
 
@@ -36,11 +36,9 @@ public:
      * @return: a list of slaves'ip addresses that died
      */
     vector<string> getDiedSlaves(int timestamp) {
-        int startTime = timestamp - m_k * 2 + 1;
         vector<string> died;
         for(auto& ipTimestamps : m_ipPings) {
-            auto it = ipTimestamps.second.lower_bound(startTime);
-            if(it == ipTimestamps.second.end() && startTime > 0) {
+            if(ipTimestamps.second <= timestamp) {
                 died.emplace_back(ipTimestamps.first);
             }
         }
