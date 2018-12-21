@@ -16,7 +16,7 @@
 class GFSClient : public BaseGFSClient {
 private:
     int m_chunkSize;
-    unordered_map<string, vector<int>> m_fileManager;
+    unordered_map<string, int> m_fileManager;
 public:
     /*
     * @param chunkSize: An integer
@@ -30,10 +30,10 @@ public:
      */
     string read(string &filename) {
         if(m_fileManager.count(filename) == 0) return "";
-        const auto& chunkIndexes =  m_fileManager[filename];
+        int chunkNum =  m_fileManager[filename];
         string content;
-        for(auto index : chunkIndexes) {
-            content += readChunk(filename, index);
+        for(int i = 0; i < chunkNum; ++i) {
+            content += readChunk(filename, i);
         }
         return content;
     }
@@ -48,14 +48,13 @@ public:
             m_fileManager.erase(filename);
         }
         int len = content.size();
+        int chunkNum = len / m_chunkSize + 1;
         int currentIndex = 0;
-        int chunkIndex = 0;
-        while(currentIndex < len) {
+        m_fileManager[filename] = chunkNum;
+        for(int i = 0; i < chunkNum; ++i) {
             string chunkContent = content.substr(currentIndex, std::min(m_chunkSize, len - currentIndex));
-            writeChunk(filename, chunkIndex, chunkContent);
-            m_fileManager[filename].push_back(chunkIndex);
+            writeChunk(filename, i, chunkContent);
             currentIndex += m_chunkSize;
-            ++chunkIndex;
         }
     }
 };
