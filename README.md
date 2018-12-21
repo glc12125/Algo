@@ -456,4 +456,5 @@
 |435|[Heart Beat](https://github.com/glc12125/Algo/blob/master/lintcode/Heart%20Beat.cpp)|Medium|C++|[System Design, Hash Table]||LintCode|
 |436|[Inverted Index](https://github.com/glc12125/Algo/blob/master/lintcode/Inverted%20Index.cpp)|Easy|C++|[System Design, Hash Table]||LintCode|
 |437|[Typeahead](https://github.com/glc12125/Algo/blob/master/lintcode/Typeahead.cpp)|Hard|C++|[System Design, Hash Table]||LintCode|
-|438|[Standard Bloom Filter](https://github.com/glc12125/Algo/blob/master/lintcode/Standard%20Bloom%20Filter.cpp)|Hard|C++|[System Design, Hash Table]||LintCode|
+|438|[Standard Bloom Filter](https://github.com/glc12125/Algo/blob/master/lintcode/Standard%20Bloom%20Filter.cpp)|Medium|C++|[System Design, Hash Table]||LintCode|
+|439|[Counting Bloom Filter](https://github.com/glc12125/Algo/blob/master/lintcode/Counting%20Bloom%20Filter.cpp)|Medium|C++|[System Design, Hash Table]||LintCode|
