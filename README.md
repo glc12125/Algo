@@ -444,11 +444,12 @@
 |423|[Max Sum of Rectangle No Larger Than K](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K.cpp)|Hard|C++|[DP(PrefixSum), Binary Search, Stack]|Google|LintCode|
 |424|[Perfect Rectangle](https://github.com/glc12125/Algo/blob/master/lintcode/Perfect%20Rectangle.cpp)|Hard|C++|[Sweep Line, Mathematics]|Google|LintCode|
 |425|[Smallest Good Base](https://github.com/glc12125/Algo/blob/master/lintcode/Smallest%20Good%20Base.cpp)|Hard|C++|[Base Conversion, Mathematics]|Google|LintCode|
-|426|[Trie Serialization](https://github.com/glc12125/Algo/blob/master/lintcode/Trie%20Serialization.cpp)|Hard|C++|[DFS, Stack, Trie(Prefix Tree)]|Google|LintCode|
-|427|[Word Count (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Count%20(Map%20Reduce.cpp)|Easy|C++|[Map Reduce]|Google|LintCode|
-|428|[Inverted Index (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Inverted%20Index%20(Map%20Reduce.cpp)|Medium|C++|[Hash Table, Map Reduce]|Apple|LintCode|
+|426|[Trie Serialization](https://github.com/glc12125/Algo/blob/master/lintcode/Trie%20Serialization.cpp)|Hard|C++|[System Design, DFS, Stack, Trie(Prefix Tree)]|Google|LintCode|
+|427|[Word Count (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Count%20(Map%20Reduce.cpp)|Easy|C++|[System Design, Map Reduce]|Google|LintCode|
+|428|[Inverted Index (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Inverted%20Index%20(Map%20Reduce.cpp)|Medium|C++|[System Design, Hash Table, Map Reduce]|Apple|LintCode|
 |429|[Anagram (Map Reduce)](https://github.com/glc12125/Algo/blob/master/lintcode/Anagram%20(Map%20Reduce.cpp)|Medium|C++|[Map Reduce]|Apple|LintCode|
-|430|[Rate Limiter](https://github.com/glc12125/Algo/blob/master/lintcode/Rate%20Limiter.cpp)|Hard|C++|[Hash Table]||LintCode|
-|431|[Web Logger](https://github.com/glc12125/Algo/blob/master/lintcode/Web%20Logger.cpp)|Medium|C++|[Deque]||LintCode|
+|430|[Rate Limiter](https://github.com/glc12125/Algo/blob/master/lintcode/Rate%20Limiter.cpp)|Hard|C++|[System Design, Hash Table]||LintCode|
+|431|[Web Logger](https://github.com/glc12125/Algo/blob/master/lintcode/Web%20Logger.cpp)|Medium|C++|[System Design, Deque]||LintCode|
 |432|[Student Attendance Record II](https://github.com/glc12125/Algo/blob/master/lintcode/Student%20Attendance%20Record%20II.cpp)|Hard|C++|[DP]|Google|LintCode|
 |433|[Kth Smallest Number in Multiplication Table](https://github.com/glc12125/Algo/blob/master/lintcode/Kth%20Smallest%20Number%20in%20Multiplication%20Table.cpp)|Hard|C++|[Binary Search]|Google|LintCode|
+|434|[GFS Client](https://github.com/glc12125/Algo/blob/master/lintcode/GFS%20Client.cpp)|Medium|C++|[System Design, Hash Table]|Google|LintCode|
