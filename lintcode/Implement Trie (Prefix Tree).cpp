@@ -7,7 +7,7 @@ private:
         Node() : m_wordEnd(false) {}
         Node(char val) : m_val(val), m_wordEnd(false) {}
     };
-    
+
     Node * m_head;
 public:
     Trie() {
