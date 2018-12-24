@@ -463,3 +463,4 @@
 |442|[Mini Uber](https://github.com/glc12125/Algo/blob/master/lintcode/Mini%20Uber.cpp)|Medium|C++|[System Design, Hash Table]||LintCode|
 |443|[Mini Yelp](https://github.com/glc12125/Algo/blob/master/lintcode/Mini%20Yelp.cpp)|Hard|C++|[System Design, Hash Table]||LintCode|
 |444|[Redundant Connection II](https://github.com/glc12125/Algo/blob/master/lintcode/Redundant%20Connection%20II.cpp)|Hard|C++|[Union Find, Hash Table]|Google|LintCode|
+|445|[Couples Holding Hands](https://github.com/glc12125/Algo/blob/master/lintcode/Couples%20Holding%20Hands.cpp)|Hard|C++|[DFS, Mathematics]|Google|LintCode|
