@@ -467,5 +467,6 @@
 |446|[Max Chunks To Make Sorted II](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Chunks%20To%20Make%20Sorted%20II.cpp)|Hard|C++|[Stack, Array]|Google|LintCode|
 |447|[Reaching Points](https://github.com/glc12125/Algo/blob/master/lintcode/Reaching%20Points.cpp)|Hard|C++|[Mathematics]|Google|LintCode|
 |448|[Transform to Chessboard](https://github.com/glc12125/Algo/blob/master/lintcode/Transform%20to%20Chessboard.cpp)|Hard|C++|[Mathematics]|Google|LintCode|
-|449|[Bus Routes](https://github.com/glc12125/Algo/blob/master/lintcode/Bus%20Routes.cpp)|Hard|C++|[DFS]|Google|LintCode|
+|449|[Bus Routes](https://github.com/glc12125/Algo/blob/master/lintcode/Bus%20Routes.cpp)|Hard|C++|[DFS, BFS]|Google|LintCode|
 |450|[Basic Calculator](https://github.com/glc12125/Algo/blob/master/lintcode/Basic%20Calculator.cpp)|Hard|C++|[Stack]|Google|LintCode|
+|451|[Alien Dictionary](https://github.com/glc12125/Algo/blob/master/lintcode/Alien%20Dictionary.cpp)|Hard|C++|[BFS]|Google|LintCode|
