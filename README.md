@@ -469,4 +469,4 @@
 |448|[Transform to Chessboard](https://github.com/glc12125/Algo/blob/master/lintcode/Transform%20to%20Chessboard.cpp)|Hard|C++|[Mathematics]|Google|LintCode|
 |449|[Bus Routes](https://github.com/glc12125/Algo/blob/master/lintcode/Bus%20Routes.cpp)|Hard|C++|[DFS, BFS]|Google|LintCode|
 |450|[Basic Calculator](https://github.com/glc12125/Algo/blob/master/lintcode/Basic%20Calculator.cpp)|Hard|C++|[Stack]|Google|LintCode|
-|451|[Alien Dictionary](https://github.com/glc12125/Algo/blob/master/lintcode/Alien%20Dictionary.cpp)|Hard|C++|[BFS]|Google|LintCode|
+|451|[Alien Dictionary](https://github.com/glc12125/Algo/blob/master/lintcode/Alien%20Dictionary.cpp)|Hard|C++|[BFS, Graph]|Google, Twitter, Facebook, Snapchat, Airbnb, Pocket Gems|LintCode|
