@@ -470,3 +470,4 @@
 |449|[Bus Routes](https://github.com/glc12125/Algo/blob/master/lintcode/Bus%20Routes.cpp)|Hard|C++|[DFS, BFS]|Google|LintCode|
 |450|[Basic Calculator](https://github.com/glc12125/Algo/blob/master/lintcode/Basic%20Calculator.cpp)|Hard|C++|[Stack]|Google|LintCode|
 |451|[Alien Dictionary](https://github.com/glc12125/Algo/blob/master/lintcode/Alien%20Dictionary.cpp)|Hard|C++|[BFS, Graph]|Google, Twitter, Facebook, Snapchat, Airbnb, Pocket Gems|LintCode|
+|452|[Encode String with Shortest Lengt](https://github.com/glc12125/Algo/blob/master/lintcode/Encode%20String%20with%20Shortest%20Lengt.cpp)|Hard|C++|[DP]|Google|LintCode|
