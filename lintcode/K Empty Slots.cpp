@@ -14,23 +14,15 @@ public:
 
         set<int> container;
         for(int i = 0; i < len; ++i) {
-            container.insert(flowers[i]);
-            auto lower = container.lower_bound(flowers[i]);
-            auto upper = container.upper_bound(flowers[i]);
-            if(lower != container.end()) {
-                if(*lower == flowers[i] && lower != container.begin()) {
-                    if(flowers[i] - *(--lower) - 1 == k) {
-                        return i + 1;
-                    }
-                } else if (*lower != flowers[i]) {
-                    if(--lower != container.begin() && --lower != container.begin()) {
-                        if(flowers[i] - *lower - 1 == k) {
-                            return i + 1;
-                        }
-                    }
-                }
+            int x = flowers[i];
+            auto l = container.insert(x).first;
+            auto r = l;
+
+            if(++r != container.end() && *r == x + k + 1) {
+                return i + 1;
             }
-            if(upper != container.end() && *upper - flowers[i] - 1 == k) {
+
+            if(l != container.begin() && *(--l) == x - k - 1) {
                 return i + 1;
             }
         }
