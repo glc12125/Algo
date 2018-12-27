@@ -30,6 +30,47 @@ public:
     }
 };
 
+// Time O(N), space O(N/K)
+class Solution {
+public:
+    /**
+     * @param flowers: the place where the flower will open in that day
+     * @param k:  an integer
+     * @return: in which day meet the requirements
+     */
+    int kEmptySlots(vector<int> &flowers, int k) {
+        int len = flowers.size();
+        if(k + 2 > len) {
+            return -1;
+        }
+
+        // first is minial value in bucket, the second is the max value in bucket
+        int bucketSize = (len + k)/(k + 1);
+        vector<int> lowBuckets(bucketSize, INT_MAX);
+        vector<int> highBuckets(bucketSize, INT_MIN);
+
+        for(int i = 0; i < len; ++i) {
+            int x = flowers[i];
+            int b = x / (k+1);
+            lowBuckets[b] = std::min(lowBuckets[b], x);
+            highBuckets[b] = std::max(highBuckets[b], x);
+
+            if(x == lowBuckets[b] && b > 0) {
+                if(highBuckets[b-1] == x - k - 1) {
+                    return i + 1;
+                }
+            }
+
+            if(x == highBuckets[b] && b < bucketSize - 1) {
+                if(lowBuckets[b+1] == x + k + 1) {
+                    return i + 1;
+                }
+            }
+        }
+        return -1;
+    }
+};
+
 // Time O(N^2logN), space O(N), Time out
 class Solution {
 private:
