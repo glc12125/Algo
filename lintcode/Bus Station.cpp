@@ -24,10 +24,8 @@ public:
         const auto& startingRoutes = stopToRoute[A];
         for(auto busRoute : startingRoutes) {
             queue<int> routeQ;
-            unordered_set<int> visitedStop;
             unordered_set<int> visitedRoute;
             routeQ.push(busRoute);
-            visitedStop.insert(A);
             visitedRoute.insert(busRoute);
 
             int switchCount = 1;
@@ -38,13 +36,11 @@ public:
                     int currentRoute = routeQ.front();
                     routeQ.pop();
                     for(auto stop : route[currentRoute]) {
-                        if(visitedStop.count(stop)) {continue;}
                         if(stop == B) {
                             reachedDestination = true;
                             minSwitch = std::min(minSwitch, switchCount);
                             break;
                         }
-                        visitedStop.insert(stop);
                         for(auto nextRoute : stopToRoute[stop]) {
                             if(visitedRoute.count(nextRoute)) {continue;}
                             visitedRoute.insert(nextRoute);
