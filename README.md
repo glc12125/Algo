@@ -475,3 +475,4 @@
 |454|[K Empty Slots](https://github.com/glc12125/Algo/blob/master/lintcode/K%20Empty%20Slots.cpp)|Hard|C++|[Binary Search Tree]|Google|LintCode|
 |455|[Minimum Window Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Window%20Subsequence.cpp)|Hard|C++|[Two Pointers, DP]|eBay, Google|LintCode|
 |456|[Minimize Max Distance to Gas Station](https://github.com/glc12125/Algo/blob/master/lintcode/Minimize%20Max%20Distance%20to%20Gas%20Station.cpp)|Hard|C++|[Binary Search]|Google|LintCode|
+|457|[Computer Maintenance](https://github.com/glc12125/Algo/blob/master/lintcode/Computer%20Maintenance.cpp)|Hard|C++|[DP]|Google|LintCode|
