@@ -473,3 +473,4 @@
 |452|[Encode String with Shortest Length](https://github.com/glc12125/Algo/blob/master/lintcode/Encode%20String%20with%20Shortest%20Length.cpp)|Hard|C++|[DP]|Google|LintCode|
 |453|[Coin Path](https://github.com/glc12125/Algo/blob/master/lintcode/Coin%20Path.cpp)|Hard|C++|[DP]|Google|LintCode|
 |454|[K Empty Slots](https://github.com/glc12125/Algo/blob/master/lintcode/K%20Empty%20Slots.cpp)|Hard|C++|[Binary Search Tree]|Google|LintCode|
+|455|[Minimum Window Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Minimum%20Window%20Subsequence.cpp)|Hard|C++|[Two Pointers, DP]|eBay, Google|LintCode|
