@@ -1,3 +1,4 @@
+// Time O(NlogMax)
 class Solution {
 public:
     /**
