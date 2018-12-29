@@ -477,3 +477,4 @@
 |456|[Minimize Max Distance to Gas Station](https://github.com/glc12125/Algo/blob/master/lintcode/Minimize%20Max%20Distance%20to%20Gas%20Station.cpp)|Hard|C++|[Binary Search]|Google|LintCode|
 |457|[Computer Maintenance](https://github.com/glc12125/Algo/blob/master/lintcode/Computer%20Maintenance.cpp)|Hard|C++|[DP]|Google|LintCode|
 |458|[Bus Station](https://github.com/glc12125/Algo/blob/master/lintcode/Bus%20Station.cpp)|Hard|C++|[BFS]|Google|LintCode|
+|459|[Shortest Distance from All Buildings](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Distance%20from%20All%20Buildings.cpp)|Hard|C++|[BFS]|Google, Zenefits|LintCode|
