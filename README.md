@@ -480,3 +480,4 @@
 |459|[Shortest Distance from All Buildings](https://github.com/glc12125/Algo/blob/master/lintcode/Shortest%20Distance%20from%20All%20Buildings.cpp)|Hard|C++|[BFS]|Google, Zenefits|LintCode|
 |460|[Palindrome Pairs](https://github.com/glc12125/Algo/blob/master/lintcode/Palindrome%20Pairs.cpp)|Hard|C++|[Hash Table]|Google|LintCode|
 |461|[24 Game](https://github.com/glc12125/Algo/blob/master/lintcode/24%20Game.cpp)|Hard|C++|[DFS]|Google|LintCode|
+|462|[Boolean Parenthesization](https://github.com/glc12125/Algo/blob/master/lintcode/Boolean%20Parenthesization.cpp)|Hard|C++|[DF, DFS]|Google|LintCode|
