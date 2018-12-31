@@ -45,3 +45,34 @@ public:
         return offset;
     }
 };
+
+// Just kept reading to a local buffer.
+// Only call read4 API if necessary, otherwise assign values from
+// local buffer to the given buf
+
+class Solution {
+private:
+    char m_buffer[4] = {'\0'};
+    int m_index = 0;
+    int m_readBytes = 0;
+public:
+    /**
+     * @param buf destination buffer
+     * @param n maximum number of characters to read
+     * @return the number of characters read
+     */
+    int read(char *buf, int n) {
+        for (int i = 0; i < n; i++) {
+            if (m_index == m_readBytes) {
+                m_readBytes = read4(m_buffer);
+                m_index = 0;
+            }
+            if (m_index < m_readBytes) {
+                buf[i] = m_buffer[m_index++];
+            } else {
+                return i;
+            }
+        }
+        return n;
+    }
+};
