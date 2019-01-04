@@ -43,7 +43,7 @@ public:
     }
 };
 
-// DP, time O(N), space O(N)
+// DP, time O(N), space O(N), what if we need to return a group of n sub-arrays with max sum?
 
 class Solution {
 public:
