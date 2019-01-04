@@ -486,3 +486,4 @@
 |465|[Word Abbreviation](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Abbreviation.cpp)|Hard|C++|[String, Sort]|Google|LintCode|
 |466|[Word Squares](https://github.com/glc12125/Algo/blob/master/lintcode/Word%20Squares.cpp)|Hard|C++|[Trie(Prefix Tree), DFS]|Google|LintCode|
 |467|[Build Post Office II](https://github.com/glc12125/Algo/blob/master/lintcode/Build%20Post%20Office%20II.cpp)|Hard|C++|[BFS]|Zenefits, Google|LintCode|
+|468|[Create Maximum Number](https://github.com/glc12125/Algo/blob/master/lintcode/Create%20Maximum%20Number.cpp)|Hard|C++|[DP, Greedy]|Google|LintCode|
