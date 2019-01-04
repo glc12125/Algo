@@ -43,7 +43,7 @@ public:
     }
 };
 
-// DP,
+// DP, time O(N), space O(N)
 
 class Solution {
 public:
