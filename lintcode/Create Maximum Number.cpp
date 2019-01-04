@@ -1,3 +1,4 @@
+// Time O(K*(M+N)^2)， space O(M+N)
 class Solution {
 private:
     vector<int> maxNumber(const vector<int>& nums, int k) {
