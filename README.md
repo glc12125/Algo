@@ -488,3 +488,4 @@
 |467|[Build Post Office II](https://github.com/glc12125/Algo/blob/master/lintcode/Build%20Post%20Office%20II.cpp)|Hard|C++|[BFS]|Zenefits, Google|LintCode|
 |468|[Create Maximum Number](https://github.com/glc12125/Algo/blob/master/lintcode/Create%20Maximum%20Number.cpp)|Hard|C++|[DP, Greedy]|Google|LintCode|
 |469|[Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Sum%20of%203%20Non-Overlapping%20Subarrays.cpp)|Hard|C++|[DP]|Google, Facebook|LintCode|
+|470|[Jump Game](https://github.com/glc12125/Algo/blob/master/lintcode/Jump%20Game.cpp)|Medium|C++|[DP, Greedy]|Microsoft|LintCode|
