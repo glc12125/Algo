@@ -1,3 +1,4 @@
+// time O(N*k)
 class Solution {
 public:
     /**

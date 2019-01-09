@@ -6,6 +6,17 @@
  *     map<char, TrieNode*> children;
  * };
  */
+/*
+<a<b<e<>>c<>d<f<>>>>, denote the following structure:
+     root
+      /
+     a
+   / | \
+  b  c  d
+ /       \
+e         f
+
+*/
 class Solution {
 private:
     void dfs(TrieNode* parent, const string& data, int& index) {
