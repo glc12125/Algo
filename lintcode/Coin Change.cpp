@@ -1,4 +1,4 @@
-// time O(N*k)
+// Time O(N*k), space O(N)
 class Solution {
 public:
     /**
