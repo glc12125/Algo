@@ -11,6 +11,7 @@ public:
         if(colorNum == 0) return 0;
 
         vector<vector<int>> dp(2, vector<int>(colorNum, 0));
+        vector<vector<int>> pi(houseNum + 1, vector<int>(colorNum));
 
         for(int i = 1; i <= houseNum; ++i) {
             int minIndex = -1;
@@ -29,8 +30,10 @@ public:
             for(int j = 0; j < colorNum; ++j) {
                 if(j != minIndex) {
                     dp[i%2][j] = dp[(i-1)%2][minIndex] + costs[i-1][j];
+                    pi[i][j] = minIndex;
                 } else {
                     dp[i%2][j] = dp[(i-1)%2][secondMinIndex] + costs[i-1][j];
+                    pi[i][j] = secondMinIndex;
                 }
             }/*
             for(int j = 0; j < colorNum; ++j) {
@@ -44,8 +47,22 @@ public:
         }
 
         int minimum = INT_MAX;
+        int k = -1;
         for(int i = 0; i < colorNum; ++i) {
             minimum = std::min(minimum, dp[houseNum%2][i]);
+            if(minimum == dp[houseNum%2][i]) {
+                k = i;
+            }
+        }
+
+        vector<int> color(houseNum);
+        for(int i = houseNum; i > 0; --i) {
+            color[i-1] = k;
+            k = pi[i][k];
+        }
+
+        for(int i = 0; i < houseNum; ++i) {
+            std::cout << "House: " << i << ", color: " << color[i] << "\n";
         }
         return minimum;
     }
