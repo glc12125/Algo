@@ -26,6 +26,38 @@ public:
     }
 };
 
+//More natural way of DP in this case, sequence length from small to big
+class Solution {
+public:
+    /**
+     * @param s: the maximum length of s is 1000
+     * @return: the longest palindromic subsequence's length
+     */
+    int longestPalindromeSubseq(string &s) {
+        int size = s.size();
+        if(size == 0) return 0;
+        vector<vector<int>> dp(size, vector<int>(size, 0));
+
+        for(int l = 1; l <= size; ++l) {
+            int maxI = size - l;
+            for(int i = 0; i <= maxI; ++i) {
+                int j = i + l - 1;
+                if(i == j) {
+                    dp[i][j] = 1;
+                } else {
+                    if(s[i] == s[j]) {
+                        dp[i][j] = std::max(dp[i][j], dp[i+1][j-1] + 2);
+                    } else {
+                        dp[i][j] = std::max(dp[i][j], std::max(dp[i+1][j], dp[i][j-1]));
+                    }
+                }
+            }
+        }
+
+        return dp[0][size-1];
+    }
+};
+
 // Memoisation
 class Solution {
 private:

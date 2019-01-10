@@ -34,18 +34,17 @@ public:
     int backPackII(int m, vector<int> &A, vector<int> &V) {
         int len = A.size();
         if(len == 0) return 0;
-
+        // the values of prior i elements, j weights
         vector<vector<int> > dp(len + 1, vector<int>(m + 1, -1));
-        vector<vector<int>> pi(len + 1, vector<int>(m + 1, -1));
+        vector<vector<bool>> pi(len + 1, vector<bool>(m + 1, false));
         dp[0][0] = 0;
         for(int i = 1; i <= len; ++i) {
             for(int j = 0; j <= m; ++j) {
                 dp[i][j] = dp[i-1][j];
-                pi[i][j] = 0;
                 if(j >= A[i-1] && dp[i-1][j - A[i-1]] != -1) {
                     dp[i][j] = std::max(dp[i][j], dp[i-1][j-A[i-1]] + V[i-1]);
                     if(dp[i][j] == dp[i-1][j-A[i-1]] + V[i-1]) {
-                        pi[i][j] = 1;
+                        pi[i][j] = true;
                     }
                 }
 
@@ -65,7 +64,7 @@ public:
 
         vector<bool> selected(len, false);
         for(int i = len; i >= 1; --i) {
-            if(pi[i][j] == 1) {
+            if(pi[i][j]) {
                 selected[i - 1] = true;
                 j -= A[i-1];
             }
