@@ -490,3 +490,4 @@
 |469|[Maximum Sum of 3 Non-Overlapping Subarrays](https://github.com/glc12125/Algo/blob/master/lintcode/Maximum%20Sum%20of%203%20Non-Overlapping%20Subarrays.cpp)|Hard|C++|[DP]|Google, Facebook|LintCode|
 |470|[Jump Game](https://github.com/glc12125/Algo/blob/master/lintcode/Jump%20Game.cpp)|Medium|C++|[DP, Greedy]|Microsoft|LintCode|
 |471|[Longest Continuous Increasing Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Continuous%20Increasing%20Subsequence.cpp)|Medium|C++|[DP]|Facebook|LintCode|
+|472|[Digital Flip](https://github.com/glc12125/Algo/blob/master/lintcode/Digital%20Flip.cpp)|Medium|C++|[DP]|Microsoft|LintCode|
