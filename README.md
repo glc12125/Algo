@@ -492,3 +492,4 @@
 |471|[Longest Continuous Increasing Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Longest%20Continuous%20Increasing%20Subsequence.cpp)|Medium|C++|[DP]|Facebook|LintCode|
 |472|[Digital Flip](https://github.com/glc12125/Algo/blob/master/lintcode/Digital%20Flip.cpp)|Medium|C++|[DP]|Microsoft|LintCode|
 |473|[Rogue Knight Sven](https://github.com/glc12125/Algo/blob/master/lintcode/Rogue%20Knight%20Sven.cpp)|Medium|C++|[DP]||LintCode|
+|474|[k Sum](https://github.com/glc12125/Algo/blob/master/lintcode/k%20Sum.cpp)|Hard|C++|[DP]||LintCode|
