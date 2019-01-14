@@ -495,3 +495,4 @@
 |474|[k Sum](https://github.com/glc12125/Algo/blob/master/lintcode/k%20Sum.cpp)|Hard|C++|[DP]||LintCode|
 |475|[Decode Ways II](https://github.com/glc12125/Algo/blob/master/lintcode/Decode%20Ways%20II.cpp)|Hard|C++|[DP]|Facebook|LintCode|
 |476|[Backpack VIII](https://github.com/glc12125/Algo/blob/master/lintcode/Backpack%20VIII.cpp)|Medium|C++|[DP]|NetEase|LintCode|
+|477|[Calculation The Sum Of Path](https://github.com/glc12125/Algo/blob/master/lintcode/Calculation%20The%20Sum%20Of%20Path.cpp)|Hard|C++|[DP]|Google|LintCode|
