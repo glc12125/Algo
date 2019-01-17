@@ -499,3 +499,4 @@
 |478|[Put Box](https://github.com/glc12125/Algo/blob/master/lintcode/PutBox.cpp)|Hard|C++|[DP]|Google|LintCode|
 |479|[Words Compression](https://github.com/glc12125/Algo/blob/master/lintcode/Words%20Compression.cpp)|Hard|C++|[DFS, KMP]|Google|LintCode|
 |480|[Flower Problem](https://github.com/glc12125/Algo/blob/master/lintcode/Flower%20Problem.cpp)|Hard|C++|[Union Find]|Google|LintCode|
+|481|[Max Distance](https://github.com/glc12125/Algo/blob/master/lintcode/Max%20Distance.cpp)|Hard|C++|[Trie, DFS]|Google|LintCode|
