@@ -19,3 +19,40 @@ Followup ： 问一个完全二叉树的总节点数
 
 5. 一长双向链表和一个节点数组（无序）存着这个链表中一部分节点， 要求找出数组中的节点能分成几组， 组的定义是 如果节点是相邻的， 那么他们就是在一个组里面。
 Followup：怎么自动生成他的测试数据（要求写一段code表示）， 如果这个数组改成一个数据流（没固定长度）， 问取n次数据， 组的数目分别是多少
+================================================================================================================================================================
+
+1. 模拟实现一个UDP to TCP service，实现两个功能，
+1) 会有client向你的service提供乱序的packet，由byte[]代表，byte[0]代表seqence number
+public viod put(byte[] packet)
+
+2) 会有另外的client向你的service读取数据放到buffer里面去，读到buffer里面的数据需要有序。如果packet的数据大于buffer，需要读取部分packet数据，放到buffer里，然后返回读取的数据的长度。如果不能读到buffer里，则返回-1
+public int getData(byte[] buffer)
+
+我用的LinkedList，put的时候把ListNode按sequence number的顺序插进去，getData的时候就可以直接读了
+
+2. 中国面试官，口语烂的一逼，题目完全解释不清，这轮面崩了，题目是个跟tree有关的
+
+3. 印度哥们，在family tree中找两个人是否是亲戚。follow up如果是亲戚的话，找lowest common ancestor。
+
+4. ratio finder
+给你两个file，一个是原始数据，一个是query
+原始数据file的内容是这样的：
+USD,CAD,1.1
+USD,CNY,6.7
+YARD,METER,0.9
+CNY,HKD,1.5
+METER,METER,0.9
+
+query的内容是类似这样的. From 1point 3acres bbs
+CAD,CNY
+METER,YARD
+
+返回是List<Double>，代表CAD到CNY的比例，和METER到YARD的比例
+public List<Double> ratioFinder(List<String> input, List<String> query)
+
+保证input的输入时valid而且没有conflict，也保证输入的ratio > 0
+
+本质上就是union find，但是现场写的话代码量太大，没写完
+
+5. System Design: Email Scheduler
+设计一个系统，client会给你Email(包含了from， to, cc, bcc, email content等等所有的东西), 同时给你一个timestamp，你的系统需要在timestamp时发送这个邮件，默认你有一个API可以直接send(Email)。
