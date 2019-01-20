@@ -506,3 +506,4 @@
 |485|[Majority Element](https://github.com/glc12125/Algo/blob/master/lintcode/Majority%20Element.cpp)|Easy|C++|[Greedy]|Amazon, Zenefits|LeetCode|
 |486|[Gas Station](https://github.com/glc12125/Algo/blob/master/lintcode/Gas%20Station.cpp)|Medium|C++|[Greedy]||LeetCode|
 |487|[Delete Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Delete%20Digits.cpp)|Medium|C++|[Greedy]||LeetCode|
+|488|[Task Scheduler](https://github.com/glc12125/Algo/blob/master/lintcode/Task%20Scheduler.cpp)|Medium|C++|[Greedy, Queue]|Facebook|LeetCode|
