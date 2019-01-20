@@ -504,3 +504,4 @@
 |483|[Sum of Distances in Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Sum%20of%20Distances%20in%20Tree.cpp)|Hard|C++|[DFS]|Google|LintCode|
 |484|[Evaluate Division](https://github.com/glc12125/Algo/blob/master/lintcode/Evaluate%20Division.cpp)|Medium|C++|[BFS]|Google|LeetCode|
 |485|[Majority Element](https://github.com/glc12125/Algo/blob/master/lintcode/Majority%20Element.cpp)|Easy|C++|[Greedy]|Amazon, Zenefits|LeetCode|
+|486|[Gas Station](https://github.com/glc12125/Algo/blob/master/lintcode/Gas%20Station.cpp)|Medium|C++|[Greedy]||LeetCode|
