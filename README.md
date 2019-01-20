@@ -503,3 +503,4 @@
 |482|[Optimal Match](https://github.com/glc12125/Algo/blob/master/lintcode/Optimal%20Match.cpp)|Hard|C++|[Bepartite Graph]|Google|LintCode|
 |483|[Sum of Distances in Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Sum%20of%20Distances%20in%20Tree.cpp)|Hard|C++|[DFS]|Google|LintCode|
 |484|[Evaluate Division](https://github.com/glc12125/Algo/blob/master/lintcode/Evaluate%20Division.cpp)|Medium|C++|[BFS]|Google|LeetCode|
+|485|[Majority Element](https://github.com/glc12125/Algo/blob/master/lintcode/Majority%20Element.cpp)|Easy|C++|[Greedy]|Amazon, Zenefits|LeetCode|

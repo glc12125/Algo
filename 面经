@@ -34,7 +34,7 @@ public int getData(byte[] buffer)
 
 3. 印度哥们，在family tree中找两个人是否是亲戚。follow up如果是亲戚的话，找lowest common ancestor。
 
-4. ratio finder
+4. ratio finder (Leetcode 399)
 给你两个file，一个是原始数据，一个是query
 原始数据file的内容是这样的：
 USD,CAD,1.1
