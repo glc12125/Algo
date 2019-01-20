@@ -1,3 +1,5 @@
+// Time O(NlogN), space O(N)
+// http://www.cnblogs.com/grandyang/p/7098764.html
 class Solution {
 public:
     /**
