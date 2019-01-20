@@ -5,16 +5,21 @@ public:
      * @return: then mountain top
      */
     int mountainSequence(vector<int> &nums) {
-        int start = 0; 
-        int end = nums.size() - 1;
-        int mid;
+        int len = nums.size();
+        if(len == 0) return -1;
+
+        int start = 0;
+        int end = nums.size()-1;
+
         while(start + 1 < end) {
-            mid = (start + end) / 2;
-            if(nums[mid] > nums[mid-1] && nums[mid] > nums[mid+1]) return nums[mid];
-            if(nums[mid] > nums[mid-1]) start = mid;
-            else end = mid;
+            int mid = start + (end - start)/2;
+            if(nums[mid] > nums[mid+1]) {
+                end = mid;
+            } else {
+                start = mid;
+            }
         }
-        
+
         return std::max(nums[start], nums[end]);
     }
 };

@@ -8,7 +8,7 @@ public:
     int lastPosition(vector<int> &nums, int target) {
         int size = nums.size();
         if(size == 0) return -1;
-        
+
         int start = 0;
         int end = size - 1;
         int middle;
@@ -17,10 +17,10 @@ public:
             if(nums[middle] > target) end = middle;
             else start = middle;
         }
-        
+
         if(nums[end] == target) return end;
         if(nums[start] == target) return start;
-                
+
         return -1;
     }
 };
