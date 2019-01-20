@@ -5,16 +5,22 @@ public:
      * @return: return any of peek positions.
      */
     int findPeak(vector<int> &A) {
-        int size = A.size();
-        int start = 0;
-        int end = size - 1;
-        int mid;
-        while(start < end) {
-            mid = (start + end) / 2;
-            if(A[mid-1] < A[mid] && A[mid+1] < A[mid]) return mid;
-            if(A[mid-1] > A[mid]) end = mid - 1;
-            else if( A[mid+1] > A[mid]) start = mid + 1;
+        int start = 1;
+        int end = A.size() - 2; // 1.答案在之间，2.不会出界
+        while(start + 1 <  end) {
+            int mid = (start + end) / 2;
+            if(A[mid] < A[mid - 1]) {
+                end = mid;
+            } else if(A[mid] < A[mid + 1]) {
+                start = mid;
+            } else {
+                start = mid; // Or end = mid, or just return mid
+            }
         }
-        
+        if(A[start] < A[end]) {
+            return end;
+        } else {
+            return start;
+        }
     }
 };
