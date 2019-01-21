@@ -516,3 +516,4 @@
 |495|[Interleaving Positive and Negative Numbers](https://github.com/glc12125/Algo/blob/master/lintcode/Interleaving%20Positive%20and%20Negative%20Numbers.cpp)|Medium|C++|[Two Pointers]||LeetCode|
 |496|[Sort Letters by Case](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Letters%20by%20Case.cpp)|Medium|C++|[Two Pointers]||LeetCode|
 |497|[Sliding Puzzle II](https://github.com/glc12125/Algo/blob/master/lintcode/Sliding%20Puzzle%20II.cpp)|Hard|C++|[BFS]||LeetCode|
+|498|[Build Post Office](https://github.com/glc12125/Algo/blob/master/lintcode/Build%20Post%20Office.cpp)|Hard|C++|[DP, PrefixSum]||LeetCode|
