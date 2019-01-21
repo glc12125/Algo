@@ -508,3 +508,4 @@
 |487|[Delete Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Delete%20Digits.cpp)|Medium|C++|[Greedy]||LeetCode|
 |488|[Task Scheduler](https://github.com/glc12125/Algo/blob/master/lintcode/Task%20Scheduler.cpp)|Medium|C++|[Greedy, Queue]|Facebook|LeetCode|
 |489|[Top K Frequent Words II](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20K%20Frequent%20Words%20II.cpp)|Hard|C++|[Heap, Hash Table]||LeetCode|
+|490|[Pancake Sorting](https://github.com/glc12125/Algo/blob/master/lintcode/Pancake%20Sorting.cpp)|Medium|C++|[Sort, Array]||LeetCode|
