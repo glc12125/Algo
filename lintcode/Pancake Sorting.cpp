@@ -1,3 +1,4 @@
+// Time O(N^2), space O(1)
 class Solution {
 private:
     int getMaxIndex(const vector<int>& array, int size) {
