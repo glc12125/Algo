@@ -1,3 +1,4 @@
+// time O(N + k), space O(k)
 class Solution {
 public:
     /**
@@ -20,7 +21,7 @@ public:
     }
 };
 
-// Without extra space
+// Without extra space, time O(NlogK)
 class Solution {
 private:
     void select(std::vector<int>& colors, int start, int end, int colorFrom, int colorTo) {
