@@ -509,3 +509,4 @@
 |488|[Task Scheduler](https://github.com/glc12125/Algo/blob/master/lintcode/Task%20Scheduler.cpp)|Medium|C++|[Greedy, Queue]|Facebook|LeetCode|
 |489|[Top K Frequent Words II](https://github.com/glc12125/Algo/blob/master/lintcode/Top%20K%20Frequent%20Words%20II.cpp)|Hard|C++|[Heap, Hash Table]||LeetCode|
 |490|[Pancake Sorting](https://github.com/glc12125/Algo/blob/master/lintcode/Pancake%20Sorting.cpp)|Medium|C++|[Sort, Array]||LeetCode|
+|491|[Intersection of Two Linked Lists](https://github.com/glc12125/Algo/blob/master/lintcode/Intersection%20of%20Two%20Linked%20Lists.cpp)|Medium|C++|[Linked List]|Airbnb, Amazon, Microsoft, Bloomberg|LeetCode|
