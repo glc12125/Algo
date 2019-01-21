@@ -22,16 +22,17 @@ public:
             negind = 1;
         }
         while (posind < len && negind < len) {
-            if (A[posind] > 0) {
+            while (posind < len && A[posind] > 0) {
                 posind += 2;
             }
-            if (A[negind] < 0) {
+            while (negind < len && A[negind] < 0) {
                 negind += 2;
             }
             if (posind < len && negind < len) {
                 swap(A[posind], A[negind]);
+                posind += 2;
+                negind += 2;
             }
         }
    }
 };
-
