@@ -517,3 +517,4 @@
 |496|[Sort Letters by Case](https://github.com/glc12125/Algo/blob/master/lintcode/Sort%20Letters%20by%20Case.cpp)|Medium|C++|[Two Pointers]||LeetCode|
 |497|[Sliding Puzzle II](https://github.com/glc12125/Algo/blob/master/lintcode/Sliding%20Puzzle%20II.cpp)|Hard|C++|[BFS]||LeetCode|
 |498|[Build Post Office](https://github.com/glc12125/Algo/blob/master/lintcode/Build%20Post%20Office.cpp)|Hard|C++|[DP, PrefixSum]||LeetCode|
+|499|[Is Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Is%20Subsequence.cpp)|Medium|C++|[Binary Search, DP]|Pinterest|LeetCode|
