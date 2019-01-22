@@ -518,3 +518,4 @@
 |497|[Sliding Puzzle II](https://github.com/glc12125/Algo/blob/master/lintcode/Sliding%20Puzzle%20II.cpp)|Hard|C++|[BFS]||LeetCode|
 |498|[Build Post Office](https://github.com/glc12125/Algo/blob/master/lintcode/Build%20Post%20Office.cpp)|Hard|C++|[DP, PrefixSum]||LeetCode|
 |499|[Is Subsequence](https://github.com/glc12125/Algo/blob/master/lintcode/Is%20Subsequence.cpp)|Medium|C++|[Binary Search, DP]|Pinterest|LeetCode|
+|500|[Convert Sorted List to Binary Search Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp)|Medium|C++|[Linked List, Recursion]|Zenefits|LeetCode|
