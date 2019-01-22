@@ -521,3 +521,4 @@
 |500|[Convert Sorted List to Binary Search Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp)|Medium|C++|[Linked List, Recursion]|Zenefits|LeetCode|
 |501|[Invert Binary Tree](https://github.com/glc12125/Algo/blob/master/lintcode/Invert%20Binary%20Tree.cpp)|Easy|C++|[Binary Tree]||LeetCode|
 |502|[Binary Tree Longest Consecutive Sequence III](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Longest%20Consecutive%20Sequence%20III.cpp)|Medium|C++|[Binary Tree, DFS]||LeetCode|
+|503|[Binary Tree Maximum Path Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Maximum%20Path%20Sum.cpp)|Medium|C++|[Binary Tree, DFS]|Baidu, Microsoft|LeetCode|
