@@ -121,4 +121,4 @@ follow up是你这里用了treeMap，如果不用treeMap你还能用什么data s
 刚开始问我cluster 大小不定能不能做，我想了下没想出来，后来说给我所有两个两个的元素的cluster，比如cluster{3 4}, cluster{5 4},cluster{5, 1}, cluster{1, 2}，然后会了
 
 第四轮 亚洲人
-leetcode 原题 求两个string相乘， 后来写了一个很直接的方法问我能不能优化， 于是用hashMap优化了下
+leetcode 原题 求两个string相乘， 后来写了一个很直接的方法问我能不能优化， 于是用hashMap优化了下 (656. Multiply Strings)
