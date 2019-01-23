@@ -122,3 +122,46 @@ follow up是你这里用了treeMap，如果不用treeMap你还能用什么data s
 
 第四轮 亚洲人
 leetcode 原题 求两个string相乘， 后来写了一个很直接的方法问我能不能优化， 于是用hashMap优化了下 (656. Multiply Strings)
+
+
+================================================================================================================================================================
+1. (Trie)
+Search & recommendations
+[“cat”,”dog”]
+Input:”ca”
+Output:[cat]
+. 1point3acres
+2.
+Light bulbs (? how to make toggle O(1))
+A set of bulbs
+Define two functions:
+isOn(idx):
+Return True (light is on)or False(light is off)
+toggle(start,end):
+Switch the status of bulbs in a range of start and end
+
+Follow up #1:
+Make toggle() O(1)
+Follow up #2
+make these two balanced
+
+3 (Leetcode 399)
+CNY - USD 1.1
+CNY - JAP 1.2
+USD - EUR 1.3
+
+Input: two currency
+output: value
+
+4       binary search, which searches from bottom level up
+    o
+  /   \
+o    o
+  \   /  \
+  o o   o
+left: i*2
+right:i*2+1
+i is the index of node
+the root index of root node is 1
+input:root node and target index
+output:True (target index exists) or False (target index does not exist)
