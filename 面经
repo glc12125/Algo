@@ -33,7 +33,7 @@ public int getData(byte[] buffer)
 
 2. 中国面试官，口语烂的一逼，题目完全解释不清，这轮面崩了，题目是个跟tree有关的
 
-3. 印度哥们，在family tree中找两个人是否是亲戚。follow up如果是亲戚的话，找lowest common ancestor。
+3. 印度哥们，在family tree中找两个人是否是亲戚。follow up如果是亲戚的话，找lowest common ancestor。(Union Find or BFS)
 
 4. ratio finder (Leetcode 399)
 给你两个file，一个是原始数据，一个是query
@@ -67,6 +67,58 @@ public List<Double> ratioFinder(List<String> input, List<String> query)
 
 午饭闲聊一小时。
 
-第三轮，国人大哥，给定字符串例如test {1,2,3} 要求输出test1 test2 test 3. 要考虑nested brace和平行的括号。
+第三轮，国人大哥，给定字符串例如test {1,2,3} 要求输出test1 test2 test 3. 要考虑nested brace和平行的括号。(嵌套括号的解析，已解答)
 
 第四轮，印度小哥，给定四个数，判断能不能算出二十四点 (739 24 Game)
+
+================================================================================================================================================================
+
+1.
+find k smallest element in a stream
+follow up: 需要把其他的数字也按输入顺序输出 (quick select, follow up, need to keep a copy of the stream, build priorityqueue and keep index)
+
+2.
+猜字母游戏，还以为是guess the world变种，菊花一紧，然而好像并没有什么关系
+一个target string 一个guess string
+比如 axb abz
+有一对位置和字符完全一样的，我们给出一张黑牌，有字符一样但位置不一样的，我们给一张白牌，输入两个String输出黑牌白牌数目
+以上是热身部分，正主没做出来…
+正主是，给你一系列已经猜过的字符串和它们对应的得分，再给你一个即将要猜的字符，判断这个string是否一定比之前猜过的结果要差
+其实真正管用的代码就一行，蛮巧妙的一个判断，有兴趣的可以想一想……
+
+3.
+设计一个interface，set(i, j, val)把矩阵中对应的值设为val； get(i,j)输出从原点到(i,j)构成的这个矩形的和
+还以为是range query sum要用segment tree的那种，又是菊花一紧，后来发现不用segment tree好像也能做
+
+第一个条件是 set非常频繁，get不频繁
+第二个改成 get非常频繁，set不频繁
+
+这个输入里没有指定矩阵的size，我是先指定一个值，然后如果超了再二倍扩容，也不知道对不对
+
+4.
+设计一个带priority的hashmap
+put(Integer key, Integer val, Integer priority)
+get(Integer key)
+put(1,1,1)
+put(1,2,2) 如果遇到重复的key但是priority不一样还是可以插入的
+put(1,3,1) 如果都重复就插不了了
+get(1） 返回priority最低的val，然后删除这个entry 找不到返回null
+follow up是你这里用了treeMap，如果不用treeMap你还能用什么data structure，自己设计一下这个data structure长什么样子（不知道有没有理解对面试官的意图）
+
+================================================================================================================================================================
+
+1.14onsite
+第一轮白人小哥哥
+给一个string （file）一堆replaces， replace 包含index， 原字符， 替代字符， 要把file里对应的地方替换掉
+
+第二轮白人？
+给一个有向加权图，权重代表能通过的最大重量， 问所有点pair之间能通过的最大重量
+楼主用的pq 一个点一个点bfs， 写完代码时间到了，问我优化也没想到方法
+
+第三轮白人中年
+给一个数组 包含 1 2 3 4 5 -- n
+有一些cluster， cluter里是true order 中连续的一串数， 比如true order 是 3 4 5 1 2， 那么就有cluster{ 3 5 4}, cluster{ 3},  cluster{ 2, 1}
+刚开始问我cluster 大小不定能不能做，我想了下没想出来，后来说给我所有两个两个的元素的cluster，比如cluster{3 4}, cluster{5 4},cluster{5, 1}, cluster{1, 2}，然后会了
+
+第四轮 亚洲人
+leetcode 原题 求两个string相乘， 后来写了一个很直接的方法问我能不能优化， 于是用hashMap优化了下

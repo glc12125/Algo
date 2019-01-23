@@ -523,3 +523,4 @@
 |502|[Binary Tree Longest Consecutive Sequence III](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Longest%20Consecutive%20Sequence%20III.cpp)|Medium|C++|[Binary Tree, DFS]||LeetCode|
 |503|[Binary Tree Maximum Path Sum](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Maximum%20Path%20Sum.cpp)|Medium|C++|[Binary Tree, DFS]|Baidu, Microsoft|LeetCode|
 |504|[Binary Tree Maximum Path Sum II](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Maximum%20Path%20Sum%20II.cpp)|Medium|C++|[Binary Tree, DFS]|Baidu, Microsoft|LeetCode|
+|505|[Multiply Strings](https://github.com/glc12125/Algo/blob/master/lintcode/Multiply%20Strings.cpp)|Medium|C++|[Mathematics]|Facebook, Twitter|LeetCode|
