@@ -165,3 +165,185 @@ i is the index of node
 the root index of root node is 1
 input:root node and target index
 output:True (target index exists) or False (target index does not exist)
+
+================================================================================================================================================================
+
+1. countA: give an input string, count the number of char ‘a’, with less than O(n). (Binary Search)
+2. Design a class View, check if two subviews are identical (?)
+3. Sort[1…,0…,2], follow up: what if it’s an arry of object Foo instead of Int? How about in place sort?
+4. (1) Pow(int x, int y), how to test? (2) check self descriptive digit 由于第一道太简单，做完还有时间，又给了第二道
+5. (1) Remove tree node (2) Connect4 game 两题二选一
+
+================================================================================================================================================================
+
+第一轮：字体适应屏幕问题。
+第二轮：王伟继承问题。
+第三轮：给一个树，和最大的是哪一层？
+第四轮：迷宫最短路径。
+
+================================================================================================================================================================
+
+1. 印度大叔，高频，移除棋子，输入只有棋子的position，是两个List<Integer> x, List<Integer> y，代表棋子的position。讲完了思路，但是写起来有点麻烦，时间到了最后一点没写完。
+2. 中国小哥，移除最外层括号，直到剩下的括号不能包住整个String。先Brute Force，然后优化了一下。
+3. 美国小哥，桌上有牌，牌面有大有小，有正有负，你和对手轮流抽牌，可以选择抽一到三张，然后问你最大可以得多少分。
+4. 印度姐姐，在一组Interval里寻找一个点，是否有这样的Interval。如何优化。如果要找包含这个点的Interval有多少该怎么办？如何优化？这一轮最后写二分查找时没写完整，时间到了，有一些corner case没来得及处理。
+
+================================================================================================================================================================
+
+第一轮是给很多points，找出这些points当作长方形的四个角的时候可以形成的最小面积的长方形的面积。
+第二轮题目像是面试官自己想的，给一个国际象棋盘，求骑士可以攻击的目标。
+第三轮也像是面试官想的奇怪的题，到最后也没有很懂。
+第四轮是利口skyline的变化。
+
+================================================================================================================================================================
+
+0107 onsite
+第一轮国人小姐姐，人很 nice，先聊了几分钟做过的 project。然后问如果给两个 string A 和 B，可以删除 B 中任何的 substring，第一问是写一个 function 判断能不能通过 B 来得到 A。感觉挺直白的，就用两个HashSet分别存 A 和 B 中的unique characters，然后检查是不是 A 中所有的 unique character 都包含在 B 的 set 里，然后 time complexity，然后解释了一下为什么用 hashset 和只存 unique character。
+
+Follow up 是问需要最少几个 B 才能得到 A。一开始有点懵逼，想说把所有 B 可以存成的 combination 存成 hashmap 然后做一个 dp。但是小姐姐提示我不用这么复杂，可以想想指针能不能做到。然后就瞬间明白了。一个指针从 A 的第一个字母开始，一个 while loop 不断得B把 b 里面的字母按着顺序查，然后每循环一次这个 loop 就说明要再多一个 B。然后做了几个 test case，然后 time complexity。最后闲聊了几分钟。
+
+第二轮是一个阿三小哥，和我聊了好半天倒时差，然后开始出题瞬间严肃。给一个 set 的2D coordinates，问能组成的最小的长方形的面积。听了题目满脸蒙蔽，赶紧问有没有 hint。他说先 brutal force，就是把所有的可能的4个 coordinate 都试一下，这样是 O(N^4)。然后小哥问我，这个做法最后一个 coordinate 也需要 O( N)吗？仔细一想是个 set，lookup 只要 O(1)。然后他问我怎么改进。我就想到了，其实只要把所有的不重复 x 和 y 坐标的点配对，就能生成剩下的两个点，然后找一下这两个点是不是都在这个 set 里，都在的话就可以算面积，然后记录最小的。写完做了一个 test case，然后 time complexity，最后和他聊了一下他现在做的工作就结束了。. check 1point3acres for more.
+
+午餐外国小哥哥人很好，斯坦佛的高材生，带我吃饭带我买咖啡。确实很好吃啦！唯一美中不足就是那天的 sushi 吃出了草的味道。。。。
+
+下午第一轮是一个外国大哥，给我展示了一下他的工作，结果我没看懂。。。。但还是吹捧了一波。题目是给一个 list of transactions，比如说 A 给 B 100块，B 给 C 50块，D 又给 A 30 块。问怎么在每个人应该得到和支出的钱不变的情况下，重新生成一个 list of transaction，然后 transaction 的数量不能多过人的个数。
+其实是一个 graph 的题，但我用树做了。先用一个 hashmap 存下每个人最后到底应该支出或者得到多少钱（因为本来的 list of transaction 里可能有很多个 A 给 B 多少钱），然后把随便找一个人当 anchor person，所有需要付钱的人，都把钱付给这个 anchor person，然后所有应该得到钱的人，这个 anchor person 都付钱给他们。因为其实他们究竟给谁钱了不重要，最重要的是，他们应该支出和得到的的钱正确就 ok 了。这样的话，每个人只需要一个 transaction，然后这个 anchor person 不需要单独的 transaction，所以 number of transaction 是 N-1 （N 是人数）。
+
+然后给了一个 bonus question，问如果能把这些人分成 k 个 set，这 k 个 set 都 sum to 0，最多需要多少个 transaction。就可以把每个 set 想成一个刚才做出来的 list of transaction，所以每个 set 都需要 m-1个 transaction（m 是每个 set 里的人数），所以最后的 transaction 的数量就是 N-k。然后大哥开始跟我讲这个问题的完成版是一个 np complete 问题，然后我就继续蒙蔽了，但是依然吹捧着他。反正他感觉是那种学识很渊博的大佬。
+
+最后一轮感觉是面的最差的。一个阿三姐姐/阿姨，给了一张纸，好长一道题，就说有一个电话 pad（0-9），问如果给一个起始数字，和一个步数，所有的西洋象棋棋子加起来有多少种 正好那个步数的unique 的走法。完全不会西洋象棋，但是给了一个 helper function 可以生成不同的棋子在规定的起始点的 unique path。因为不会西洋象棋，和姐姐 clarify 了好久，我感觉她不是很满意，在一张纸上狂写。但最后还是做出来了，其实不难，就是把所有生成的 path 检查一下步数，然后丢进一个 set 里。
+
+follow up：把可能遇到的 edge case 都排查了，然后问如果这是一个 application，怎么优化。我想到的是，因为起始点有限，而且步数理论上也是有限的，所以用一个hashmap 套 hashmap 把每一个起始点每一个可能的步数的 unique path 的数量在 initialization 的时候就存好，这样 call 这个 function 就都是 O(1)。觉得面的很差的原因就是我当时太沉迷写 code 了，我忘记了这个姐姐不用 java，然后写完了才想起来给她解释 code 的意思之类的，感觉她不太满意。
+
+================================================================================================================================================================
+
+一轮，帅气白人小哥，一个无限大的grid，有个机器人有左转右转和前进三个指令，input是类似于LFFRLF的指令串，问在无限次循环输入指令后，机器人到过的区域是否被包围（is_bounded）.
+二轮，口音非常重的硬哥，好在问题简单，输入grid, 上面有障碍，问起点到终点的最短路径（number of movements）。Follow up，能够跳过一个障碍，最短路径。
+三轮，毛发浓密白人小哥，binary tree, complete binary tree相关两三个问题。
+四轮，白人姐姐，单车分配问题。
+
+================================================================================================================================================================
+
+1, 蠡口七三，面完多了很多时间闲聊 (Set Matrix Zeroes)
+2, 模仿NBA季候赛的比赛机制写一个算法，Given n(比赛的队伍数)。Example：input n=4, output: ((1,4),(2,3)); intput n=8, output:(((1,8),(3,4)),(2,7),(5,6))). 大概就是让最强的队遇到最弱的队，让第二强的队，遇到第二弱的队，以此继续。 (Output Contest Matches)
+3, Given a list and set, check if there is a consecutive sublist in the list that contains all numbers in the set. Example: list:(2, 3, 4, 5, 5,6), set:(4, 5, 6), false; list(2,3, 7,5,11), set(7,5,11), return true;
+4, 蠡口二九八(Binary Tree Longest Consecutive Sequence)，还有一题记不清了
+
+================================================================================================================================================================
+
+第一轮 大胡子大哥 面经题 find Binary Tree extra edge. 有向。写完了再加写了一个removeExtraEdge, 调用findExtraEdge的结果。
+
+第二轮 华裔小姐姐 给出字符长度输出所有ryhme pattern. 比如给字符长度k=2，输出"AA", "AB"; input k=3, output {"AAA", "AAB", "ABA", "ABB", "ABC"}. ("AAB"和"AAC"是一样的所以只要输出AAB)。最后写完了顺便问了一下怎样在给出k后不用枚举所有结果就能知道有多少个pattern。我只来得及说可以推一个数学公式但没来得及推完...
+
+第三轮 日本小哥 给出一个有很多绕来绕去管道的2D图（说是2D但实际上是3D的， 因为有可能同一个格子里面横着的管道和竖着的管道是不在同一平面的），给出一个起始点， 一个终结点，问能否通过这些管道从起点到终点。设计怎样用2d存这些管道就设计了半小时…… 最后大致思路是每个grid都可以有21？种pattern（比如一字型，| 字形，L字形， 十字形，T字形， 十字形但横管和竖管不在同一平面那种），然后我们对于同一个grid存从哪些方向来可以通向哪些地方。最后写完了小哥说好像当前方法不能很好handle有loop的问题 然后思考了一下说了一个解决方法但没来得及code完小哥说理解我思路了><...
+
+第四轮 中国小姐姐 问给出一个美国地图，给一个字典，可以在地图中任意点起始走向相邻的州， 每个州有一个字符代表，问在地图中这么走可以找到哪些在字典里有的词。中间讨论了怎样存地图，怎样存字典方便查询（说了trie）。写完了找词功能过后还大致写了怎样把字典里的词存到trie里去。。
+
+第五轮 美国小哥 先设计怎样存CircularLinkedList，再写一个对这个CircularLinkedList removeEveryOtherNode的function。讨论了各方面的设计优化。然后还剩十分钟犹豫了一下说时间可能不够所以可能不一定来得及写代码，但还是加问了一下说对于正常的linkedList，怎样写一个function可以swap pair。{1,2,3,4,5} --> {2,1,4,3,5}. 白板上写了一下主要逻辑的代码就到时间了……
+
+================================================================================================================================================================
+
+第一轮：蠡口气气气(Swap Adjacent in LR String)   一开始小哥跟我韩含蓄了几句，然后开始说我们来玩一个board game之类的，把我弄得有点慌，解释了半天结果说我们不需要考虑这种棋盘2维的状况，只要1维就可以，然后听下来就是原题。然后没有followup 答完就结束了
+第二轮：说写一个一个狗家finance的api，update(timestamp, data),correct(ts, data),delete(ts)说是我们从broker那边拿data，然后内部需要call这两个api需要track 股价的curr price, low(历史最低)，high(历史最高). 然后我就用hashmap来做的，我当时懵逼了一直想怎么让hashmap可以sort，其实应该不行。有点tricky的就是如果delete或者update的ts的值等于最高值或最低值该怎么办,其实就是改完map之后再loop一遍把low和hi update一下就好
+第三轮：面试官迟到了6分钟，弄得我开始的很慌，这轮是感觉最差的。问的就是给一个数，然后有个api boolean p(node)可以问这个tree里面每个node是不是需要remove. 然后要遍历整个tree，remove完这些node这个tree会被分成不同的forest， 之后要return 一个List<List> 每个sublist里面包括的就是同一个forest的node值,return的顺序都无所谓。
+                                         1. From 1point 3acres bbs
+                                    2      3
+                                4     5  6   7
+例如我们有这样一个树，我们要remove 2和6， 那么return的就应该是 [[1],[2],[4],[5],[3,7],[6]]
+这题我想了好久才做出来，用recursion，每次recursion返回list<list>,具体做法我有点不记得了，大概就是有一个list<list>res 是global的。每次都需要判断root，和left， right这三个node是否需要被remove，如果root需要被remove，那么就直接把对left和right调recursion所返回的值直接加到res里，如果root不需要被remove，先判断如果left不需要remove，就把root加到left的recursion返回的list<list>里面的index为0的list里，因为每次我们都会把res的index 0设成是含有root的forest(如果root不需要被remove的话)，然后如果right也不需要被remove，就是把left和right所返回的list<list>的index 0进行合并，放在现在res的index 0位置，其余forest直接放入即可。个人觉得这题还是很tricky的。 
+第四轮：说给两个Iterator<Char>,每一个iter走完都代表了一个很大的integer,所以这里面所有的char都是0-9。然后问有什么方法可以比较这两个数的大小。follow up问的是如果有负数和decimal的话该怎么做。
+第五轮：竟然遇到ucsd alumni哈哈哈莫名有点兴奋，一个来自photo的和蔼大叔，问了我现在在什么team,然后问我对他们产品有什么建议，我就blabla了一堆，对方表示很满意就开始写题了。
+题目是Family Tree，问两个人有没有血缘关系。面经里经常出现，我就是用queue来做的，每次会返回一个set，包含所有的ancestor，最后把这两个set进行对比看有没有重合，最后让我简化了一下代码。
+最后还问我如果现在有新入职的小朋友，作为mentor会给什么建议blabla，我瞎扯了几句就结束了
+
+================================================================================================================================================================
+
+店面：找一个datastream的median
+一面：给一个数组和一个window size n， 判断这个数字经过reorder使得任意联系n subarray没有重复的数字。到最后也没做出来
+二面：一个server，收到一些requests。 request开始的时候会call logger api start， 结束时call logger api end。实现这两个api，以便print out logs。logs需要按request开始时间排序，print 开始和结束时间。
+三面：用readBlock实现read（n）
+四面：给一个string，和一个dictionary， 判断这个string是否可以由dictionary的数字组成
+五面： 给一个数组，找到最长的increase subsequence。
+
+================================================================================================================================================================
+
+第一轮，两道题，第一题，在一棵BST里找第k大的数，第二题，lc 司令而(Remove K Digits)，我觉得题目比较明显的就略说了，大家有问题再留言哈~
+第二轮，也是BT，这回面试一道DP没有，全是树。。说有这么一个游戏，一个玩家在树上找一个点，然后你找一个点，之后每一轮，
+这两个点分别扩散到他们各自邻近的点并标记上自己的符号，简单说就是说占上这个点啦，问现在给你第一个人选择的点的pointer，
+你选择哪个点，无论输赢，你最终能占到最多的点。这题有点绕，本身也应该是考交流的。(????)
+lunch。。。
+第三轮，上来问了一点CV，然后做题，一个无限大的棋盘，有两个knight (国际象棋)，简单说就是走“日”字，一个在原点，一个在target，
+问最短路径， BFS。。。
+第四轮，还是一个游戏，也很简单，感觉在哪里见过，一个linear chess，上面有L R两种棋子，L只能向左走，R只能向右走，不能跳，输入两个
+string，代表初始和最终状态，看是否能从初始状态走到最终状态
+
+================================================================================================================================================================
+
+1. 国人小哥，人贼好，某校PHD，工作几年了，在pixel。题目是第一步是单核CPU，给定一些时间间隔已被占用，判断时间间隔是否能够插入（input：vector<pair<int,int>>, query output：TF) Follow up是当变成多核之后，有什么改进。
+
+2. 亚洲小哥，应该是google assistant的。
+上来问了摩斯电码，介绍只有dots and dashes。怎么给26个英文字母分配。答案就是：四位，就可以到30个就够了。
+继续问题是分配原则，怎么分配给英文字母？答案是从ET。。。从最高使用频率的字母到最低分配从少到多的组合。
+题目就是原题，给一个dict，string，判断是否是valid sentence，一点点变形是，如果最后是true，要求输出随便一组词。DP解法。
+最后一个问题就是，如果判断在多个可能结果之间判断哪个更可能是人说的原意。楼主没做过任何AI ML，瞎说的就是一些prediction还有词语的词性，词语通常搭配的语义等等。
+
+3. 国人小姐姐，工作三年。一来就说用一道她没出过的题，就是给一个array和一个k，要求每k个数在array里，输出一个median，返回一个array。不太记得了，大概解法是balanced BST。
+
+4. 最蛋疼的一个，亚洲小哥，发型很帅。题目是给一个class iterator{  virtual int Next()=0; virtual bool HasNest()=0}, 要求写一个iterator* IteratorLeave(const vector<iterator*> iters)函数。能够按顺序输出所有的数。比如下面：
+    intput:{{a0,a1,a2},{b0},{c0,c1} output:{a0,b0,c0,a1,c1,a2} 不知道input里的iterator容器是什么。大概就是让我写一个sub class重写两个虚函数，然后我还用了个queue来保持顺序。最后反馈不是很好，小哥一直在记录我说的话，也很少给hint和沟通。Emmmm就完全凭自己瞎写了个sub class，来实现整合的功能。 (528. Flatten Nested List Iterator)
+
+================================================================================================================================================================
+
+1. 自行车问题 但是没有问我特别难的follow up 不知道是不是时间不够 但是面完还剩五分钟时间 按地里用pq写的 口头跑了test case 结束后发现忘有两句特别简单的添加忘记写了 不知道会不会影响 听说这个题挂的人很多 自己写的最简单的还没有bug free 有点害怕
+
+2.第一题 答题网 义务而 (Maximum Product Subarray)
+第二题 给一个dict一比一匹配  然后看两个字符串是不是match 我说用hashmap做 emmm还有别的办法么
+follow up是 dict内容可以传递 怎么匹配 没有让我写代码 我说用union-find 然后他说了一下union在实际工作中的应用-baidu 1point3acres
+
+================================================================================================================================================================
+
+第一輪是個很nice的小姐姐先給一個warmup題：判斷一個字母是否在一個string裡
+正題是find and replace in string
+Example:
+Input: str = "foo bar;"
+    replacements = [{ index: 0, before: "foo", after: "hello" }, { index: 4, before: "bar", after: "world" }]
+Output: "hello world;"
+要注意before and after的長度不一樣，還有index上不一定是那個字，不是的話省略掉那replacement，還有只replace一個instance而非所有instance
+還要想replacements不一定是按出現順序排列
+最後問了一句the steepest learning curve experienced
+
+第二輪是位隨性的小哥
+上來先問了個人經歷，然後就叫我問他
+聊完才寫題，題目是寫shuffler class，要隨機選一首歌，而每首歌播完都會有一個cooldown time，在CD的歌不能被選
+Example:
+Input: songs = ['A', 'B', 'C', 'D']
+    cooldown = 3
+這樣就是說每首歌播完得等3首其他歌的時間才能再次被選 (Task Scheduler)
+寫完問了一下runtime 跟memory，怎麼改善我沒想出來
+
+================================================================================================================================================================
+
+第一个是纽约分部的白人小哥，一上来过了下简历，然后就是继承王位那题(高频),实现三个function，按长子优先，长子死了长子的儿子优先 :king->son1->son1ofson1->son2->son3
+如果son1死了，那么:king->son1ofson1->son2->son3,
+void birth(String parent, String name) 父亲名字和孩子名字，生个娃
+void death(String name) 此人要死
+List<String> getOrder() 返回当前的继承顺序，string array/list
+
+
+
+第二个是洛杉矶分部的大叔，听声音还以为20多岁呢，当后面聊天他说工作了20多年的时候我惊呆了。(在google干了三年多了)
+题目很简单：求max volume of city
+warm up：知道city buildings' heights 求 west跟south direction看过去的高度，然后问最大可能的max volume是多少
+2  3. From 1point 3acres bbs
+4  3   =》 west: [ 3,4,5], south: [5, 3],
+5  2
+
+求最大高度
+west： 
+  4    |  4，4
+  6    |  6，5   =》 4+4+5+6+5+5 = 29 
+  5    |  5，5
+        ————
+south：7，5
+easy难度了，但是后面讨论的时候说到了Integer的overflow然后被问了double跟long的区别是什么。。没回答上来。。
+这轮交流的不是很好，对方的麦克风噪音。。。感觉凉凉。。
