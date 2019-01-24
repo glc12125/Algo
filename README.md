@@ -525,3 +525,4 @@
 |504|[Binary Tree Maximum Path Sum II](https://github.com/glc12125/Algo/blob/master/lintcode/Binary%20Tree%20Maximum%20Path%20Sum%20II.cpp)|Medium|C++|[Binary Tree, DFS]|Baidu, Microsoft|LeetCode|
 |505|[Multiply Strings](https://github.com/glc12125/Algo/blob/master/lintcode/Multiply%20Strings.cpp)|Medium|C++|[Mathematics]|Facebook, Twitter|LeetCode|
 |506|[Duplicates Digits](https://github.com/glc12125/Algo/blob/master/lintcode/Duplicates%20Digits.cpp)|Hard|C++|[DP, Mathematics]|Google|LeetCode|
+|507|[Interesting Subarray](https://github.com/glc12125/Algo/blob/master/lintcode/Interesting%20Subarray.cpp)|Medium|C++|[DP, Two Pointers]|Google|LeetCode|
