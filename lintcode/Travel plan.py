@@ -37,3 +37,29 @@ class Solution:
             visited.add(next_city)
             self.search(arr, next_city, visited, distance + arr[city][next_city])
             visited.remove(next_city)
+
+    def travelPlan_dp(self, arr):
+        # Write your code here.
+        n = len(arr)
+        dp = [
+          [float('inf')] * n
+          for _ in range(1 << n)
+        ]
+
+        dp[1][0] = 0
+
+        for state in range(1 << n):
+          for i in range(1, n):
+            if state & (1 << i) == 0:
+              continue
+            prev_ = state ^ (1 << i)
+            for j in range(n):
+              if prev_ & (1 << j) == 0:
+                continue
+              dp[state][i] = min(dp[state][i], dp[prev_][j] + arr[j][i])
+
+        result = float('inf')
+        # print(dp)
+        for last in range(1, n):
+          result = min(result, dp[(1 << n) - 1][last] + arr[last][0])
+        return result
